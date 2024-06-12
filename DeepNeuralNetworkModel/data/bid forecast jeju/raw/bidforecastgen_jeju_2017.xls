@@ -1,0 +1,11382 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head><title>육지 PSS 목록</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<style>
+		table { border:1px solid #ccc; font-size:12px; width:635px; }
+		table caption span{ font-size:20px; height:100px; }
+		table thead tr th { background:#666; font-weight:bold; color:#fff; height:30px; text-align:center; border:1px solid #ccc;}
+		table thead tr td { border:none; height:30px; text-align:right; }
+		table tbody tr td { border:1px solid #ccc; text-align:center;}
+		table tbody tr td.line { border:none; height:30px;}
+		.txt_center { text-align:center; }
+		.txt_left { text-align:left; }		
+		.txt_right { text-align:right; }
+		.text_xls { mso-number-format: "@"; text-align:left;}
+	</style>
+	</head>
+<body>
+	<table>
+		<caption><span>년도별 수요예측 리스트 (단위 : MW)</span></caption>
+		<thead>
+			<tr>
+				<th scope="col">구분</th>
+				<th>1h</th>
+				<th>2h</th>
+				<th>3h</th>
+				<th>4h</th>
+				<th>5h</th>
+				<th>6h</th>
+				<th>7h</th>
+				<th>8h</th>
+				<th>9h</th>
+				<th>10h</th>
+				<th>11h</th>
+				<th>12h</th>
+				<th>13h</th>
+				<th>14h</th>
+				<th>15h</th>
+				<th>16h</th>
+				<th>17h</th>
+				<th>18h</th>
+				<th>19h</th>
+				<th>20h</th>
+				<th>21h</th>
+				<th>22h</th>
+				<th>23h</th>
+				<th>24h</th>
+<!-- 				<th>최소</th> -->
+<!-- 				<th>최대</th> -->
+<!-- 				<th>평균</th> -->
+			</tr>
+		</thead>
+		<tbody>
+		
+		
+			
+			<tr>
+				<td>20170101</td>
+				<td>600</td>
+				<td>570</td>
+				<td>550</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>540</td>
+				<td>540</td>
+				<td>530</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>520</td>
+				<td>540</td>
+				<td>590</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170102</td>
+				<td>600</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>550</td>
+				<td>580</td>
+				<td>620</td>
+				<td>670</td>
+				<td>690</td>
+				<td>700</td>
+				<td>680</td>
+				<td>640</td>
+				<td>660</td>
+				<td>670</td>
+				<td>670</td>
+				<td>680</td>
+				<td>710</td>
+				<td>730</td>
+				<td>710</td>
+				<td>690</td>
+				<td>660</td>
+				<td>650</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170103</td>
+				<td>600</td>
+				<td>570</td>
+				<td>560</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>590</td>
+				<td>620</td>
+				<td>660</td>
+				<td>670</td>
+				<td>650</td>
+				<td>640</td>
+				<td>620</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>650</td>
+				<td>700</td>
+				<td>720</td>
+				<td>710</td>
+				<td>700</td>
+				<td>670</td>
+				<td>670</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170104</td>
+				<td>600</td>
+				<td>570</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>590</td>
+				<td>620</td>
+				<td>660</td>
+				<td>670</td>
+				<td>650</td>
+				<td>640</td>
+				<td>620</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>650</td>
+				<td>700</td>
+				<td>720</td>
+				<td>710</td>
+				<td>690</td>
+				<td>670</td>
+				<td>660</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170105</td>
+				<td>600</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>580</td>
+				<td>610</td>
+				<td>660</td>
+				<td>670</td>
+				<td>640</td>
+				<td>640</td>
+				<td>620</td>
+				<td>640</td>
+				<td>630</td>
+				<td>620</td>
+				<td>650</td>
+				<td>700</td>
+				<td>720</td>
+				<td>710</td>
+				<td>700</td>
+				<td>670</td>
+				<td>660</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170106</td>
+				<td>630</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>580</td>
+				<td>590</td>
+				<td>620</td>
+				<td>650</td>
+				<td>680</td>
+				<td>670</td>
+				<td>650</td>
+				<td>640</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>640</td>
+				<td>690</td>
+				<td>730</td>
+				<td>720</td>
+				<td>710</td>
+				<td>680</td>
+				<td>670</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170107</td>
+				<td>580</td>
+				<td>550</td>
+				<td>520</td>
+				<td>510</td>
+				<td>510</td>
+				<td>530</td>
+				<td>550</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>550</td>
+				<td>600</td>
+				<td>640</td>
+				<td>640</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170108</td>
+				<td>600</td>
+				<td>560</td>
+				<td>530</td>
+				<td>520</td>
+				<td>520</td>
+				<td>540</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>530</td>
+				<td>520</td>
+				<td>510</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>500</td>
+				<td>520</td>
+				<td>580</td>
+				<td>630</td>
+				<td>630</td>
+				<td>610</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170109</td>
+				<td>600</td>
+				<td>570</td>
+				<td>550</td>
+				<td>540</td>
+				<td>540</td>
+				<td>560</td>
+				<td>590</td>
+				<td>630</td>
+				<td>680</td>
+				<td>690</td>
+				<td>690</td>
+				<td>680</td>
+				<td>640</td>
+				<td>660</td>
+				<td>670</td>
+				<td>660</td>
+				<td>680</td>
+				<td>710</td>
+				<td>730</td>
+				<td>720</td>
+				<td>690</td>
+				<td>670</td>
+				<td>660</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170110</td>
+				<td>630</td>
+				<td>590</td>
+				<td>570</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>610</td>
+				<td>650</td>
+				<td>690</td>
+				<td>690</td>
+				<td>670</td>
+				<td>650</td>
+				<td>610</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+				<td>640</td>
+				<td>680</td>
+				<td>730</td>
+				<td>730</td>
+				<td>710</td>
+				<td>680</td>
+				<td>670</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170111</td>
+				<td>660</td>
+				<td>620</td>
+				<td>590</td>
+				<td>580</td>
+				<td>590</td>
+				<td>610</td>
+				<td>640</td>
+				<td>680</td>
+				<td>730</td>
+				<td>730</td>
+				<td>700</td>
+				<td>680</td>
+				<td>640</td>
+				<td>660</td>
+				<td>650</td>
+				<td>650</td>
+				<td>670</td>
+				<td>720</td>
+				<td>780</td>
+				<td>770</td>
+				<td>750</td>
+				<td>710</td>
+				<td>710</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170112</td>
+				<td>650</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+				<td>590</td>
+				<td>610</td>
+				<td>630</td>
+				<td>660</td>
+				<td>700</td>
+				<td>700</td>
+				<td>680</td>
+				<td>670</td>
+				<td>640</td>
+				<td>650</td>
+				<td>640</td>
+				<td>640</td>
+				<td>660</td>
+				<td>720</td>
+				<td>760</td>
+				<td>750</td>
+				<td>730</td>
+				<td>700</td>
+				<td>690</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170113</td>
+				<td>640</td>
+				<td>610</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>600</td>
+				<td>630</td>
+				<td>650</td>
+				<td>690</td>
+				<td>690</td>
+				<td>670</td>
+				<td>660</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>660</td>
+				<td>700</td>
+				<td>740</td>
+				<td>730</td>
+				<td>720</td>
+				<td>690</td>
+				<td>670</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170114</td>
+				<td>650</td>
+				<td>620</td>
+				<td>600</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>620</td>
+				<td>640</td>
+				<td>660</td>
+				<td>650</td>
+				<td>650</td>
+				<td>630</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>640</td>
+				<td>690</td>
+				<td>720</td>
+				<td>710</td>
+				<td>700</td>
+				<td>680</td>
+				<td>680</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170115</td>
+				<td>640</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+				<td>570</td>
+				<td>570</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>640</td>
+				<td>680</td>
+				<td>680</td>
+				<td>670</td>
+				<td>650</td>
+				<td>650</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170116</td>
+				<td>650</td>
+				<td>620</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>620</td>
+				<td>650</td>
+				<td>680</td>
+				<td>730</td>
+				<td>730</td>
+				<td>740</td>
+				<td>720</td>
+				<td>690</td>
+				<td>700</td>
+				<td>700</td>
+				<td>700</td>
+				<td>710</td>
+				<td>750</td>
+				<td>780</td>
+				<td>770</td>
+				<td>750</td>
+				<td>720</td>
+				<td>720</td>
+				<td>720</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170117</td>
+				<td>670</td>
+				<td>640</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+				<td>630</td>
+				<td>660</td>
+				<td>690</td>
+				<td>730</td>
+				<td>700</td>
+				<td>670</td>
+				<td>660</td>
+				<td>640</td>
+				<td>650</td>
+				<td>650</td>
+				<td>660</td>
+				<td>700</td>
+				<td>750</td>
+				<td>780</td>
+				<td>770</td>
+				<td>760</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170118</td>
+				<td>650</td>
+				<td>620</td>
+				<td>600</td>
+				<td>580</td>
+				<td>590</td>
+				<td>610</td>
+				<td>640</td>
+				<td>680</td>
+				<td>720</td>
+				<td>690</td>
+				<td>660</td>
+				<td>650</td>
+				<td>620</td>
+				<td>640</td>
+				<td>640</td>
+				<td>640</td>
+				<td>690</td>
+				<td>750</td>
+				<td>780</td>
+				<td>770</td>
+				<td>760</td>
+				<td>730</td>
+				<td>730</td>
+				<td>740</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170119</td>
+				<td>680</td>
+				<td>650</td>
+				<td>620</td>
+				<td>600</td>
+				<td>600</td>
+				<td>620</td>
+				<td>650</td>
+				<td>690</td>
+				<td>730</td>
+				<td>690</td>
+				<td>680</td>
+				<td>660</td>
+				<td>630</td>
+				<td>640</td>
+				<td>620</td>
+				<td>620</td>
+				<td>630</td>
+				<td>710</td>
+				<td>780</td>
+				<td>770</td>
+				<td>750</td>
+				<td>700</td>
+				<td>690</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170120</td>
+				<td>690</td>
+				<td>660</td>
+				<td>630</td>
+				<td>610</td>
+				<td>610</td>
+				<td>620</td>
+				<td>650</td>
+				<td>690</td>
+				<td>740</td>
+				<td>730</td>
+				<td>710</td>
+				<td>700</td>
+				<td>680</td>
+				<td>680</td>
+				<td>670</td>
+				<td>680</td>
+				<td>700</td>
+				<td>740</td>
+				<td>780</td>
+				<td>770</td>
+				<td>750</td>
+				<td>730</td>
+				<td>720</td>
+				<td>720</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170121</td>
+				<td>660</td>
+				<td>630</td>
+				<td>610</td>
+				<td>590</td>
+				<td>590</td>
+				<td>610</td>
+				<td>630</td>
+				<td>650</td>
+				<td>670</td>
+				<td>660</td>
+				<td>650</td>
+				<td>640</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>650</td>
+				<td>710</td>
+				<td>740</td>
+				<td>740</td>
+				<td>730</td>
+				<td>700</td>
+				<td>700</td>
+				<td>710</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170122</td>
+				<td>670</td>
+				<td>640</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>620</td>
+				<td>640</td>
+				<td>650</td>
+				<td>640</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>570</td>
+				<td>570</td>
+				<td>560</td>
+				<td>570</td>
+				<td>590</td>
+				<td>660</td>
+				<td>710</td>
+				<td>720</td>
+				<td>710</td>
+				<td>690</td>
+				<td>680</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170123</td>
+				<td>660</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>620</td>
+				<td>650</td>
+				<td>690</td>
+				<td>730</td>
+				<td>730</td>
+				<td>730</td>
+				<td>720</td>
+				<td>680</td>
+				<td>690</td>
+				<td>690</td>
+				<td>680</td>
+				<td>700</td>
+				<td>760</td>
+				<td>800</td>
+				<td>790</td>
+				<td>770</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170124</td>
+				<td>670</td>
+				<td>620</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>620</td>
+				<td>660</td>
+				<td>710</td>
+				<td>760</td>
+				<td>770</td>
+				<td>750</td>
+				<td>740</td>
+				<td>710</td>
+				<td>720</td>
+				<td>720</td>
+				<td>740</td>
+				<td>770</td>
+				<td>810</td>
+				<td>840</td>
+				<td>830</td>
+				<td>800</td>
+				<td>770</td>
+				<td>760</td>
+				<td>760</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170125</td>
+				<td>660</td>
+				<td>610</td>
+				<td>590</td>
+				<td>590</td>
+				<td>600</td>
+				<td>620</td>
+				<td>650</td>
+				<td>690</td>
+				<td>740</td>
+				<td>750</td>
+				<td>730</td>
+				<td>720</td>
+				<td>690</td>
+				<td>700</td>
+				<td>710</td>
+				<td>720</td>
+				<td>750</td>
+				<td>780</td>
+				<td>810</td>
+				<td>800</td>
+				<td>780</td>
+				<td>750</td>
+				<td>740</td>
+				<td>740</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170126</td>
+				<td>690</td>
+				<td>660</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>640</td>
+				<td>660</td>
+				<td>690</td>
+				<td>730</td>
+				<td>730</td>
+				<td>730</td>
+				<td>710</td>
+				<td>680</td>
+				<td>700</td>
+				<td>690</td>
+				<td>690</td>
+				<td>700</td>
+				<td>750</td>
+				<td>790</td>
+				<td>780</td>
+				<td>770</td>
+				<td>740</td>
+				<td>730</td>
+				<td>730</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170127</td>
+				<td>690</td>
+				<td>660</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>640</td>
+				<td>660</td>
+				<td>660</td>
+				<td>640</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>580</td>
+				<td>630</td>
+				<td>700</td>
+				<td>720</td>
+				<td>710</td>
+				<td>700</td>
+				<td>710</td>
+				<td>720</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170128</td>
+				<td>690</td>
+				<td>660</td>
+				<td>640</td>
+				<td>620</td>
+				<td>620</td>
+				<td>630</td>
+				<td>660</td>
+				<td>670</td>
+				<td>600</td>
+				<td>500</td>
+				<td>470</td>
+				<td>460</td>
+				<td>450</td>
+				<td>450</td>
+				<td>450</td>
+				<td>460</td>
+				<td>470</td>
+				<td>530</td>
+				<td>610</td>
+				<td>650</td>
+				<td>650</td>
+				<td>660</td>
+				<td>670</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170129</td>
+				<td>630</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>580</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>510</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>560</td>
+				<td>630</td>
+				<td>660</td>
+				<td>660</td>
+				<td>660</td>
+				<td>670</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170130</td>
+				<td>760</td>
+				<td>720</td>
+				<td>700</td>
+				<td>690</td>
+				<td>690</td>
+				<td>700</td>
+				<td>720</td>
+				<td>730</td>
+				<td>710</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+				<td>650</td>
+				<td>650</td>
+				<td>640</td>
+				<td>630</td>
+				<td>640</td>
+				<td>670</td>
+				<td>760</td>
+				<td>780</td>
+				<td>770</td>
+				<td>750</td>
+				<td>750</td>
+				<td>750</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170131</td>
+				<td>700</td>
+				<td>660</td>
+				<td>650</td>
+				<td>640</td>
+				<td>640</td>
+				<td>660</td>
+				<td>680</td>
+				<td>710</td>
+				<td>730</td>
+				<td>720</td>
+				<td>720</td>
+				<td>710</td>
+				<td>680</td>
+				<td>690</td>
+				<td>690</td>
+				<td>690</td>
+				<td>700</td>
+				<td>740</td>
+				<td>780</td>
+				<td>790</td>
+				<td>780</td>
+				<td>760</td>
+				<td>760</td>
+				<td>770</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170201</td>
+				<td>680</td>
+				<td>640</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+				<td>630</td>
+				<td>650</td>
+				<td>690</td>
+				<td>740</td>
+				<td>740</td>
+				<td>730</td>
+				<td>710</td>
+				<td>680</td>
+				<td>690</td>
+				<td>680</td>
+				<td>680</td>
+				<td>700</td>
+				<td>750</td>
+				<td>800</td>
+				<td>790</td>
+				<td>780</td>
+				<td>740</td>
+				<td>730</td>
+				<td>730</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170202</td>
+				<td>690</td>
+				<td>660</td>
+				<td>630</td>
+				<td>620</td>
+				<td>630</td>
+				<td>640</td>
+				<td>660</td>
+				<td>700</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>720</td>
+				<td>690</td>
+				<td>700</td>
+				<td>690</td>
+				<td>690</td>
+				<td>710</td>
+				<td>760</td>
+				<td>800</td>
+				<td>800</td>
+				<td>780</td>
+				<td>750</td>
+				<td>740</td>
+				<td>740</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170203</td>
+				<td>650</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>630</td>
+				<td>660</td>
+				<td>710</td>
+				<td>710</td>
+				<td>690</td>
+				<td>680</td>
+				<td>650</td>
+				<td>660</td>
+				<td>660</td>
+				<td>670</td>
+				<td>660</td>
+				<td>700</td>
+				<td>760</td>
+				<td>760</td>
+				<td>740</td>
+				<td>720</td>
+				<td>710</td>
+				<td>710</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170204</td>
+				<td>640</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>610</td>
+				<td>620</td>
+				<td>640</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>650</td>
+				<td>700</td>
+				<td>700</td>
+				<td>680</td>
+				<td>650</td>
+				<td>650</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170205</td>
+				<td>630</td>
+				<td>590</td>
+				<td>570</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>620</td>
+				<td>610</td>
+				<td>580</td>
+				<td>560</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>650</td>
+				<td>700</td>
+				<td>710</td>
+				<td>700</td>
+				<td>680</td>
+				<td>670</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170206</td>
+				<td>650</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+				<td>590</td>
+				<td>610</td>
+				<td>640</td>
+				<td>680</td>
+				<td>730</td>
+				<td>720</td>
+				<td>710</td>
+				<td>700</td>
+				<td>660</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+				<td>680</td>
+				<td>740</td>
+				<td>790</td>
+				<td>780</td>
+				<td>760</td>
+				<td>730</td>
+				<td>720</td>
+				<td>720</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170207</td>
+				<td>700</td>
+				<td>660</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>640</td>
+				<td>670</td>
+				<td>710</td>
+				<td>720</td>
+				<td>690</td>
+				<td>680</td>
+				<td>660</td>
+				<td>630</td>
+				<td>640</td>
+				<td>640</td>
+				<td>630</td>
+				<td>650</td>
+				<td>670</td>
+				<td>740</td>
+				<td>740</td>
+				<td>720</td>
+				<td>680</td>
+				<td>670</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170208</td>
+				<td>690</td>
+				<td>660</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+				<td>630</td>
+				<td>660</td>
+				<td>700</td>
+				<td>720</td>
+				<td>690</td>
+				<td>680</td>
+				<td>670</td>
+				<td>630</td>
+				<td>640</td>
+				<td>640</td>
+				<td>640</td>
+				<td>650</td>
+				<td>680</td>
+				<td>750</td>
+				<td>760</td>
+				<td>740</td>
+				<td>710</td>
+				<td>700</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170209</td>
+				<td>680</td>
+				<td>650</td>
+				<td>620</td>
+				<td>610</td>
+				<td>620</td>
+				<td>630</td>
+				<td>660</td>
+				<td>700</td>
+				<td>710</td>
+				<td>670</td>
+				<td>660</td>
+				<td>650</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>630</td>
+				<td>660</td>
+				<td>740</td>
+				<td>750</td>
+				<td>740</td>
+				<td>710</td>
+				<td>700</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170210</td>
+				<td>690</td>
+				<td>650</td>
+				<td>610</td>
+				<td>590</td>
+				<td>590</td>
+				<td>610</td>
+				<td>640</td>
+				<td>680</td>
+				<td>720</td>
+				<td>710</td>
+				<td>700</td>
+				<td>680</td>
+				<td>660</td>
+				<td>670</td>
+				<td>690</td>
+				<td>720</td>
+				<td>740</td>
+				<td>770</td>
+				<td>810</td>
+				<td>810</td>
+				<td>790</td>
+				<td>750</td>
+				<td>740</td>
+				<td>740</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170211</td>
+				<td>680</td>
+				<td>630</td>
+				<td>590</td>
+				<td>580</td>
+				<td>580</td>
+				<td>600</td>
+				<td>630</td>
+				<td>660</td>
+				<td>690</td>
+				<td>670</td>
+				<td>660</td>
+				<td>640</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>630</td>
+				<td>650</td>
+				<td>710</td>
+				<td>760</td>
+				<td>750</td>
+				<td>730</td>
+				<td>690</td>
+				<td>690</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170212</td>
+				<td>620</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>550</td>
+				<td>570</td>
+				<td>590</td>
+				<td>610</td>
+				<td>610</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>580</td>
+				<td>650</td>
+				<td>740</td>
+				<td>740</td>
+				<td>730</td>
+				<td>710</td>
+				<td>700</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170213</td>
+				<td>640</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>590</td>
+				<td>610</td>
+				<td>640</td>
+				<td>680</td>
+				<td>710</td>
+				<td>700</td>
+				<td>690</td>
+				<td>670</td>
+				<td>640</td>
+				<td>660</td>
+				<td>660</td>
+				<td>650</td>
+				<td>670</td>
+				<td>730</td>
+				<td>780</td>
+				<td>780</td>
+				<td>760</td>
+				<td>720</td>
+				<td>710</td>
+				<td>720</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170214</td>
+				<td>660</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+				<td>600</td>
+				<td>610</td>
+				<td>630</td>
+				<td>670</td>
+				<td>710</td>
+				<td>730</td>
+				<td>700</td>
+				<td>670</td>
+				<td>660</td>
+				<td>670</td>
+				<td>680</td>
+				<td>670</td>
+				<td>690</td>
+				<td>730</td>
+				<td>760</td>
+				<td>750</td>
+				<td>730</td>
+				<td>700</td>
+				<td>690</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170215</td>
+				<td>660</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>620</td>
+				<td>640</td>
+				<td>670</td>
+				<td>720</td>
+				<td>730</td>
+				<td>700</td>
+				<td>680</td>
+				<td>660</td>
+				<td>670</td>
+				<td>690</td>
+				<td>680</td>
+				<td>700</td>
+				<td>740</td>
+				<td>760</td>
+				<td>760</td>
+				<td>740</td>
+				<td>710</td>
+				<td>700</td>
+				<td>710</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170216</td>
+				<td>640</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+				<td>590</td>
+				<td>600</td>
+				<td>630</td>
+				<td>650</td>
+				<td>660</td>
+				<td>640</td>
+				<td>640</td>
+				<td>630</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>610</td>
+				<td>650</td>
+				<td>710</td>
+				<td>730</td>
+				<td>710</td>
+				<td>690</td>
+				<td>680</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170217</td>
+				<td>660</td>
+				<td>640</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+				<td>630</td>
+				<td>650</td>
+				<td>680</td>
+				<td>680</td>
+				<td>650</td>
+				<td>640</td>
+				<td>630</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>590</td>
+				<td>590</td>
+				<td>620</td>
+				<td>690</td>
+				<td>730</td>
+				<td>720</td>
+				<td>700</td>
+				<td>700</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170218</td>
+				<td>670</td>
+				<td>630</td>
+				<td>600</td>
+				<td>580</td>
+				<td>580</td>
+				<td>600</td>
+				<td>630</td>
+				<td>650</td>
+				<td>670</td>
+				<td>650</td>
+				<td>640</td>
+				<td>630</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>630</td>
+				<td>680</td>
+				<td>750</td>
+				<td>740</td>
+				<td>720</td>
+				<td>680</td>
+				<td>680</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170219</td>
+				<td>630</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>580</td>
+				<td>600</td>
+				<td>610</td>
+				<td>620</td>
+				<td>610</td>
+				<td>570</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>620</td>
+				<td>690</td>
+				<td>710</td>
+				<td>700</td>
+				<td>680</td>
+				<td>680</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170220</td>
+				<td>620</td>
+				<td>570</td>
+				<td>550</td>
+				<td>540</td>
+				<td>540</td>
+				<td>560</td>
+				<td>610</td>
+				<td>650</td>
+				<td>680</td>
+				<td>640</td>
+				<td>630</td>
+				<td>610</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>590</td>
+				<td>650</td>
+				<td>740</td>
+				<td>750</td>
+				<td>730</td>
+				<td>680</td>
+				<td>670</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170221</td>
+				<td>630</td>
+				<td>590</td>
+				<td>560</td>
+				<td>550</td>
+				<td>550</td>
+				<td>580</td>
+				<td>620</td>
+				<td>650</td>
+				<td>670</td>
+				<td>680</td>
+				<td>690</td>
+				<td>670</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>640</td>
+				<td>670</td>
+				<td>750</td>
+				<td>780</td>
+				<td>770</td>
+				<td>740</td>
+				<td>730</td>
+				<td>730</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170222</td>
+				<td>590</td>
+				<td>540</td>
+				<td>510</td>
+				<td>490</td>
+				<td>490</td>
+				<td>530</td>
+				<td>580</td>
+				<td>610</td>
+				<td>640</td>
+				<td>660</td>
+				<td>660</td>
+				<td>640</td>
+				<td>580</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>600</td>
+				<td>650</td>
+				<td>740</td>
+				<td>770</td>
+				<td>760</td>
+				<td>720</td>
+				<td>710</td>
+				<td>710</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170223</td>
+				<td>690</td>
+				<td>640</td>
+				<td>610</td>
+				<td>590</td>
+				<td>590</td>
+				<td>630</td>
+				<td>670</td>
+				<td>710</td>
+				<td>710</td>
+				<td>660</td>
+				<td>650</td>
+				<td>620</td>
+				<td>580</td>
+				<td>590</td>
+				<td>570</td>
+				<td>580</td>
+				<td>590</td>
+				<td>640</td>
+				<td>740</td>
+				<td>780</td>
+				<td>760</td>
+				<td>700</td>
+				<td>680</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170224</td>
+				<td>660</td>
+				<td>620</td>
+				<td>590</td>
+				<td>580</td>
+				<td>580</td>
+				<td>590</td>
+				<td>630</td>
+				<td>660</td>
+				<td>720</td>
+				<td>740</td>
+				<td>740</td>
+				<td>720</td>
+				<td>700</td>
+				<td>700</td>
+				<td>690</td>
+				<td>680</td>
+				<td>710</td>
+				<td>740</td>
+				<td>770</td>
+				<td>770</td>
+				<td>750</td>
+				<td>720</td>
+				<td>720</td>
+				<td>730</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170225</td>
+				<td>630</td>
+				<td>590</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>600</td>
+				<td>620</td>
+				<td>630</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>580</td>
+				<td>630</td>
+				<td>700</td>
+				<td>720</td>
+				<td>710</td>
+				<td>680</td>
+				<td>670</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170226</td>
+				<td>680</td>
+				<td>640</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+				<td>630</td>
+				<td>660</td>
+				<td>660</td>
+				<td>610</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>590</td>
+				<td>700</td>
+				<td>720</td>
+				<td>710</td>
+				<td>680</td>
+				<td>670</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170227</td>
+				<td>630</td>
+				<td>590</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>590</td>
+				<td>620</td>
+				<td>660</td>
+				<td>690</td>
+				<td>690</td>
+				<td>680</td>
+				<td>680</td>
+				<td>640</td>
+				<td>640</td>
+				<td>640</td>
+				<td>640</td>
+				<td>650</td>
+				<td>700</td>
+				<td>790</td>
+				<td>800</td>
+				<td>790</td>
+				<td>750</td>
+				<td>740</td>
+				<td>740</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170228</td>
+				<td>660</td>
+				<td>630</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+				<td>620</td>
+				<td>640</td>
+				<td>650</td>
+				<td>660</td>
+				<td>650</td>
+				<td>650</td>
+				<td>630</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>620</td>
+				<td>640</td>
+				<td>710</td>
+				<td>730</td>
+				<td>720</td>
+				<td>700</td>
+				<td>690</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170301</td>
+				<td>680</td>
+				<td>640</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+				<td>620</td>
+				<td>640</td>
+				<td>640</td>
+				<td>620</td>
+				<td>580</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>590</td>
+				<td>680</td>
+				<td>730</td>
+				<td>730</td>
+				<td>710</td>
+				<td>700</td>
+				<td>710</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170302</td>
+				<td>670</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>640</td>
+				<td>660</td>
+				<td>670</td>
+				<td>650</td>
+				<td>650</td>
+				<td>630</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>590</td>
+				<td>610</td>
+				<td>640</td>
+				<td>730</td>
+				<td>750</td>
+				<td>740</td>
+				<td>710</td>
+				<td>700</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170303</td>
+				<td>680</td>
+				<td>650</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+				<td>640</td>
+				<td>670</td>
+				<td>680</td>
+				<td>660</td>
+				<td>640</td>
+				<td>640</td>
+				<td>620</td>
+				<td>590</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+				<td>590</td>
+				<td>620</td>
+				<td>690</td>
+				<td>740</td>
+				<td>730</td>
+				<td>710</td>
+				<td>710</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170304</td>
+				<td>650</td>
+				<td>620</td>
+				<td>600</td>
+				<td>580</td>
+				<td>580</td>
+				<td>600</td>
+				<td>620</td>
+				<td>630</td>
+				<td>610</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>600</td>
+				<td>680</td>
+				<td>700</td>
+				<td>690</td>
+				<td>660</td>
+				<td>670</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170305</td>
+				<td>680</td>
+				<td>650</td>
+				<td>620</td>
+				<td>610</td>
+				<td>620</td>
+				<td>630</td>
+				<td>650</td>
+				<td>650</td>
+				<td>610</td>
+				<td>560</td>
+				<td>550</td>
+				<td>550</td>
+				<td>530</td>
+				<td>530</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>580</td>
+				<td>670</td>
+				<td>700</td>
+				<td>700</td>
+				<td>680</td>
+				<td>680</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170306</td>
+				<td>640</td>
+				<td>600</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>590</td>
+				<td>630</td>
+				<td>670</td>
+				<td>690</td>
+				<td>670</td>
+				<td>660</td>
+				<td>660</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>620</td>
+				<td>670</td>
+				<td>770</td>
+				<td>810</td>
+				<td>800</td>
+				<td>760</td>
+				<td>750</td>
+				<td>750</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170307</td>
+				<td>690</td>
+				<td>660</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>650</td>
+				<td>680</td>
+				<td>700</td>
+				<td>670</td>
+				<td>650</td>
+				<td>640</td>
+				<td>620</td>
+				<td>580</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>590</td>
+				<td>620</td>
+				<td>700</td>
+				<td>750</td>
+				<td>740</td>
+				<td>700</td>
+				<td>690</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170308</td>
+				<td>690</td>
+				<td>660</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>650</td>
+				<td>680</td>
+				<td>700</td>
+				<td>670</td>
+				<td>650</td>
+				<td>640</td>
+				<td>620</td>
+				<td>580</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>590</td>
+				<td>620</td>
+				<td>700</td>
+				<td>750</td>
+				<td>730</td>
+				<td>700</td>
+				<td>690</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170309</td>
+				<td>630</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>630</td>
+				<td>650</td>
+				<td>650</td>
+				<td>630</td>
+				<td>650</td>
+				<td>630</td>
+				<td>610</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>610</td>
+				<td>650</td>
+				<td>730</td>
+				<td>760</td>
+				<td>740</td>
+				<td>700</td>
+				<td>690</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170310</td>
+				<td>640</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>580</td>
+				<td>600</td>
+				<td>630</td>
+				<td>650</td>
+				<td>640</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>600</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>650</td>
+				<td>710</td>
+				<td>720</td>
+				<td>700</td>
+				<td>670</td>
+				<td>660</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170311</td>
+				<td>640</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>630</td>
+				<td>630</td>
+				<td>610</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>590</td>
+				<td>650</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+				<td>660</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170312</td>
+				<td>650</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+				<td>590</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>590</td>
+				<td>560</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>560</td>
+				<td>630</td>
+				<td>670</td>
+				<td>660</td>
+				<td>650</td>
+				<td>650</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170313</td>
+				<td>610</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>570</td>
+				<td>590</td>
+				<td>620</td>
+				<td>650</td>
+				<td>650</td>
+				<td>650</td>
+				<td>630</td>
+				<td>630</td>
+				<td>600</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>650</td>
+				<td>720</td>
+				<td>750</td>
+				<td>740</td>
+				<td>720</td>
+				<td>700</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170314</td>
+				<td>670</td>
+				<td>630</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>630</td>
+				<td>660</td>
+				<td>670</td>
+				<td>650</td>
+				<td>630</td>
+				<td>630</td>
+				<td>610</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>610</td>
+				<td>690</td>
+				<td>750</td>
+				<td>750</td>
+				<td>720</td>
+				<td>720</td>
+				<td>720</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170315</td>
+				<td>660</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>610</td>
+				<td>630</td>
+				<td>650</td>
+				<td>660</td>
+				<td>650</td>
+				<td>630</td>
+				<td>620</td>
+				<td>610</td>
+				<td>580</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>590</td>
+				<td>610</td>
+				<td>680</td>
+				<td>720</td>
+				<td>710</td>
+				<td>690</td>
+				<td>690</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170316</td>
+				<td>620</td>
+				<td>590</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>630</td>
+				<td>640</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>600</td>
+				<td>620</td>
+				<td>690</td>
+				<td>730</td>
+				<td>730</td>
+				<td>710</td>
+				<td>700</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170317</td>
+				<td>640</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+				<td>600</td>
+				<td>610</td>
+				<td>640</td>
+				<td>640</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+				<td>560</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>590</td>
+				<td>660</td>
+				<td>720</td>
+				<td>720</td>
+				<td>690</td>
+				<td>680</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170318</td>
+				<td>660</td>
+				<td>630</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>620</td>
+				<td>640</td>
+				<td>640</td>
+				<td>600</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>570</td>
+				<td>640</td>
+				<td>680</td>
+				<td>680</td>
+				<td>670</td>
+				<td>670</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170319</td>
+				<td>630</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>590</td>
+				<td>550</td>
+				<td>530</td>
+				<td>520</td>
+				<td>520</td>
+				<td>510</td>
+				<td>510</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>540</td>
+				<td>610</td>
+				<td>650</td>
+				<td>650</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170320</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>560</td>
+				<td>590</td>
+				<td>620</td>
+				<td>630</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>590</td>
+				<td>620</td>
+				<td>680</td>
+				<td>700</td>
+				<td>690</td>
+				<td>660</td>
+				<td>650</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170321</td>
+				<td>640</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>590</td>
+				<td>610</td>
+				<td>640</td>
+				<td>650</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>530</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>550</td>
+				<td>570</td>
+				<td>640</td>
+				<td>720</td>
+				<td>720</td>
+				<td>700</td>
+				<td>680</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170322</td>
+				<td>640</td>
+				<td>610</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>620</td>
+				<td>650</td>
+				<td>650</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>540</td>
+				<td>550</td>
+				<td>540</td>
+				<td>540</td>
+				<td>560</td>
+				<td>580</td>
+				<td>640</td>
+				<td>710</td>
+				<td>710</td>
+				<td>700</td>
+				<td>680</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170323</td>
+				<td>600</td>
+				<td>570</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>610</td>
+				<td>630</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>580</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>600</td>
+				<td>670</td>
+				<td>740</td>
+				<td>730</td>
+				<td>710</td>
+				<td>690</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170324</td>
+				<td>640</td>
+				<td>600</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>600</td>
+				<td>620</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>610</td>
+				<td>590</td>
+				<td>560</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>590</td>
+				<td>640</td>
+				<td>690</td>
+				<td>680</td>
+				<td>660</td>
+				<td>640</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170325</td>
+				<td>660</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+				<td>590</td>
+				<td>610</td>
+				<td>630</td>
+				<td>620</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>550</td>
+				<td>630</td>
+				<td>690</td>
+				<td>700</td>
+				<td>680</td>
+				<td>680</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170326</td>
+				<td>650</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>630</td>
+				<td>610</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>520</td>
+				<td>520</td>
+				<td>510</td>
+				<td>510</td>
+				<td>530</td>
+				<td>560</td>
+				<td>620</td>
+				<td>660</td>
+				<td>670</td>
+				<td>650</td>
+				<td>640</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170327</td>
+				<td>590</td>
+				<td>560</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>590</td>
+				<td>620</td>
+				<td>640</td>
+				<td>640</td>
+				<td>640</td>
+				<td>630</td>
+				<td>620</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+				<td>640</td>
+				<td>660</td>
+				<td>690</td>
+				<td>700</td>
+				<td>690</td>
+				<td>670</td>
+				<td>650</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170328</td>
+				<td>640</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>580</td>
+				<td>600</td>
+				<td>620</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>580</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>600</td>
+				<td>620</td>
+				<td>650</td>
+				<td>680</td>
+				<td>680</td>
+				<td>660</td>
+				<td>650</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170329</td>
+				<td>630</td>
+				<td>590</td>
+				<td>560</td>
+				<td>540</td>
+				<td>550</td>
+				<td>570</td>
+				<td>610</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>590</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>610</td>
+				<td>660</td>
+				<td>710</td>
+				<td>700</td>
+				<td>670</td>
+				<td>650</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170330</td>
+				<td>640</td>
+				<td>600</td>
+				<td>580</td>
+				<td>580</td>
+				<td>590</td>
+				<td>610</td>
+				<td>640</td>
+				<td>630</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>560</td>
+				<td>520</td>
+				<td>530</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>560</td>
+				<td>620</td>
+				<td>700</td>
+				<td>680</td>
+				<td>650</td>
+				<td>630</td>
+				<td>620</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170331</td>
+				<td>610</td>
+				<td>580</td>
+				<td>550</td>
+				<td>540</td>
+				<td>540</td>
+				<td>560</td>
+				<td>590</td>
+				<td>610</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>580</td>
+				<td>560</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>580</td>
+				<td>590</td>
+				<td>630</td>
+				<td>690</td>
+				<td>690</td>
+				<td>680</td>
+				<td>660</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170401</td>
+				<td>620</td>
+				<td>580</td>
+				<td>560</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>580</td>
+				<td>550</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>620</td>
+				<td>700</td>
+				<td>700</td>
+				<td>680</td>
+				<td>670</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170402</td>
+				<td>640</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>580</td>
+				<td>600</td>
+				<td>610</td>
+				<td>590</td>
+				<td>540</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>510</td>
+				<td>510</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>560</td>
+				<td>620</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+				<td>640</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170403</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>540</td>
+				<td>560</td>
+				<td>580</td>
+				<td>590</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>600</td>
+				<td>610</td>
+				<td>640</td>
+				<td>680</td>
+				<td>680</td>
+				<td>660</td>
+				<td>640</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170404</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>550</td>
+				<td>570</td>
+				<td>590</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>590</td>
+				<td>620</td>
+				<td>630</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170405</td>
+				<td>550</td>
+				<td>510</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>530</td>
+				<td>560</td>
+				<td>600</td>
+				<td>640</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>610</td>
+				<td>660</td>
+				<td>660</td>
+				<td>650</td>
+				<td>640</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170406</td>
+				<td>580</td>
+				<td>550</td>
+				<td>520</td>
+				<td>510</td>
+				<td>520</td>
+				<td>530</td>
+				<td>560</td>
+				<td>580</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>560</td>
+				<td>570</td>
+				<td>600</td>
+				<td>660</td>
+				<td>660</td>
+				<td>650</td>
+				<td>640</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170407</td>
+				<td>570</td>
+				<td>530</td>
+				<td>520</td>
+				<td>510</td>
+				<td>520</td>
+				<td>540</td>
+				<td>580</td>
+				<td>610</td>
+				<td>650</td>
+				<td>640</td>
+				<td>630</td>
+				<td>610</td>
+				<td>580</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>620</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+				<td>650</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170408</td>
+				<td>590</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>570</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>550</td>
+				<td>540</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>540</td>
+				<td>590</td>
+				<td>650</td>
+				<td>650</td>
+				<td>640</td>
+				<td>640</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170409</td>
+				<td>630</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>570</td>
+				<td>530</td>
+				<td>520</td>
+				<td>520</td>
+				<td>510</td>
+				<td>500</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>500</td>
+				<td>540</td>
+				<td>590</td>
+				<td>650</td>
+				<td>660</td>
+				<td>650</td>
+				<td>640</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170410</td>
+				<td>590</td>
+				<td>550</td>
+				<td>530</td>
+				<td>520</td>
+				<td>540</td>
+				<td>560</td>
+				<td>580</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>540</td>
+				<td>550</td>
+				<td>540</td>
+				<td>530</td>
+				<td>540</td>
+				<td>560</td>
+				<td>610</td>
+				<td>680</td>
+				<td>690</td>
+				<td>670</td>
+				<td>660</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170411</td>
+				<td>560</td>
+				<td>520</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>580</td>
+				<td>590</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170412</td>
+				<td>550</td>
+				<td>510</td>
+				<td>490</td>
+				<td>490</td>
+				<td>500</td>
+				<td>520</td>
+				<td>540</td>
+				<td>570</td>
+				<td>590</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>610</td>
+				<td>630</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170413</td>
+				<td>570</td>
+				<td>540</td>
+				<td>530</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>570</td>
+				<td>590</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>570</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170414</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>520</td>
+				<td>520</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>520</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>570</td>
+				<td>620</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170415</td>
+				<td>540</td>
+				<td>510</td>
+				<td>490</td>
+				<td>480</td>
+				<td>490</td>
+				<td>500</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>520</td>
+				<td>510</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>500</td>
+				<td>540</td>
+				<td>600</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170416</td>
+				<td>560</td>
+				<td>530</td>
+				<td>510</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>510</td>
+				<td>490</td>
+				<td>480</td>
+				<td>480</td>
+				<td>470</td>
+				<td>470</td>
+				<td>460</td>
+				<td>460</td>
+				<td>460</td>
+				<td>480</td>
+				<td>510</td>
+				<td>550</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170417</td>
+				<td>540</td>
+				<td>510</td>
+				<td>490</td>
+				<td>480</td>
+				<td>490</td>
+				<td>510</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>510</td>
+				<td>530</td>
+				<td>520</td>
+				<td>520</td>
+				<td>540</td>
+				<td>560</td>
+				<td>600</td>
+				<td>650</td>
+				<td>650</td>
+				<td>630</td>
+				<td>620</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170418</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>530</td>
+				<td>510</td>
+				<td>530</td>
+				<td>530</td>
+				<td>520</td>
+				<td>520</td>
+				<td>540</td>
+				<td>550</td>
+				<td>600</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>580</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170419</td>
+				<td>590</td>
+				<td>570</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>570</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>520</td>
+				<td>540</td>
+				<td>540</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>610</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170420</td>
+				<td>550</td>
+				<td>520</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>540</td>
+				<td>540</td>
+				<td>520</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>510</td>
+				<td>520</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>620</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170421</td>
+				<td>550</td>
+				<td>520</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>530</td>
+				<td>550</td>
+				<td>510</td>
+				<td>520</td>
+				<td>530</td>
+				<td>530</td>
+				<td>520</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>510</td>
+				<td>520</td>
+				<td>530</td>
+				<td>550</td>
+				<td>630</td>
+				<td>650</td>
+				<td>640</td>
+				<td>630</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170422</td>
+				<td>560</td>
+				<td>520</td>
+				<td>500</td>
+				<td>490</td>
+				<td>490</td>
+				<td>510</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>530</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>550</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170423</td>
+				<td>540</td>
+				<td>520</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>510</td>
+				<td>510</td>
+				<td>500</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>480</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>490</td>
+				<td>510</td>
+				<td>540</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170424</td>
+				<td>540</td>
+				<td>510</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>520</td>
+				<td>540</td>
+				<td>560</td>
+				<td>580</td>
+				<td>580</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>590</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170425</td>
+				<td>520</td>
+				<td>490</td>
+				<td>480</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>510</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>530</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>590</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+				<td>570</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170426</td>
+				<td>520</td>
+				<td>490</td>
+				<td>470</td>
+				<td>460</td>
+				<td>470</td>
+				<td>490</td>
+				<td>510</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>610</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170427</td>
+				<td>540</td>
+				<td>510</td>
+				<td>500</td>
+				<td>490</td>
+				<td>500</td>
+				<td>510</td>
+				<td>530</td>
+				<td>540</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>590</td>
+				<td>610</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170428</td>
+				<td>500</td>
+				<td>480</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>480</td>
+				<td>500</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>540</td>
+				<td>530</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>570</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>570</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170429</td>
+				<td>510</td>
+				<td>480</td>
+				<td>460</td>
+				<td>460</td>
+				<td>460</td>
+				<td>480</td>
+				<td>490</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>490</td>
+				<td>480</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>490</td>
+				<td>550</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170430</td>
+				<td>520</td>
+				<td>490</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>490</td>
+				<td>490</td>
+				<td>460</td>
+				<td>450</td>
+				<td>450</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>440</td>
+				<td>440</td>
+				<td>440</td>
+				<td>450</td>
+				<td>470</td>
+				<td>500</td>
+				<td>550</td>
+				<td>570</td>
+				<td>570</td>
+				<td>560</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170501</td>
+				<td>560</td>
+				<td>520</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>540</td>
+				<td>550</td>
+				<td>510</td>
+				<td>520</td>
+				<td>530</td>
+				<td>520</td>
+				<td>500</td>
+				<td>490</td>
+				<td>500</td>
+				<td>510</td>
+				<td>500</td>
+				<td>510</td>
+				<td>490</td>
+				<td>510</td>
+				<td>610</td>
+				<td>640</td>
+				<td>630</td>
+				<td>620</td>
+				<td>600</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170502</td>
+				<td>550</td>
+				<td>520</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>520</td>
+				<td>540</td>
+				<td>530</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>630</td>
+				<td>640</td>
+				<td>620</td>
+				<td>600</td>
+				<td>580</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170503</td>
+				<td>550</td>
+				<td>530</td>
+				<td>510</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+				<td>570</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170504</td>
+				<td>550</td>
+				<td>520</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>520</td>
+				<td>530</td>
+				<td>530</td>
+				<td>550</td>
+				<td>570</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>610</td>
+				<td>630</td>
+				<td>610</td>
+				<td>590</td>
+				<td>570</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170505</td>
+				<td>530</td>
+				<td>510</td>
+				<td>500</td>
+				<td>490</td>
+				<td>490</td>
+				<td>500</td>
+				<td>500</td>
+				<td>490</td>
+				<td>500</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>490</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>530</td>
+				<td>550</td>
+				<td>580</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>560</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170506</td>
+				<td>540</td>
+				<td>500</td>
+				<td>480</td>
+				<td>480</td>
+				<td>480</td>
+				<td>510</td>
+				<td>520</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>500</td>
+				<td>490</td>
+				<td>500</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>500</td>
+				<td>530</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170507</td>
+				<td>550</td>
+				<td>520</td>
+				<td>510</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>500</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>480</td>
+				<td>480</td>
+				<td>480</td>
+				<td>480</td>
+				<td>480</td>
+				<td>490</td>
+				<td>500</td>
+				<td>530</td>
+				<td>580</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>570</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170508</td>
+				<td>530</td>
+				<td>510</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>510</td>
+				<td>520</td>
+				<td>530</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>610</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170509</td>
+				<td>580</td>
+				<td>550</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>520</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>600</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170510</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>530</td>
+				<td>520</td>
+				<td>530</td>
+				<td>530</td>
+				<td>520</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>570</td>
+				<td>590</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170511</td>
+				<td>510</td>
+				<td>490</td>
+				<td>480</td>
+				<td>480</td>
+				<td>480</td>
+				<td>490</td>
+				<td>500</td>
+				<td>490</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>520</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>580</td>
+				<td>560</td>
+				<td>550</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170512</td>
+				<td>510</td>
+				<td>480</td>
+				<td>460</td>
+				<td>460</td>
+				<td>460</td>
+				<td>470</td>
+				<td>500</td>
+				<td>510</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>530</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>570</td>
+				<td>590</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170513</td>
+				<td>540</td>
+				<td>510</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>510</td>
+				<td>520</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>510</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>530</td>
+				<td>580</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170514</td>
+				<td>530</td>
+				<td>500</td>
+				<td>480</td>
+				<td>480</td>
+				<td>480</td>
+				<td>500</td>
+				<td>500</td>
+				<td>470</td>
+				<td>470</td>
+				<td>480</td>
+				<td>480</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>510</td>
+				<td>560</td>
+				<td>590</td>
+				<td>580</td>
+				<td>580</td>
+				<td>560</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170515</td>
+				<td>520</td>
+				<td>500</td>
+				<td>490</td>
+				<td>480</td>
+				<td>490</td>
+				<td>500</td>
+				<td>510</td>
+				<td>510</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>550</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>580</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170516</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>480</td>
+				<td>510</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>580</td>
+				<td>590</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170517</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>470</td>
+				<td>510</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>540</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>570</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>560</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170518</td>
+				<td>510</td>
+				<td>480</td>
+				<td>460</td>
+				<td>460</td>
+				<td>460</td>
+				<td>460</td>
+				<td>480</td>
+				<td>500</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>520</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>570</td>
+				<td>560</td>
+				<td>550</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170519</td>
+				<td>500</td>
+				<td>480</td>
+				<td>460</td>
+				<td>460</td>
+				<td>460</td>
+				<td>480</td>
+				<td>490</td>
+				<td>500</td>
+				<td>520</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>520</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>570</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170520</td>
+				<td>510</td>
+				<td>480</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>480</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>500</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>560</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170521</td>
+				<td>510</td>
+				<td>480</td>
+				<td>460</td>
+				<td>460</td>
+				<td>460</td>
+				<td>480</td>
+				<td>480</td>
+				<td>460</td>
+				<td>470</td>
+				<td>480</td>
+				<td>480</td>
+				<td>480</td>
+				<td>470</td>
+				<td>480</td>
+				<td>480</td>
+				<td>480</td>
+				<td>490</td>
+				<td>500</td>
+				<td>510</td>
+				<td>550</td>
+				<td>570</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170522</td>
+				<td>520</td>
+				<td>490</td>
+				<td>480</td>
+				<td>480</td>
+				<td>480</td>
+				<td>490</td>
+				<td>500</td>
+				<td>490</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>530</td>
+				<td>510</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170523</td>
+				<td>510</td>
+				<td>490</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>500</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>550</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170524</td>
+				<td>510</td>
+				<td>480</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>500</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>540</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170525</td>
+				<td>480</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>440</td>
+				<td>450</td>
+				<td>460</td>
+				<td>490</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170526</td>
+				<td>470</td>
+				<td>450</td>
+				<td>430</td>
+				<td>420</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>500</td>
+				<td>540</td>
+				<td>560</td>
+				<td>570</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170527</td>
+				<td>510</td>
+				<td>490</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>490</td>
+				<td>510</td>
+				<td>520</td>
+				<td>530</td>
+				<td>520</td>
+				<td>500</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>520</td>
+				<td>530</td>
+				<td>560</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170528</td>
+				<td>500</td>
+				<td>470</td>
+				<td>450</td>
+				<td>450</td>
+				<td>450</td>
+				<td>460</td>
+				<td>470</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>510</td>
+				<td>520</td>
+				<td>540</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170529</td>
+				<td>490</td>
+				<td>470</td>
+				<td>460</td>
+				<td>450</td>
+				<td>460</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>520</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170530</td>
+				<td>480</td>
+				<td>460</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>450</td>
+				<td>470</td>
+				<td>500</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>590</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170531</td>
+				<td>480</td>
+				<td>460</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>450</td>
+				<td>470</td>
+				<td>500</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170601</td>
+				<td>480</td>
+				<td>460</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>450</td>
+				<td>470</td>
+				<td>500</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>550</td>
+				<td>540</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170602</td>
+				<td>470</td>
+				<td>450</td>
+				<td>430</td>
+				<td>430</td>
+				<td>430</td>
+				<td>430</td>
+				<td>460</td>
+				<td>500</td>
+				<td>540</td>
+				<td>560</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>590</td>
+				<td>590</td>
+				<td>570</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170603</td>
+				<td>520</td>
+				<td>490</td>
+				<td>480</td>
+				<td>470</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>490</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>530</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>560</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170604</td>
+				<td>500</td>
+				<td>470</td>
+				<td>460</td>
+				<td>450</td>
+				<td>450</td>
+				<td>460</td>
+				<td>460</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>500</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>540</td>
+				<td>560</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170605</td>
+				<td>470</td>
+				<td>440</td>
+				<td>430</td>
+				<td>420</td>
+				<td>430</td>
+				<td>440</td>
+				<td>450</td>
+				<td>480</td>
+				<td>520</td>
+				<td>550</td>
+				<td>560</td>
+				<td>550</td>
+				<td>540</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170606</td>
+				<td>470</td>
+				<td>440</td>
+				<td>430</td>
+				<td>420</td>
+				<td>420</td>
+				<td>430</td>
+				<td>450</td>
+				<td>470</td>
+				<td>490</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>520</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170607</td>
+				<td>480</td>
+				<td>460</td>
+				<td>440</td>
+				<td>440</td>
+				<td>440</td>
+				<td>450</td>
+				<td>460</td>
+				<td>490</td>
+				<td>520</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170608</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>470</td>
+				<td>500</td>
+				<td>540</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>560</td>
+				<td>580</td>
+				<td>590</td>
+				<td>570</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170609</td>
+				<td>470</td>
+				<td>450</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>500</td>
+				<td>530</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170610</td>
+				<td>510</td>
+				<td>490</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>500</td>
+				<td>520</td>
+				<td>540</td>
+				<td>550</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170611</td>
+				<td>500</td>
+				<td>480</td>
+				<td>460</td>
+				<td>460</td>
+				<td>460</td>
+				<td>470</td>
+				<td>470</td>
+				<td>480</td>
+				<td>500</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>570</td>
+				<td>560</td>
+				<td>550</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170612</td>
+				<td>490</td>
+				<td>470</td>
+				<td>460</td>
+				<td>450</td>
+				<td>460</td>
+				<td>470</td>
+				<td>480</td>
+				<td>500</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>540</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170613</td>
+				<td>470</td>
+				<td>450</td>
+				<td>430</td>
+				<td>420</td>
+				<td>430</td>
+				<td>430</td>
+				<td>460</td>
+				<td>500</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170614</td>
+				<td>470</td>
+				<td>450</td>
+				<td>430</td>
+				<td>420</td>
+				<td>430</td>
+				<td>430</td>
+				<td>460</td>
+				<td>500</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170615</td>
+				<td>470</td>
+				<td>440</td>
+				<td>430</td>
+				<td>420</td>
+				<td>420</td>
+				<td>430</td>
+				<td>460</td>
+				<td>490</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170616</td>
+				<td>470</td>
+				<td>450</td>
+				<td>430</td>
+				<td>420</td>
+				<td>420</td>
+				<td>430</td>
+				<td>460</td>
+				<td>490</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170617</td>
+				<td>510</td>
+				<td>470</td>
+				<td>460</td>
+				<td>440</td>
+				<td>450</td>
+				<td>450</td>
+				<td>470</td>
+				<td>490</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>580</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170618</td>
+				<td>490</td>
+				<td>460</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>450</td>
+				<td>460</td>
+				<td>480</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>570</td>
+				<td>590</td>
+				<td>570</td>
+				<td>550</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170619</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>430</td>
+				<td>440</td>
+				<td>440</td>
+				<td>470</td>
+				<td>510</td>
+				<td>550</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>560</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>580</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170620</td>
+				<td>480</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>470</td>
+				<td>500</td>
+				<td>540</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170621</td>
+				<td>480</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>470</td>
+				<td>510</td>
+				<td>550</td>
+				<td>580</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>620</td>
+				<td>590</td>
+				<td>560</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170622</td>
+				<td>490</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>470</td>
+				<td>520</td>
+				<td>570</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>580</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170623</td>
+				<td>470</td>
+				<td>450</td>
+				<td>430</td>
+				<td>420</td>
+				<td>420</td>
+				<td>430</td>
+				<td>460</td>
+				<td>500</td>
+				<td>550</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>580</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>580</td>
+				<td>550</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170624</td>
+				<td>500</td>
+				<td>470</td>
+				<td>450</td>
+				<td>440</td>
+				<td>450</td>
+				<td>450</td>
+				<td>470</td>
+				<td>500</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>590</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170625</td>
+				<td>490</td>
+				<td>470</td>
+				<td>450</td>
+				<td>450</td>
+				<td>450</td>
+				<td>450</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>510</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170626</td>
+				<td>480</td>
+				<td>460</td>
+				<td>440</td>
+				<td>440</td>
+				<td>440</td>
+				<td>450</td>
+				<td>470</td>
+				<td>510</td>
+				<td>550</td>
+				<td>570</td>
+				<td>590</td>
+				<td>580</td>
+				<td>570</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>580</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170627</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>470</td>
+				<td>510</td>
+				<td>560</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>590</td>
+				<td>600</td>
+				<td>610</td>
+				<td>580</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170628</td>
+				<td>490</td>
+				<td>460</td>
+				<td>440</td>
+				<td>420</td>
+				<td>430</td>
+				<td>440</td>
+				<td>470</td>
+				<td>520</td>
+				<td>570</td>
+				<td>610</td>
+				<td>630</td>
+				<td>630</td>
+				<td>610</td>
+				<td>620</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>620</td>
+				<td>630</td>
+				<td>600</td>
+				<td>570</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170629</td>
+				<td>500</td>
+				<td>470</td>
+				<td>440</td>
+				<td>440</td>
+				<td>440</td>
+				<td>440</td>
+				<td>470</td>
+				<td>520</td>
+				<td>580</td>
+				<td>610</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+				<td>640</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+				<td>630</td>
+				<td>600</td>
+				<td>570</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170630</td>
+				<td>500</td>
+				<td>470</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>440</td>
+				<td>480</td>
+				<td>520</td>
+				<td>570</td>
+				<td>610</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>620</td>
+				<td>630</td>
+				<td>600</td>
+				<td>570</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170701</td>
+				<td>510</td>
+				<td>480</td>
+				<td>460</td>
+				<td>450</td>
+				<td>450</td>
+				<td>450</td>
+				<td>480</td>
+				<td>510</td>
+				<td>550</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>600</td>
+				<td>610</td>
+				<td>630</td>
+				<td>610</td>
+				<td>580</td>
+				<td>560</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170702</td>
+				<td>520</td>
+				<td>490</td>
+				<td>470</td>
+				<td>460</td>
+				<td>450</td>
+				<td>460</td>
+				<td>480</td>
+				<td>500</td>
+				<td>520</td>
+				<td>540</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>620</td>
+				<td>600</td>
+				<td>570</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170703</td>
+				<td>510</td>
+				<td>480</td>
+				<td>460</td>
+				<td>450</td>
+				<td>450</td>
+				<td>460</td>
+				<td>500</td>
+				<td>550</td>
+				<td>620</td>
+				<td>670</td>
+				<td>690</td>
+				<td>690</td>
+				<td>680</td>
+				<td>700</td>
+				<td>690</td>
+				<td>690</td>
+				<td>700</td>
+				<td>690</td>
+				<td>680</td>
+				<td>690</td>
+				<td>700</td>
+				<td>670</td>
+				<td>630</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170704</td>
+				<td>500</td>
+				<td>470</td>
+				<td>450</td>
+				<td>430</td>
+				<td>440</td>
+				<td>450</td>
+				<td>480</td>
+				<td>520</td>
+				<td>580</td>
+				<td>620</td>
+				<td>640</td>
+				<td>650</td>
+				<td>640</td>
+				<td>660</td>
+				<td>660</td>
+				<td>650</td>
+				<td>650</td>
+				<td>650</td>
+				<td>640</td>
+				<td>650</td>
+				<td>650</td>
+				<td>630</td>
+				<td>590</td>
+				<td>560</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170705</td>
+				<td>510</td>
+				<td>470</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>450</td>
+				<td>480</td>
+				<td>540</td>
+				<td>600</td>
+				<td>650</td>
+				<td>680</td>
+				<td>690</td>
+				<td>680</td>
+				<td>700</td>
+				<td>700</td>
+				<td>690</td>
+				<td>690</td>
+				<td>690</td>
+				<td>680</td>
+				<td>680</td>
+				<td>690</td>
+				<td>660</td>
+				<td>620</td>
+				<td>580</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170706</td>
+				<td>530</td>
+				<td>500</td>
+				<td>480</td>
+				<td>460</td>
+				<td>460</td>
+				<td>470</td>
+				<td>500</td>
+				<td>550</td>
+				<td>610</td>
+				<td>660</td>
+				<td>690</td>
+				<td>690</td>
+				<td>690</td>
+				<td>710</td>
+				<td>710</td>
+				<td>710</td>
+				<td>710</td>
+				<td>710</td>
+				<td>700</td>
+				<td>700</td>
+				<td>700</td>
+				<td>670</td>
+				<td>630</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170707</td>
+				<td>540</td>
+				<td>510</td>
+				<td>490</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>500</td>
+				<td>550</td>
+				<td>620</td>
+				<td>670</td>
+				<td>700</td>
+				<td>700</td>
+				<td>700</td>
+				<td>720</td>
+				<td>730</td>
+				<td>720</td>
+				<td>720</td>
+				<td>720</td>
+				<td>710</td>
+				<td>710</td>
+				<td>710</td>
+				<td>680</td>
+				<td>630</td>
+				<td>600</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170708</td>
+				<td>530</td>
+				<td>490</td>
+				<td>470</td>
+				<td>460</td>
+				<td>460</td>
+				<td>460</td>
+				<td>500</td>
+				<td>530</td>
+				<td>570</td>
+				<td>610</td>
+				<td>630</td>
+				<td>640</td>
+				<td>630</td>
+				<td>640</td>
+				<td>640</td>
+				<td>630</td>
+				<td>640</td>
+				<td>640</td>
+				<td>650</td>
+				<td>660</td>
+				<td>670</td>
+				<td>650</td>
+				<td>620</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170709</td>
+				<td>530</td>
+				<td>490</td>
+				<td>480</td>
+				<td>460</td>
+				<td>460</td>
+				<td>460</td>
+				<td>490</td>
+				<td>510</td>
+				<td>540</td>
+				<td>570</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>620</td>
+				<td>630</td>
+				<td>640</td>
+				<td>650</td>
+				<td>630</td>
+				<td>600</td>
+				<td>570</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170710</td>
+				<td>520</td>
+				<td>480</td>
+				<td>460</td>
+				<td>450</td>
+				<td>450</td>
+				<td>460</td>
+				<td>500</td>
+				<td>550</td>
+				<td>620</td>
+				<td>670</td>
+				<td>690</td>
+				<td>700</td>
+				<td>690</td>
+				<td>710</td>
+				<td>710</td>
+				<td>700</td>
+				<td>700</td>
+				<td>700</td>
+				<td>690</td>
+				<td>690</td>
+				<td>700</td>
+				<td>670</td>
+				<td>630</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170711</td>
+				<td>560</td>
+				<td>520</td>
+				<td>500</td>
+				<td>490</td>
+				<td>480</td>
+				<td>490</td>
+				<td>520</td>
+				<td>580</td>
+				<td>650</td>
+				<td>710</td>
+				<td>740</td>
+				<td>750</td>
+				<td>740</td>
+				<td>760</td>
+				<td>760</td>
+				<td>750</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>710</td>
+				<td>670</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170712</td>
+				<td>560</td>
+				<td>520</td>
+				<td>500</td>
+				<td>480</td>
+				<td>480</td>
+				<td>490</td>
+				<td>530</td>
+				<td>580</td>
+				<td>660</td>
+				<td>720</td>
+				<td>750</td>
+				<td>760</td>
+				<td>760</td>
+				<td>770</td>
+				<td>770</td>
+				<td>760</td>
+				<td>760</td>
+				<td>760</td>
+				<td>750</td>
+				<td>750</td>
+				<td>750</td>
+				<td>720</td>
+				<td>670</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170713</td>
+				<td>570</td>
+				<td>530</td>
+				<td>500</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>530</td>
+				<td>590</td>
+				<td>670</td>
+				<td>720</td>
+				<td>740</td>
+				<td>740</td>
+				<td>730</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>720</td>
+				<td>730</td>
+				<td>730</td>
+				<td>700</td>
+				<td>660</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170714</td>
+				<td>550</td>
+				<td>510</td>
+				<td>480</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>510</td>
+				<td>560</td>
+				<td>650</td>
+				<td>700</td>
+				<td>730</td>
+				<td>740</td>
+				<td>730</td>
+				<td>750</td>
+				<td>750</td>
+				<td>750</td>
+				<td>750</td>
+				<td>760</td>
+				<td>740</td>
+				<td>740</td>
+				<td>750</td>
+				<td>710</td>
+				<td>660</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170715</td>
+				<td>570</td>
+				<td>530</td>
+				<td>500</td>
+				<td>490</td>
+				<td>480</td>
+				<td>490</td>
+				<td>520</td>
+				<td>560</td>
+				<td>610</td>
+				<td>650</td>
+				<td>680</td>
+				<td>690</td>
+				<td>680</td>
+				<td>690</td>
+				<td>680</td>
+				<td>680</td>
+				<td>680</td>
+				<td>690</td>
+				<td>690</td>
+				<td>690</td>
+				<td>700</td>
+				<td>670</td>
+				<td>640</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170716</td>
+				<td>540</td>
+				<td>510</td>
+				<td>490</td>
+				<td>480</td>
+				<td>470</td>
+				<td>480</td>
+				<td>500</td>
+				<td>530</td>
+				<td>570</td>
+				<td>610</td>
+				<td>640</td>
+				<td>650</td>
+				<td>650</td>
+				<td>650</td>
+				<td>650</td>
+				<td>660</td>
+				<td>660</td>
+				<td>670</td>
+				<td>680</td>
+				<td>690</td>
+				<td>700</td>
+				<td>670</td>
+				<td>640</td>
+				<td>600</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170717</td>
+				<td>540</td>
+				<td>500</td>
+				<td>480</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>510</td>
+				<td>570</td>
+				<td>650</td>
+				<td>710</td>
+				<td>730</td>
+				<td>750</td>
+				<td>740</td>
+				<td>760</td>
+				<td>760</td>
+				<td>750</td>
+				<td>750</td>
+				<td>750</td>
+				<td>730</td>
+				<td>730</td>
+				<td>740</td>
+				<td>710</td>
+				<td>650</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170718</td>
+				<td>560</td>
+				<td>530</td>
+				<td>500</td>
+				<td>490</td>
+				<td>480</td>
+				<td>490</td>
+				<td>530</td>
+				<td>590</td>
+				<td>680</td>
+				<td>740</td>
+				<td>770</td>
+				<td>780</td>
+				<td>780</td>
+				<td>790</td>
+				<td>790</td>
+				<td>800</td>
+				<td>790</td>
+				<td>790</td>
+				<td>780</td>
+				<td>770</td>
+				<td>770</td>
+				<td>740</td>
+				<td>700</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170719</td>
+				<td>570</td>
+				<td>530</td>
+				<td>500</td>
+				<td>490</td>
+				<td>480</td>
+				<td>490</td>
+				<td>530</td>
+				<td>600</td>
+				<td>690</td>
+				<td>750</td>
+				<td>780</td>
+				<td>790</td>
+				<td>790</td>
+				<td>810</td>
+				<td>810</td>
+				<td>810</td>
+				<td>800</td>
+				<td>800</td>
+				<td>790</td>
+				<td>780</td>
+				<td>780</td>
+				<td>750</td>
+				<td>700</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170720</td>
+				<td>590</td>
+				<td>550</td>
+				<td>530</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>550</td>
+				<td>620</td>
+				<td>700</td>
+				<td>770</td>
+				<td>800</td>
+				<td>810</td>
+				<td>790</td>
+				<td>800</td>
+				<td>790</td>
+				<td>790</td>
+				<td>780</td>
+				<td>780</td>
+				<td>770</td>
+				<td>770</td>
+				<td>770</td>
+				<td>730</td>
+				<td>680</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170721</td>
+				<td>560</td>
+				<td>530</td>
+				<td>500</td>
+				<td>490</td>
+				<td>490</td>
+				<td>500</td>
+				<td>530</td>
+				<td>600</td>
+				<td>680</td>
+				<td>740</td>
+				<td>770</td>
+				<td>790</td>
+				<td>780</td>
+				<td>810</td>
+				<td>820</td>
+				<td>810</td>
+				<td>820</td>
+				<td>820</td>
+				<td>810</td>
+				<td>810</td>
+				<td>810</td>
+				<td>770</td>
+				<td>710</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170722</td>
+				<td>600</td>
+				<td>550</td>
+				<td>520</td>
+				<td>510</td>
+				<td>500</td>
+				<td>510</td>
+				<td>540</td>
+				<td>580</td>
+				<td>640</td>
+				<td>700</td>
+				<td>730</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>750</td>
+				<td>750</td>
+				<td>750</td>
+				<td>750</td>
+				<td>720</td>
+				<td>680</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170723</td>
+				<td>580</td>
+				<td>540</td>
+				<td>520</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>530</td>
+				<td>560</td>
+				<td>600</td>
+				<td>640</td>
+				<td>670</td>
+				<td>690</td>
+				<td>700</td>
+				<td>700</td>
+				<td>700</td>
+				<td>700</td>
+				<td>710</td>
+				<td>720</td>
+				<td>720</td>
+				<td>730</td>
+				<td>740</td>
+				<td>720</td>
+				<td>670</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170724</td>
+				<td>570</td>
+				<td>530</td>
+				<td>510</td>
+				<td>490</td>
+				<td>490</td>
+				<td>500</td>
+				<td>530</td>
+				<td>590</td>
+				<td>680</td>
+				<td>750</td>
+				<td>780</td>
+				<td>790</td>
+				<td>780</td>
+				<td>800</td>
+				<td>800</td>
+				<td>800</td>
+				<td>790</td>
+				<td>790</td>
+				<td>770</td>
+				<td>770</td>
+				<td>770</td>
+				<td>740</td>
+				<td>690</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170725</td>
+				<td>610</td>
+				<td>570</td>
+				<td>540</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>560</td>
+				<td>630</td>
+				<td>720</td>
+				<td>790</td>
+				<td>830</td>
+				<td>840</td>
+				<td>840</td>
+				<td>860</td>
+				<td>860</td>
+				<td>860</td>
+				<td>860</td>
+				<td>870</td>
+				<td>850</td>
+				<td>850</td>
+				<td>840</td>
+				<td>800</td>
+				<td>750</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170726</td>
+				<td>600</td>
+				<td>560</td>
+				<td>530</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>550</td>
+				<td>620</td>
+				<td>710</td>
+				<td>780</td>
+				<td>820</td>
+				<td>840</td>
+				<td>830</td>
+				<td>860</td>
+				<td>860</td>
+				<td>860</td>
+				<td>860</td>
+				<td>870</td>
+				<td>850</td>
+				<td>850</td>
+				<td>850</td>
+				<td>810</td>
+				<td>750</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170727</td>
+				<td>630</td>
+				<td>580</td>
+				<td>550</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>570</td>
+				<td>630</td>
+				<td>730</td>
+				<td>810</td>
+				<td>840</td>
+				<td>860</td>
+				<td>860</td>
+				<td>880</td>
+				<td>880</td>
+				<td>880</td>
+				<td>880</td>
+				<td>880</td>
+				<td>860</td>
+				<td>850</td>
+				<td>850</td>
+				<td>810</td>
+				<td>750</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170728</td>
+				<td>610</td>
+				<td>570</td>
+				<td>540</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>560</td>
+				<td>630</td>
+				<td>720</td>
+				<td>800</td>
+				<td>830</td>
+				<td>850</td>
+				<td>850</td>
+				<td>870</td>
+				<td>870</td>
+				<td>860</td>
+				<td>870</td>
+				<td>870</td>
+				<td>860</td>
+				<td>860</td>
+				<td>850</td>
+				<td>820</td>
+				<td>760</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170729</td>
+				<td>620</td>
+				<td>570</td>
+				<td>540</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>550</td>
+				<td>590</td>
+				<td>650</td>
+				<td>710</td>
+				<td>740</td>
+				<td>760</td>
+				<td>750</td>
+				<td>760</td>
+				<td>760</td>
+				<td>760</td>
+				<td>760</td>
+				<td>770</td>
+				<td>770</td>
+				<td>770</td>
+				<td>770</td>
+				<td>740</td>
+				<td>700</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170730</td>
+				<td>600</td>
+				<td>560</td>
+				<td>530</td>
+				<td>520</td>
+				<td>510</td>
+				<td>510</td>
+				<td>540</td>
+				<td>570</td>
+				<td>620</td>
+				<td>670</td>
+				<td>700</td>
+				<td>710</td>
+				<td>720</td>
+				<td>730</td>
+				<td>730</td>
+				<td>730</td>
+				<td>730</td>
+				<td>740</td>
+				<td>740</td>
+				<td>750</td>
+				<td>760</td>
+				<td>730</td>
+				<td>690</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170731</td>
+				<td>580</td>
+				<td>550</td>
+				<td>520</td>
+				<td>510</td>
+				<td>500</td>
+				<td>510</td>
+				<td>540</td>
+				<td>590</td>
+				<td>680</td>
+				<td>740</td>
+				<td>770</td>
+				<td>780</td>
+				<td>780</td>
+				<td>800</td>
+				<td>800</td>
+				<td>800</td>
+				<td>800</td>
+				<td>800</td>
+				<td>780</td>
+				<td>780</td>
+				<td>790</td>
+				<td>750</td>
+				<td>700</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170801</td>
+				<td>600</td>
+				<td>550</td>
+				<td>520</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>550</td>
+				<td>610</td>
+				<td>700</td>
+				<td>770</td>
+				<td>800</td>
+				<td>820</td>
+				<td>810</td>
+				<td>830</td>
+				<td>830</td>
+				<td>820</td>
+				<td>820</td>
+				<td>820</td>
+				<td>810</td>
+				<td>810</td>
+				<td>810</td>
+				<td>770</td>
+				<td>720</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170802</td>
+				<td>590</td>
+				<td>550</td>
+				<td>520</td>
+				<td>510</td>
+				<td>500</td>
+				<td>510</td>
+				<td>550</td>
+				<td>610</td>
+				<td>690</td>
+				<td>760</td>
+				<td>800</td>
+				<td>810</td>
+				<td>810</td>
+				<td>820</td>
+				<td>820</td>
+				<td>820</td>
+				<td>820</td>
+				<td>820</td>
+				<td>810</td>
+				<td>810</td>
+				<td>810</td>
+				<td>770</td>
+				<td>720</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170803</td>
+				<td>600</td>
+				<td>550</td>
+				<td>520</td>
+				<td>510</td>
+				<td>500</td>
+				<td>510</td>
+				<td>550</td>
+				<td>610</td>
+				<td>700</td>
+				<td>770</td>
+				<td>810</td>
+				<td>820</td>
+				<td>810</td>
+				<td>830</td>
+				<td>830</td>
+				<td>830</td>
+				<td>820</td>
+				<td>820</td>
+				<td>810</td>
+				<td>810</td>
+				<td>810</td>
+				<td>770</td>
+				<td>720</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170804</td>
+				<td>590</td>
+				<td>550</td>
+				<td>520</td>
+				<td>510</td>
+				<td>500</td>
+				<td>510</td>
+				<td>550</td>
+				<td>610</td>
+				<td>700</td>
+				<td>770</td>
+				<td>800</td>
+				<td>820</td>
+				<td>810</td>
+				<td>830</td>
+				<td>820</td>
+				<td>820</td>
+				<td>820</td>
+				<td>820</td>
+				<td>810</td>
+				<td>810</td>
+				<td>810</td>
+				<td>770</td>
+				<td>720</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170805</td>
+				<td>630</td>
+				<td>590</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>560</td>
+				<td>610</td>
+				<td>670</td>
+				<td>740</td>
+				<td>780</td>
+				<td>790</td>
+				<td>790</td>
+				<td>800</td>
+				<td>800</td>
+				<td>790</td>
+				<td>790</td>
+				<td>800</td>
+				<td>800</td>
+				<td>810</td>
+				<td>810</td>
+				<td>780</td>
+				<td>740</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170806</td>
+				<td>610</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+				<td>520</td>
+				<td>530</td>
+				<td>550</td>
+				<td>580</td>
+				<td>630</td>
+				<td>680</td>
+				<td>710</td>
+				<td>730</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>750</td>
+				<td>760</td>
+				<td>770</td>
+				<td>780</td>
+				<td>750</td>
+				<td>710</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170807</td>
+				<td>600</td>
+				<td>560</td>
+				<td>530</td>
+				<td>510</td>
+				<td>510</td>
+				<td>520</td>
+				<td>550</td>
+				<td>600</td>
+				<td>690</td>
+				<td>750</td>
+				<td>790</td>
+				<td>800</td>
+				<td>790</td>
+				<td>810</td>
+				<td>810</td>
+				<td>800</td>
+				<td>800</td>
+				<td>800</td>
+				<td>790</td>
+				<td>790</td>
+				<td>790</td>
+				<td>750</td>
+				<td>710</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170808</td>
+				<td>600</td>
+				<td>560</td>
+				<td>530</td>
+				<td>510</td>
+				<td>510</td>
+				<td>520</td>
+				<td>550</td>
+				<td>600</td>
+				<td>690</td>
+				<td>750</td>
+				<td>790</td>
+				<td>800</td>
+				<td>790</td>
+				<td>810</td>
+				<td>810</td>
+				<td>800</td>
+				<td>800</td>
+				<td>800</td>
+				<td>790</td>
+				<td>790</td>
+				<td>790</td>
+				<td>750</td>
+				<td>710</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170809</td>
+				<td>590</td>
+				<td>550</td>
+				<td>520</td>
+				<td>510</td>
+				<td>500</td>
+				<td>510</td>
+				<td>550</td>
+				<td>610</td>
+				<td>690</td>
+				<td>760</td>
+				<td>800</td>
+				<td>810</td>
+				<td>810</td>
+				<td>820</td>
+				<td>820</td>
+				<td>820</td>
+				<td>820</td>
+				<td>820</td>
+				<td>810</td>
+				<td>810</td>
+				<td>800</td>
+				<td>770</td>
+				<td>720</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170810</td>
+				<td>600</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>520</td>
+				<td>530</td>
+				<td>560</td>
+				<td>620</td>
+				<td>710</td>
+				<td>780</td>
+				<td>810</td>
+				<td>820</td>
+				<td>810</td>
+				<td>830</td>
+				<td>830</td>
+				<td>830</td>
+				<td>830</td>
+				<td>830</td>
+				<td>820</td>
+				<td>810</td>
+				<td>810</td>
+				<td>770</td>
+				<td>710</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170811</td>
+				<td>620</td>
+				<td>570</td>
+				<td>540</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>560</td>
+				<td>630</td>
+				<td>730</td>
+				<td>800</td>
+				<td>840</td>
+				<td>850</td>
+				<td>840</td>
+				<td>860</td>
+				<td>850</td>
+				<td>850</td>
+				<td>850</td>
+				<td>860</td>
+				<td>840</td>
+				<td>840</td>
+				<td>840</td>
+				<td>800</td>
+				<td>750</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170812</td>
+				<td>620</td>
+				<td>570</td>
+				<td>540</td>
+				<td>530</td>
+				<td>520</td>
+				<td>520</td>
+				<td>550</td>
+				<td>590</td>
+				<td>660</td>
+				<td>720</td>
+				<td>760</td>
+				<td>770</td>
+				<td>770</td>
+				<td>780</td>
+				<td>770</td>
+				<td>770</td>
+				<td>770</td>
+				<td>780</td>
+				<td>780</td>
+				<td>780</td>
+				<td>790</td>
+				<td>760</td>
+				<td>720</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170813</td>
+				<td>610</td>
+				<td>570</td>
+				<td>540</td>
+				<td>520</td>
+				<td>510</td>
+				<td>520</td>
+				<td>540</td>
+				<td>570</td>
+				<td>620</td>
+				<td>670</td>
+				<td>700</td>
+				<td>710</td>
+				<td>710</td>
+				<td>720</td>
+				<td>720</td>
+				<td>720</td>
+				<td>730</td>
+				<td>740</td>
+				<td>750</td>
+				<td>750</td>
+				<td>760</td>
+				<td>740</td>
+				<td>690</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170814</td>
+				<td>570</td>
+				<td>530</td>
+				<td>510</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>530</td>
+				<td>590</td>
+				<td>680</td>
+				<td>750</td>
+				<td>790</td>
+				<td>800</td>
+				<td>800</td>
+				<td>810</td>
+				<td>810</td>
+				<td>810</td>
+				<td>810</td>
+				<td>810</td>
+				<td>800</td>
+				<td>800</td>
+				<td>790</td>
+				<td>750</td>
+				<td>690</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170815</td>
+				<td>580</td>
+				<td>540</td>
+				<td>510</td>
+				<td>500</td>
+				<td>490</td>
+				<td>500</td>
+				<td>520</td>
+				<td>550</td>
+				<td>600</td>
+				<td>650</td>
+				<td>680</td>
+				<td>690</td>
+				<td>700</td>
+				<td>710</td>
+				<td>700</td>
+				<td>700</td>
+				<td>710</td>
+				<td>720</td>
+				<td>720</td>
+				<td>730</td>
+				<td>740</td>
+				<td>720</td>
+				<td>680</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170816</td>
+				<td>590</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>520</td>
+				<td>530</td>
+				<td>560</td>
+				<td>610</td>
+				<td>690</td>
+				<td>750</td>
+				<td>780</td>
+				<td>790</td>
+				<td>790</td>
+				<td>800</td>
+				<td>800</td>
+				<td>800</td>
+				<td>800</td>
+				<td>800</td>
+				<td>790</td>
+				<td>790</td>
+				<td>780</td>
+				<td>750</td>
+				<td>700</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170817</td>
+				<td>580</td>
+				<td>540</td>
+				<td>510</td>
+				<td>500</td>
+				<td>490</td>
+				<td>500</td>
+				<td>530</td>
+				<td>590</td>
+				<td>680</td>
+				<td>740</td>
+				<td>770</td>
+				<td>790</td>
+				<td>780</td>
+				<td>800</td>
+				<td>800</td>
+				<td>790</td>
+				<td>800</td>
+				<td>790</td>
+				<td>770</td>
+				<td>780</td>
+				<td>770</td>
+				<td>730</td>
+				<td>680</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170818</td>
+				<td>580</td>
+				<td>540</td>
+				<td>520</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>540</td>
+				<td>590</td>
+				<td>670</td>
+				<td>730</td>
+				<td>760</td>
+				<td>770</td>
+				<td>770</td>
+				<td>780</td>
+				<td>780</td>
+				<td>780</td>
+				<td>780</td>
+				<td>780</td>
+				<td>760</td>
+				<td>760</td>
+				<td>750</td>
+				<td>720</td>
+				<td>670</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170819</td>
+				<td>610</td>
+				<td>560</td>
+				<td>530</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>540</td>
+				<td>580</td>
+				<td>650</td>
+				<td>710</td>
+				<td>750</td>
+				<td>770</td>
+				<td>760</td>
+				<td>770</td>
+				<td>760</td>
+				<td>750</td>
+				<td>750</td>
+				<td>760</td>
+				<td>760</td>
+				<td>770</td>
+				<td>770</td>
+				<td>740</td>
+				<td>700</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170820</td>
+				<td>590</td>
+				<td>550</td>
+				<td>520</td>
+				<td>500</td>
+				<td>490</td>
+				<td>500</td>
+				<td>520</td>
+				<td>550</td>
+				<td>590</td>
+				<td>640</td>
+				<td>660</td>
+				<td>670</td>
+				<td>680</td>
+				<td>690</td>
+				<td>680</td>
+				<td>680</td>
+				<td>680</td>
+				<td>700</td>
+				<td>710</td>
+				<td>720</td>
+				<td>720</td>
+				<td>700</td>
+				<td>660</td>
+				<td>620</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170821</td>
+				<td>580</td>
+				<td>540</td>
+				<td>520</td>
+				<td>500</td>
+				<td>490</td>
+				<td>500</td>
+				<td>540</td>
+				<td>600</td>
+				<td>700</td>
+				<td>770</td>
+				<td>800</td>
+				<td>820</td>
+				<td>810</td>
+				<td>830</td>
+				<td>820</td>
+				<td>820</td>
+				<td>820</td>
+				<td>820</td>
+				<td>810</td>
+				<td>810</td>
+				<td>810</td>
+				<td>770</td>
+				<td>710</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170822</td>
+				<td>550</td>
+				<td>520</td>
+				<td>500</td>
+				<td>480</td>
+				<td>480</td>
+				<td>490</td>
+				<td>520</td>
+				<td>570</td>
+				<td>660</td>
+				<td>720</td>
+				<td>750</td>
+				<td>760</td>
+				<td>740</td>
+				<td>760</td>
+				<td>760</td>
+				<td>750</td>
+				<td>750</td>
+				<td>750</td>
+				<td>740</td>
+				<td>740</td>
+				<td>730</td>
+				<td>690</td>
+				<td>650</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170823</td>
+				<td>560</td>
+				<td>510</td>
+				<td>490</td>
+				<td>470</td>
+				<td>470</td>
+				<td>490</td>
+				<td>520</td>
+				<td>590</td>
+				<td>690</td>
+				<td>760</td>
+				<td>790</td>
+				<td>800</td>
+				<td>790</td>
+				<td>810</td>
+				<td>800</td>
+				<td>790</td>
+				<td>790</td>
+				<td>790</td>
+				<td>780</td>
+				<td>790</td>
+				<td>770</td>
+				<td>730</td>
+				<td>670</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170824</td>
+				<td>580</td>
+				<td>540</td>
+				<td>510</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>530</td>
+				<td>590</td>
+				<td>680</td>
+				<td>760</td>
+				<td>800</td>
+				<td>820</td>
+				<td>820</td>
+				<td>830</td>
+				<td>830</td>
+				<td>840</td>
+				<td>840</td>
+				<td>850</td>
+				<td>830</td>
+				<td>830</td>
+				<td>830</td>
+				<td>790</td>
+				<td>730</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170825</td>
+				<td>610</td>
+				<td>570</td>
+				<td>540</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>560</td>
+				<td>630</td>
+				<td>730</td>
+				<td>790</td>
+				<td>830</td>
+				<td>840</td>
+				<td>830</td>
+				<td>850</td>
+				<td>850</td>
+				<td>860</td>
+				<td>850</td>
+				<td>850</td>
+				<td>830</td>
+				<td>840</td>
+				<td>830</td>
+				<td>790</td>
+				<td>740</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170826</td>
+				<td>580</td>
+				<td>540</td>
+				<td>510</td>
+				<td>500</td>
+				<td>490</td>
+				<td>500</td>
+				<td>520</td>
+				<td>560</td>
+				<td>620</td>
+				<td>680</td>
+				<td>720</td>
+				<td>740</td>
+				<td>730</td>
+				<td>720</td>
+				<td>710</td>
+				<td>700</td>
+				<td>700</td>
+				<td>700</td>
+				<td>710</td>
+				<td>720</td>
+				<td>710</td>
+				<td>690</td>
+				<td>650</td>
+				<td>620</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170827</td>
+				<td>560</td>
+				<td>520</td>
+				<td>500</td>
+				<td>480</td>
+				<td>470</td>
+				<td>480</td>
+				<td>500</td>
+				<td>530</td>
+				<td>580</td>
+				<td>620</td>
+				<td>650</td>
+				<td>660</td>
+				<td>660</td>
+				<td>670</td>
+				<td>670</td>
+				<td>670</td>
+				<td>680</td>
+				<td>690</td>
+				<td>700</td>
+				<td>710</td>
+				<td>720</td>
+				<td>690</td>
+				<td>650</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170828</td>
+				<td>560</td>
+				<td>520</td>
+				<td>500</td>
+				<td>490</td>
+				<td>480</td>
+				<td>490</td>
+				<td>520</td>
+				<td>580</td>
+				<td>680</td>
+				<td>750</td>
+				<td>790</td>
+				<td>810</td>
+				<td>810</td>
+				<td>820</td>
+				<td>820</td>
+				<td>820</td>
+				<td>810</td>
+				<td>810</td>
+				<td>800</td>
+				<td>800</td>
+				<td>790</td>
+				<td>750</td>
+				<td>700</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170829</td>
+				<td>550</td>
+				<td>520</td>
+				<td>500</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>520</td>
+				<td>570</td>
+				<td>640</td>
+				<td>700</td>
+				<td>740</td>
+				<td>750</td>
+				<td>750</td>
+				<td>760</td>
+				<td>760</td>
+				<td>750</td>
+				<td>750</td>
+				<td>740</td>
+				<td>730</td>
+				<td>730</td>
+				<td>730</td>
+				<td>700</td>
+				<td>660</td>
+				<td>620</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170830</td>
+				<td>520</td>
+				<td>490</td>
+				<td>460</td>
+				<td>450</td>
+				<td>450</td>
+				<td>460</td>
+				<td>490</td>
+				<td>550</td>
+				<td>630</td>
+				<td>690</td>
+				<td>720</td>
+				<td>730</td>
+				<td>720</td>
+				<td>740</td>
+				<td>730</td>
+				<td>730</td>
+				<td>720</td>
+				<td>720</td>
+				<td>710</td>
+				<td>720</td>
+				<td>710</td>
+				<td>670</td>
+				<td>620</td>
+				<td>580</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170831</td>
+				<td>570</td>
+				<td>530</td>
+				<td>510</td>
+				<td>490</td>
+				<td>490</td>
+				<td>500</td>
+				<td>530</td>
+				<td>590</td>
+				<td>660</td>
+				<td>710</td>
+				<td>720</td>
+				<td>730</td>
+				<td>710</td>
+				<td>730</td>
+				<td>730</td>
+				<td>720</td>
+				<td>710</td>
+				<td>710</td>
+				<td>690</td>
+				<td>690</td>
+				<td>680</td>
+				<td>650</td>
+				<td>600</td>
+				<td>570</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170901</td>
+				<td>530</td>
+				<td>490</td>
+				<td>470</td>
+				<td>460</td>
+				<td>460</td>
+				<td>470</td>
+				<td>500</td>
+				<td>550</td>
+				<td>620</td>
+				<td>650</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+				<td>670</td>
+				<td>680</td>
+				<td>680</td>
+				<td>680</td>
+				<td>680</td>
+				<td>670</td>
+				<td>680</td>
+				<td>660</td>
+				<td>630</td>
+				<td>590</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170902</td>
+				<td>580</td>
+				<td>540</td>
+				<td>510</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>510</td>
+				<td>550</td>
+				<td>610</td>
+				<td>660</td>
+				<td>700</td>
+				<td>720</td>
+				<td>700</td>
+				<td>700</td>
+				<td>690</td>
+				<td>690</td>
+				<td>690</td>
+				<td>690</td>
+				<td>690</td>
+				<td>700</td>
+				<td>690</td>
+				<td>660</td>
+				<td>620</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170903</td>
+				<td>540</td>
+				<td>510</td>
+				<td>490</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>490</td>
+				<td>520</td>
+				<td>560</td>
+				<td>600</td>
+				<td>620</td>
+				<td>640</td>
+				<td>640</td>
+				<td>650</td>
+				<td>650</td>
+				<td>650</td>
+				<td>660</td>
+				<td>670</td>
+				<td>670</td>
+				<td>690</td>
+				<td>690</td>
+				<td>660</td>
+				<td>620</td>
+				<td>580</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170904</td>
+				<td>550</td>
+				<td>510</td>
+				<td>490</td>
+				<td>480</td>
+				<td>480</td>
+				<td>490</td>
+				<td>520</td>
+				<td>580</td>
+				<td>660</td>
+				<td>730</td>
+				<td>770</td>
+				<td>780</td>
+				<td>780</td>
+				<td>800</td>
+				<td>810</td>
+				<td>800</td>
+				<td>800</td>
+				<td>800</td>
+				<td>780</td>
+				<td>790</td>
+				<td>780</td>
+				<td>740</td>
+				<td>690</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170905</td>
+				<td>510</td>
+				<td>480</td>
+				<td>460</td>
+				<td>450</td>
+				<td>450</td>
+				<td>460</td>
+				<td>490</td>
+				<td>550</td>
+				<td>600</td>
+				<td>650</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+				<td>680</td>
+				<td>680</td>
+				<td>680</td>
+				<td>680</td>
+				<td>670</td>
+				<td>660</td>
+				<td>670</td>
+				<td>650</td>
+				<td>620</td>
+				<td>580</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170906</td>
+				<td>510</td>
+				<td>480</td>
+				<td>460</td>
+				<td>450</td>
+				<td>450</td>
+				<td>460</td>
+				<td>490</td>
+				<td>540</td>
+				<td>590</td>
+				<td>640</td>
+				<td>660</td>
+				<td>660</td>
+				<td>650</td>
+				<td>670</td>
+				<td>670</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+				<td>650</td>
+				<td>660</td>
+				<td>640</td>
+				<td>610</td>
+				<td>570</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170907</td>
+				<td>500</td>
+				<td>470</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>450</td>
+				<td>480</td>
+				<td>530</td>
+				<td>590</td>
+				<td>630</td>
+				<td>650</td>
+				<td>660</td>
+				<td>650</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+				<td>660</td>
+				<td>660</td>
+				<td>650</td>
+				<td>670</td>
+				<td>660</td>
+				<td>620</td>
+				<td>590</td>
+				<td>560</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170908</td>
+				<td>500</td>
+				<td>470</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>450</td>
+				<td>480</td>
+				<td>530</td>
+				<td>590</td>
+				<td>630</td>
+				<td>660</td>
+				<td>670</td>
+				<td>660</td>
+				<td>670</td>
+				<td>670</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+				<td>660</td>
+				<td>680</td>
+				<td>670</td>
+				<td>630</td>
+				<td>600</td>
+				<td>560</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170909</td>
+				<td>540</td>
+				<td>510</td>
+				<td>480</td>
+				<td>470</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>530</td>
+				<td>580</td>
+				<td>620</td>
+				<td>650</td>
+				<td>660</td>
+				<td>640</td>
+				<td>640</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>650</td>
+				<td>640</td>
+				<td>610</td>
+				<td>580</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170910</td>
+				<td>510</td>
+				<td>480</td>
+				<td>460</td>
+				<td>450</td>
+				<td>450</td>
+				<td>450</td>
+				<td>470</td>
+				<td>500</td>
+				<td>540</td>
+				<td>570</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>630</td>
+				<td>640</td>
+				<td>660</td>
+				<td>650</td>
+				<td>630</td>
+				<td>590</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170911</td>
+				<td>510</td>
+				<td>480</td>
+				<td>460</td>
+				<td>450</td>
+				<td>450</td>
+				<td>460</td>
+				<td>490</td>
+				<td>550</td>
+				<td>620</td>
+				<td>680</td>
+				<td>710</td>
+				<td>720</td>
+				<td>710</td>
+				<td>730</td>
+				<td>740</td>
+				<td>740</td>
+				<td>730</td>
+				<td>730</td>
+				<td>720</td>
+				<td>730</td>
+				<td>720</td>
+				<td>680</td>
+				<td>640</td>
+				<td>600</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170912</td>
+				<td>500</td>
+				<td>470</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>450</td>
+				<td>480</td>
+				<td>530</td>
+				<td>580</td>
+				<td>630</td>
+				<td>640</td>
+				<td>650</td>
+				<td>640</td>
+				<td>650</td>
+				<td>660</td>
+				<td>650</td>
+				<td>650</td>
+				<td>650</td>
+				<td>640</td>
+				<td>660</td>
+				<td>640</td>
+				<td>610</td>
+				<td>570</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170913</td>
+				<td>510</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>460</td>
+				<td>490</td>
+				<td>540</td>
+				<td>610</td>
+				<td>660</td>
+				<td>680</td>
+				<td>690</td>
+				<td>670</td>
+				<td>690</td>
+				<td>700</td>
+				<td>690</td>
+				<td>690</td>
+				<td>690</td>
+				<td>680</td>
+				<td>700</td>
+				<td>680</td>
+				<td>640</td>
+				<td>590</td>
+				<td>560</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170914</td>
+				<td>490</td>
+				<td>470</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>450</td>
+				<td>480</td>
+				<td>530</td>
+				<td>580</td>
+				<td>620</td>
+				<td>640</td>
+				<td>640</td>
+				<td>630</td>
+				<td>650</td>
+				<td>650</td>
+				<td>660</td>
+				<td>660</td>
+				<td>660</td>
+				<td>650</td>
+				<td>660</td>
+				<td>650</td>
+				<td>620</td>
+				<td>570</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170915</td>
+				<td>490</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>450</td>
+				<td>470</td>
+				<td>510</td>
+				<td>560</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>640</td>
+				<td>620</td>
+				<td>590</td>
+				<td>560</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170916</td>
+				<td>520</td>
+				<td>490</td>
+				<td>470</td>
+				<td>450</td>
+				<td>450</td>
+				<td>460</td>
+				<td>480</td>
+				<td>510</td>
+				<td>560</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>640</td>
+				<td>630</td>
+				<td>600</td>
+				<td>570</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170917</td>
+				<td>510</td>
+				<td>480</td>
+				<td>460</td>
+				<td>450</td>
+				<td>450</td>
+				<td>460</td>
+				<td>470</td>
+				<td>490</td>
+				<td>530</td>
+				<td>550</td>
+				<td>580</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>620</td>
+				<td>640</td>
+				<td>630</td>
+				<td>600</td>
+				<td>570</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170918</td>
+				<td>500</td>
+				<td>470</td>
+				<td>460</td>
+				<td>450</td>
+				<td>450</td>
+				<td>460</td>
+				<td>490</td>
+				<td>550</td>
+				<td>620</td>
+				<td>670</td>
+				<td>690</td>
+				<td>700</td>
+				<td>690</td>
+				<td>700</td>
+				<td>700</td>
+				<td>700</td>
+				<td>680</td>
+				<td>680</td>
+				<td>670</td>
+				<td>680</td>
+				<td>670</td>
+				<td>640</td>
+				<td>600</td>
+				<td>560</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170919</td>
+				<td>490</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>440</td>
+				<td>450</td>
+				<td>480</td>
+				<td>530</td>
+				<td>580</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>620</td>
+				<td>600</td>
+				<td>580</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170920</td>
+				<td>500</td>
+				<td>470</td>
+				<td>440</td>
+				<td>430</td>
+				<td>440</td>
+				<td>450</td>
+				<td>480</td>
+				<td>530</td>
+				<td>590</td>
+				<td>620</td>
+				<td>630</td>
+				<td>630</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>620</td>
+				<td>630</td>
+				<td>610</td>
+				<td>590</td>
+				<td>550</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170921</td>
+				<td>480</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>470</td>
+				<td>510</td>
+				<td>560</td>
+				<td>600</td>
+				<td>610</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>620</td>
+				<td>630</td>
+				<td>610</td>
+				<td>590</td>
+				<td>550</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170922</td>
+				<td>490</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>440</td>
+				<td>450</td>
+				<td>470</td>
+				<td>520</td>
+				<td>560</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>630</td>
+				<td>620</td>
+				<td>590</td>
+				<td>560</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170923</td>
+				<td>490</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>490</td>
+				<td>530</td>
+				<td>560</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170924</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>420</td>
+				<td>420</td>
+				<td>440</td>
+				<td>450</td>
+				<td>470</td>
+				<td>500</td>
+				<td>520</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170925</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>450</td>
+				<td>470</td>
+				<td>520</td>
+				<td>580</td>
+				<td>610</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+				<td>630</td>
+				<td>630</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>640</td>
+				<td>620</td>
+				<td>590</td>
+				<td>560</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170926</td>
+				<td>480</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>470</td>
+				<td>520</td>
+				<td>570</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+				<td>590</td>
+				<td>560</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170927</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>470</td>
+				<td>520</td>
+				<td>560</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>630</td>
+				<td>610</td>
+				<td>580</td>
+				<td>550</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170928</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>470</td>
+				<td>520</td>
+				<td>570</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>630</td>
+				<td>610</td>
+				<td>590</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170929</td>
+				<td>480</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>470</td>
+				<td>520</td>
+				<td>570</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+				<td>590</td>
+				<td>560</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20170930</td>
+				<td>490</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>490</td>
+				<td>530</td>
+				<td>560</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171001</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>420</td>
+				<td>420</td>
+				<td>440</td>
+				<td>450</td>
+				<td>470</td>
+				<td>500</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>580</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171002</td>
+				<td>490</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>450</td>
+				<td>470</td>
+				<td>520</td>
+				<td>570</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>630</td>
+				<td>620</td>
+				<td>590</td>
+				<td>560</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171003</td>
+				<td>490</td>
+				<td>450</td>
+				<td>420</td>
+				<td>410</td>
+				<td>410</td>
+				<td>420</td>
+				<td>440</td>
+				<td>480</td>
+				<td>500</td>
+				<td>530</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>580</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>540</td>
+				<td>500</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171004</td>
+				<td>470</td>
+				<td>430</td>
+				<td>410</td>
+				<td>400</td>
+				<td>390</td>
+				<td>410</td>
+				<td>440</td>
+				<td>470</td>
+				<td>480</td>
+				<td>470</td>
+				<td>460</td>
+				<td>470</td>
+				<td>470</td>
+				<td>480</td>
+				<td>490</td>
+				<td>490</td>
+				<td>500</td>
+				<td>510</td>
+				<td>530</td>
+				<td>560</td>
+				<td>550</td>
+				<td>540</td>
+				<td>520</td>
+				<td>500</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171005</td>
+				<td>450</td>
+				<td>420</td>
+				<td>400</td>
+				<td>390</td>
+				<td>390</td>
+				<td>410</td>
+				<td>420</td>
+				<td>450</td>
+				<td>480</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>570</td>
+				<td>600</td>
+				<td>600</td>
+				<td>580</td>
+				<td>560</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171006</td>
+				<td>460</td>
+				<td>420</td>
+				<td>400</td>
+				<td>380</td>
+				<td>390</td>
+				<td>400</td>
+				<td>420</td>
+				<td>460</td>
+				<td>490</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>580</td>
+				<td>600</td>
+				<td>590</td>
+				<td>560</td>
+				<td>530</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171007</td>
+				<td>480</td>
+				<td>450</td>
+				<td>430</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>450</td>
+				<td>490</td>
+				<td>530</td>
+				<td>550</td>
+				<td>570</td>
+				<td>570</td>
+				<td>560</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>530</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171008</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>420</td>
+				<td>420</td>
+				<td>440</td>
+				<td>450</td>
+				<td>470</td>
+				<td>500</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>580</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171009</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>450</td>
+				<td>480</td>
+				<td>530</td>
+				<td>590</td>
+				<td>620</td>
+				<td>640</td>
+				<td>640</td>
+				<td>630</td>
+				<td>650</td>
+				<td>650</td>
+				<td>650</td>
+				<td>640</td>
+				<td>640</td>
+				<td>640</td>
+				<td>650</td>
+				<td>630</td>
+				<td>600</td>
+				<td>570</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171010</td>
+				<td>500</td>
+				<td>470</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>450</td>
+				<td>480</td>
+				<td>530</td>
+				<td>580</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>570</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171011</td>
+				<td>500</td>
+				<td>470</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>460</td>
+				<td>480</td>
+				<td>530</td>
+				<td>580</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>600</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+				<td>620</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>580</td>
+				<td>550</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171012</td>
+				<td>470</td>
+				<td>440</td>
+				<td>430</td>
+				<td>420</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>490</td>
+				<td>530</td>
+				<td>560</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>580</td>
+				<td>550</td>
+				<td>520</td>
+				<td>500</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171013</td>
+				<td>480</td>
+				<td>450</td>
+				<td>430</td>
+				<td>420</td>
+				<td>430</td>
+				<td>440</td>
+				<td>470</td>
+				<td>500</td>
+				<td>560</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>580</td>
+				<td>550</td>
+				<td>530</td>
+				<td>500</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171014</td>
+				<td>480</td>
+				<td>450</td>
+				<td>430</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>490</td>
+				<td>520</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171015</td>
+				<td>470</td>
+				<td>440</td>
+				<td>430</td>
+				<td>420</td>
+				<td>420</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>480</td>
+				<td>500</td>
+				<td>510</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>560</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+				<td>500</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171016</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>420</td>
+				<td>420</td>
+				<td>430</td>
+				<td>450</td>
+				<td>480</td>
+				<td>520</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>600</td>
+				<td>600</td>
+				<td>580</td>
+				<td>560</td>
+				<td>530</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171017</td>
+				<td>470</td>
+				<td>450</td>
+				<td>430</td>
+				<td>420</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>500</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>550</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>590</td>
+				<td>590</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171018</td>
+				<td>470</td>
+				<td>450</td>
+				<td>430</td>
+				<td>420</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>500</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>540</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171019</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>450</td>
+				<td>470</td>
+				<td>510</td>
+				<td>550</td>
+				<td>570</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>580</td>
+				<td>600</td>
+				<td>600</td>
+				<td>580</td>
+				<td>560</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171020</td>
+				<td>490</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>450</td>
+				<td>480</td>
+				<td>510</td>
+				<td>550</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171021</td>
+				<td>480</td>
+				<td>450</td>
+				<td>430</td>
+				<td>420</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>490</td>
+				<td>520</td>
+				<td>540</td>
+				<td>560</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>590</td>
+				<td>570</td>
+				<td>550</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171022</td>
+				<td>470</td>
+				<td>450</td>
+				<td>430</td>
+				<td>420</td>
+				<td>420</td>
+				<td>440</td>
+				<td>450</td>
+				<td>470</td>
+				<td>490</td>
+				<td>500</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>560</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171023</td>
+				<td>470</td>
+				<td>450</td>
+				<td>430</td>
+				<td>420</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>490</td>
+				<td>520</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>550</td>
+				<td>530</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171024</td>
+				<td>480</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>440</td>
+				<td>450</td>
+				<td>480</td>
+				<td>500</td>
+				<td>530</td>
+				<td>540</td>
+				<td>550</td>
+				<td>540</td>
+				<td>520</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>560</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171025</td>
+				<td>490</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>440</td>
+				<td>450</td>
+				<td>480</td>
+				<td>510</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>570</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171026</td>
+				<td>480</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>450</td>
+				<td>480</td>
+				<td>510</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171027</td>
+				<td>490</td>
+				<td>460</td>
+				<td>440</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>480</td>
+				<td>510</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>520</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>570</td>
+				<td>600</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171028</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>490</td>
+				<td>510</td>
+				<td>530</td>
+				<td>540</td>
+				<td>530</td>
+				<td>520</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>550</td>
+				<td>570</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171029</td>
+				<td>480</td>
+				<td>450</td>
+				<td>440</td>
+				<td>430</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>470</td>
+				<td>490</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>530</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>540</td>
+				<td>530</td>
+				<td>510</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171030</td>
+				<td>470</td>
+				<td>450</td>
+				<td>430</td>
+				<td>420</td>
+				<td>430</td>
+				<td>440</td>
+				<td>460</td>
+				<td>490</td>
+				<td>520</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171031</td>
+				<td>490</td>
+				<td>460</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>460</td>
+				<td>490</td>
+				<td>510</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>540</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>600</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171101</td>
+				<td>490</td>
+				<td>460</td>
+				<td>450</td>
+				<td>440</td>
+				<td>440</td>
+				<td>460</td>
+				<td>490</td>
+				<td>520</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>550</td>
+				<td>530</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171102</td>
+				<td>500</td>
+				<td>470</td>
+				<td>450</td>
+				<td>440</td>
+				<td>450</td>
+				<td>470</td>
+				<td>490</td>
+				<td>520</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>550</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171103</td>
+				<td>500</td>
+				<td>480</td>
+				<td>460</td>
+				<td>450</td>
+				<td>460</td>
+				<td>470</td>
+				<td>500</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171104</td>
+				<td>530</td>
+				<td>500</td>
+				<td>490</td>
+				<td>480</td>
+				<td>480</td>
+				<td>500</td>
+				<td>520</td>
+				<td>540</td>
+				<td>570</td>
+				<td>580</td>
+				<td>590</td>
+				<td>580</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171105</td>
+				<td>520</td>
+				<td>490</td>
+				<td>470</td>
+				<td>460</td>
+				<td>460</td>
+				<td>480</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>570</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171106</td>
+				<td>510</td>
+				<td>480</td>
+				<td>460</td>
+				<td>460</td>
+				<td>460</td>
+				<td>480</td>
+				<td>500</td>
+				<td>530</td>
+				<td>560</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>590</td>
+				<td>570</td>
+				<td>560</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171107</td>
+				<td>510</td>
+				<td>480</td>
+				<td>460</td>
+				<td>460</td>
+				<td>460</td>
+				<td>480</td>
+				<td>510</td>
+				<td>530</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>570</td>
+				<td>600</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171108</td>
+				<td>510</td>
+				<td>490</td>
+				<td>470</td>
+				<td>460</td>
+				<td>470</td>
+				<td>490</td>
+				<td>510</td>
+				<td>530</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>560</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>600</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+				<td>570</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171109</td>
+				<td>510</td>
+				<td>490</td>
+				<td>470</td>
+				<td>460</td>
+				<td>460</td>
+				<td>490</td>
+				<td>510</td>
+				<td>530</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171110</td>
+				<td>510</td>
+				<td>490</td>
+				<td>470</td>
+				<td>460</td>
+				<td>470</td>
+				<td>490</td>
+				<td>500</td>
+				<td>530</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>580</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171111</td>
+				<td>530</td>
+				<td>510</td>
+				<td>490</td>
+				<td>490</td>
+				<td>490</td>
+				<td>500</td>
+				<td>520</td>
+				<td>540</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>550</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>590</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+				<td>570</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171112</td>
+				<td>530</td>
+				<td>500</td>
+				<td>490</td>
+				<td>470</td>
+				<td>470</td>
+				<td>490</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>520</td>
+				<td>510</td>
+				<td>510</td>
+				<td>510</td>
+				<td>520</td>
+				<td>530</td>
+				<td>560</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171113</td>
+				<td>520</td>
+				<td>490</td>
+				<td>470</td>
+				<td>470</td>
+				<td>470</td>
+				<td>490</td>
+				<td>510</td>
+				<td>540</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>550</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>600</td>
+				<td>630</td>
+				<td>620</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171114</td>
+				<td>510</td>
+				<td>490</td>
+				<td>470</td>
+				<td>460</td>
+				<td>460</td>
+				<td>480</td>
+				<td>510</td>
+				<td>540</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>550</td>
+				<td>540</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171115</td>
+				<td>540</td>
+				<td>510</td>
+				<td>490</td>
+				<td>480</td>
+				<td>480</td>
+				<td>500</td>
+				<td>530</td>
+				<td>560</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>630</td>
+				<td>640</td>
+				<td>640</td>
+				<td>620</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171116</td>
+				<td>540</td>
+				<td>510</td>
+				<td>490</td>
+				<td>480</td>
+				<td>490</td>
+				<td>510</td>
+				<td>540</td>
+				<td>570</td>
+				<td>600</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>580</td>
+				<td>600</td>
+				<td>630</td>
+				<td>660</td>
+				<td>650</td>
+				<td>630</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171117</td>
+				<td>530</td>
+				<td>500</td>
+				<td>490</td>
+				<td>480</td>
+				<td>480</td>
+				<td>500</td>
+				<td>540</td>
+				<td>570</td>
+				<td>580</td>
+				<td>590</td>
+				<td>580</td>
+				<td>560</td>
+				<td>550</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>590</td>
+				<td>630</td>
+				<td>640</td>
+				<td>640</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>580</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171118</td>
+				<td>550</td>
+				<td>530</td>
+				<td>510</td>
+				<td>500</td>
+				<td>510</td>
+				<td>520</td>
+				<td>540</td>
+				<td>550</td>
+				<td>580</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>570</td>
+				<td>570</td>
+				<td>570</td>
+				<td>580</td>
+				<td>610</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171119</td>
+				<td>550</td>
+				<td>520</td>
+				<td>510</td>
+				<td>500</td>
+				<td>500</td>
+				<td>510</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>540</td>
+				<td>580</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171120</td>
+				<td>540</td>
+				<td>520</td>
+				<td>500</td>
+				<td>490</td>
+				<td>500</td>
+				<td>510</td>
+				<td>540</td>
+				<td>570</td>
+				<td>590</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>590</td>
+				<td>600</td>
+				<td>630</td>
+				<td>660</td>
+				<td>650</td>
+				<td>640</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171121</td>
+				<td>570</td>
+				<td>540</td>
+				<td>520</td>
+				<td>510</td>
+				<td>510</td>
+				<td>530</td>
+				<td>550</td>
+				<td>590</td>
+				<td>630</td>
+				<td>640</td>
+				<td>630</td>
+				<td>620</td>
+				<td>600</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>640</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+				<td>640</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171122</td>
+				<td>560</td>
+				<td>530</td>
+				<td>500</td>
+				<td>490</td>
+				<td>500</td>
+				<td>510</td>
+				<td>550</td>
+				<td>580</td>
+				<td>630</td>
+				<td>640</td>
+				<td>630</td>
+				<td>620</td>
+				<td>600</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>640</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+				<td>650</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171123</td>
+				<td>580</td>
+				<td>540</td>
+				<td>520</td>
+				<td>510</td>
+				<td>520</td>
+				<td>540</td>
+				<td>570</td>
+				<td>600</td>
+				<td>630</td>
+				<td>640</td>
+				<td>630</td>
+				<td>620</td>
+				<td>590</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>630</td>
+				<td>670</td>
+				<td>680</td>
+				<td>670</td>
+				<td>660</td>
+				<td>640</td>
+				<td>630</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171124</td>
+				<td>590</td>
+				<td>550</td>
+				<td>530</td>
+				<td>520</td>
+				<td>520</td>
+				<td>540</td>
+				<td>570</td>
+				<td>610</td>
+				<td>650</td>
+				<td>660</td>
+				<td>660</td>
+				<td>650</td>
+				<td>620</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>650</td>
+				<td>680</td>
+				<td>700</td>
+				<td>690</td>
+				<td>670</td>
+				<td>650</td>
+				<td>640</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171125</td>
+				<td>590</td>
+				<td>570</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>590</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>620</td>
+				<td>640</td>
+				<td>660</td>
+				<td>660</td>
+				<td>650</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171126</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+				<td>510</td>
+				<td>520</td>
+				<td>530</td>
+				<td>540</td>
+				<td>540</td>
+				<td>550</td>
+				<td>550</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>550</td>
+				<td>580</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>590</td>
+				<td>580</td>
+				<td>570</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171127</td>
+				<td>580</td>
+				<td>550</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>550</td>
+				<td>580</td>
+				<td>610</td>
+				<td>640</td>
+				<td>650</td>
+				<td>650</td>
+				<td>640</td>
+				<td>610</td>
+				<td>620</td>
+				<td>630</td>
+				<td>620</td>
+				<td>640</td>
+				<td>670</td>
+				<td>690</td>
+				<td>680</td>
+				<td>670</td>
+				<td>650</td>
+				<td>640</td>
+				<td>620</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171128</td>
+				<td>590</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+				<td>530</td>
+				<td>550</td>
+				<td>580</td>
+				<td>610</td>
+				<td>650</td>
+				<td>660</td>
+				<td>650</td>
+				<td>630</td>
+				<td>610</td>
+				<td>630</td>
+				<td>630</td>
+				<td>640</td>
+				<td>660</td>
+				<td>700</td>
+				<td>710</td>
+				<td>690</td>
+				<td>670</td>
+				<td>650</td>
+				<td>640</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171129</td>
+				<td>590</td>
+				<td>560</td>
+				<td>540</td>
+				<td>520</td>
+				<td>530</td>
+				<td>550</td>
+				<td>580</td>
+				<td>600</td>
+				<td>640</td>
+				<td>650</td>
+				<td>650</td>
+				<td>630</td>
+				<td>610</td>
+				<td>620</td>
+				<td>630</td>
+				<td>630</td>
+				<td>650</td>
+				<td>690</td>
+				<td>700</td>
+				<td>690</td>
+				<td>670</td>
+				<td>650</td>
+				<td>640</td>
+				<td>630</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171130</td>
+				<td>600</td>
+				<td>570</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>560</td>
+				<td>590</td>
+				<td>610</td>
+				<td>640</td>
+				<td>650</td>
+				<td>660</td>
+				<td>650</td>
+				<td>630</td>
+				<td>650</td>
+				<td>640</td>
+				<td>630</td>
+				<td>640</td>
+				<td>670</td>
+				<td>680</td>
+				<td>670</td>
+				<td>650</td>
+				<td>630</td>
+				<td>620</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171201</td>
+				<td>590</td>
+				<td>560</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>550</td>
+				<td>580</td>
+				<td>610</td>
+				<td>650</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+				<td>640</td>
+				<td>650</td>
+				<td>650</td>
+				<td>660</td>
+				<td>680</td>
+				<td>710</td>
+				<td>720</td>
+				<td>710</td>
+				<td>690</td>
+				<td>660</td>
+				<td>650</td>
+				<td>650</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171202</td>
+				<td>600</td>
+				<td>570</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>600</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>620</td>
+				<td>660</td>
+				<td>680</td>
+				<td>680</td>
+				<td>670</td>
+				<td>650</td>
+				<td>640</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171203</td>
+				<td>580</td>
+				<td>550</td>
+				<td>530</td>
+				<td>510</td>
+				<td>520</td>
+				<td>530</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>540</td>
+				<td>560</td>
+				<td>610</td>
+				<td>650</td>
+				<td>650</td>
+				<td>640</td>
+				<td>630</td>
+				<td>620</td>
+				<td>610</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171204</td>
+				<td>560</td>
+				<td>530</td>
+				<td>510</td>
+				<td>500</td>
+				<td>510</td>
+				<td>530</td>
+				<td>560</td>
+				<td>590</td>
+				<td>620</td>
+				<td>630</td>
+				<td>630</td>
+				<td>610</td>
+				<td>580</td>
+				<td>590</td>
+				<td>600</td>
+				<td>600</td>
+				<td>620</td>
+				<td>660</td>
+				<td>680</td>
+				<td>670</td>
+				<td>660</td>
+				<td>640</td>
+				<td>630</td>
+				<td>620</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171205</td>
+				<td>610</td>
+				<td>580</td>
+				<td>560</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>600</td>
+				<td>630</td>
+				<td>680</td>
+				<td>690</td>
+				<td>690</td>
+				<td>670</td>
+				<td>640</td>
+				<td>660</td>
+				<td>650</td>
+				<td>660</td>
+				<td>680</td>
+				<td>730</td>
+				<td>740</td>
+				<td>730</td>
+				<td>710</td>
+				<td>690</td>
+				<td>680</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171206</td>
+				<td>610</td>
+				<td>570</td>
+				<td>550</td>
+				<td>540</td>
+				<td>540</td>
+				<td>560</td>
+				<td>590</td>
+				<td>630</td>
+				<td>690</td>
+				<td>700</td>
+				<td>690</td>
+				<td>680</td>
+				<td>640</td>
+				<td>660</td>
+				<td>660</td>
+				<td>660</td>
+				<td>690</td>
+				<td>740</td>
+				<td>750</td>
+				<td>740</td>
+				<td>720</td>
+				<td>700</td>
+				<td>690</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171207</td>
+				<td>620</td>
+				<td>580</td>
+				<td>560</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>610</td>
+				<td>650</td>
+				<td>700</td>
+				<td>720</td>
+				<td>710</td>
+				<td>700</td>
+				<td>670</td>
+				<td>670</td>
+				<td>680</td>
+				<td>680</td>
+				<td>710</td>
+				<td>750</td>
+				<td>770</td>
+				<td>750</td>
+				<td>730</td>
+				<td>710</td>
+				<td>690</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171208</td>
+				<td>630</td>
+				<td>600</td>
+				<td>580</td>
+				<td>570</td>
+				<td>570</td>
+				<td>590</td>
+				<td>620</td>
+				<td>660</td>
+				<td>710</td>
+				<td>730</td>
+				<td>720</td>
+				<td>700</td>
+				<td>660</td>
+				<td>680</td>
+				<td>680</td>
+				<td>670</td>
+				<td>690</td>
+				<td>750</td>
+				<td>760</td>
+				<td>750</td>
+				<td>730</td>
+				<td>700</td>
+				<td>690</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171209</td>
+				<td>630</td>
+				<td>610</td>
+				<td>590</td>
+				<td>590</td>
+				<td>590</td>
+				<td>600</td>
+				<td>620</td>
+				<td>630</td>
+				<td>640</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>610</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>640</td>
+				<td>670</td>
+				<td>690</td>
+				<td>680</td>
+				<td>670</td>
+				<td>660</td>
+				<td>660</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171210</td>
+				<td>610</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>580</td>
+				<td>570</td>
+				<td>560</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>570</td>
+				<td>620</td>
+				<td>660</td>
+				<td>660</td>
+				<td>650</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171211</td>
+				<td>610</td>
+				<td>590</td>
+				<td>570</td>
+				<td>560</td>
+				<td>570</td>
+				<td>580</td>
+				<td>610</td>
+				<td>640</td>
+				<td>670</td>
+				<td>680</td>
+				<td>680</td>
+				<td>670</td>
+				<td>650</td>
+				<td>670</td>
+				<td>670</td>
+				<td>670</td>
+				<td>690</td>
+				<td>730</td>
+				<td>740</td>
+				<td>730</td>
+				<td>720</td>
+				<td>700</td>
+				<td>690</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171212</td>
+				<td>640</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>590</td>
+				<td>610</td>
+				<td>640</td>
+				<td>690</td>
+				<td>730</td>
+				<td>740</td>
+				<td>740</td>
+				<td>730</td>
+				<td>700</td>
+				<td>720</td>
+				<td>720</td>
+				<td>720</td>
+				<td>740</td>
+				<td>790</td>
+				<td>790</td>
+				<td>770</td>
+				<td>740</td>
+				<td>710</td>
+				<td>700</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171213</td>
+				<td>640</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>590</td>
+				<td>610</td>
+				<td>640</td>
+				<td>690</td>
+				<td>730</td>
+				<td>740</td>
+				<td>740</td>
+				<td>730</td>
+				<td>700</td>
+				<td>720</td>
+				<td>720</td>
+				<td>720</td>
+				<td>740</td>
+				<td>790</td>
+				<td>780</td>
+				<td>760</td>
+				<td>740</td>
+				<td>710</td>
+				<td>700</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171214</td>
+				<td>650</td>
+				<td>620</td>
+				<td>600</td>
+				<td>590</td>
+				<td>600</td>
+				<td>610</td>
+				<td>630</td>
+				<td>680</td>
+				<td>740</td>
+				<td>760</td>
+				<td>750</td>
+				<td>740</td>
+				<td>710</td>
+				<td>720</td>
+				<td>720</td>
+				<td>720</td>
+				<td>740</td>
+				<td>790</td>
+				<td>790</td>
+				<td>770</td>
+				<td>750</td>
+				<td>720</td>
+				<td>710</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171215</td>
+				<td>660</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>610</td>
+				<td>620</td>
+				<td>650</td>
+				<td>690</td>
+				<td>750</td>
+				<td>760</td>
+				<td>760</td>
+				<td>750</td>
+				<td>710</td>
+				<td>730</td>
+				<td>720</td>
+				<td>720</td>
+				<td>750</td>
+				<td>790</td>
+				<td>790</td>
+				<td>770</td>
+				<td>750</td>
+				<td>730</td>
+				<td>690</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171216</td>
+				<td>650</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>610</td>
+				<td>620</td>
+				<td>630</td>
+				<td>640</td>
+				<td>650</td>
+				<td>650</td>
+				<td>650</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>650</td>
+				<td>680</td>
+				<td>690</td>
+				<td>690</td>
+				<td>680</td>
+				<td>670</td>
+				<td>670</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171217</td>
+				<td>670</td>
+				<td>650</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+				<td>630</td>
+				<td>640</td>
+				<td>650</td>
+				<td>650</td>
+				<td>660</td>
+				<td>640</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>640</td>
+				<td>690</td>
+				<td>720</td>
+				<td>710</td>
+				<td>710</td>
+				<td>690</td>
+				<td>690</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171218</td>
+				<td>650</td>
+				<td>630</td>
+				<td>620</td>
+				<td>610</td>
+				<td>620</td>
+				<td>630</td>
+				<td>660</td>
+				<td>690</td>
+				<td>710</td>
+				<td>720</td>
+				<td>720</td>
+				<td>710</td>
+				<td>690</td>
+				<td>700</td>
+				<td>710</td>
+				<td>720</td>
+				<td>740</td>
+				<td>770</td>
+				<td>780</td>
+				<td>770</td>
+				<td>750</td>
+				<td>730</td>
+				<td>720</td>
+				<td>720</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171219</td>
+				<td>670</td>
+				<td>640</td>
+				<td>620</td>
+				<td>610</td>
+				<td>620</td>
+				<td>630</td>
+				<td>660</td>
+				<td>710</td>
+				<td>750</td>
+				<td>740</td>
+				<td>730</td>
+				<td>720</td>
+				<td>680</td>
+				<td>690</td>
+				<td>700</td>
+				<td>710</td>
+				<td>740</td>
+				<td>780</td>
+				<td>780</td>
+				<td>770</td>
+				<td>750</td>
+				<td>720</td>
+				<td>710</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171220</td>
+				<td>670</td>
+				<td>640</td>
+				<td>620</td>
+				<td>610</td>
+				<td>610</td>
+				<td>630</td>
+				<td>660</td>
+				<td>710</td>
+				<td>750</td>
+				<td>760</td>
+				<td>760</td>
+				<td>740</td>
+				<td>710</td>
+				<td>730</td>
+				<td>720</td>
+				<td>720</td>
+				<td>750</td>
+				<td>790</td>
+				<td>800</td>
+				<td>790</td>
+				<td>770</td>
+				<td>730</td>
+				<td>720</td>
+				<td>710</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171221</td>
+				<td>650</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>580</td>
+				<td>600</td>
+				<td>630</td>
+				<td>670</td>
+				<td>730</td>
+				<td>720</td>
+				<td>720</td>
+				<td>710</td>
+				<td>680</td>
+				<td>690</td>
+				<td>700</td>
+				<td>700</td>
+				<td>740</td>
+				<td>790</td>
+				<td>800</td>
+				<td>790</td>
+				<td>760</td>
+				<td>730</td>
+				<td>720</td>
+				<td>710</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171222</td>
+				<td>680</td>
+				<td>640</td>
+				<td>630</td>
+				<td>610</td>
+				<td>610</td>
+				<td>630</td>
+				<td>660</td>
+				<td>700</td>
+				<td>740</td>
+				<td>730</td>
+				<td>710</td>
+				<td>690</td>
+				<td>660</td>
+				<td>680</td>
+				<td>680</td>
+				<td>670</td>
+				<td>710</td>
+				<td>770</td>
+				<td>800</td>
+				<td>790</td>
+				<td>770</td>
+				<td>740</td>
+				<td>720</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171223</td>
+				<td>620</td>
+				<td>580</td>
+				<td>560</td>
+				<td>550</td>
+				<td>550</td>
+				<td>570</td>
+				<td>590</td>
+				<td>610</td>
+				<td>640</td>
+				<td>650</td>
+				<td>650</td>
+				<td>640</td>
+				<td>610</td>
+				<td>610</td>
+				<td>610</td>
+				<td>620</td>
+				<td>660</td>
+				<td>710</td>
+				<td>720</td>
+				<td>710</td>
+				<td>690</td>
+				<td>680</td>
+				<td>670</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171224</td>
+				<td>620</td>
+				<td>590</td>
+				<td>570</td>
+				<td>550</td>
+				<td>560</td>
+				<td>570</td>
+				<td>590</td>
+				<td>590</td>
+				<td>580</td>
+				<td>580</td>
+				<td>560</td>
+				<td>540</td>
+				<td>540</td>
+				<td>530</td>
+				<td>530</td>
+				<td>530</td>
+				<td>560</td>
+				<td>630</td>
+				<td>650</td>
+				<td>650</td>
+				<td>620</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171225</td>
+				<td>680</td>
+				<td>650</td>
+				<td>620</td>
+				<td>600</td>
+				<td>600</td>
+				<td>620</td>
+				<td>640</td>
+				<td>670</td>
+				<td>680</td>
+				<td>700</td>
+				<td>670</td>
+				<td>650</td>
+				<td>630</td>
+				<td>630</td>
+				<td>640</td>
+				<td>630</td>
+				<td>670</td>
+				<td>730</td>
+				<td>770</td>
+				<td>760</td>
+				<td>720</td>
+				<td>730</td>
+				<td>710</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171226</td>
+				<td>680</td>
+				<td>650</td>
+				<td>630</td>
+				<td>620</td>
+				<td>620</td>
+				<td>640</td>
+				<td>670</td>
+				<td>710</td>
+				<td>750</td>
+				<td>760</td>
+				<td>750</td>
+				<td>740</td>
+				<td>720</td>
+				<td>740</td>
+				<td>740</td>
+				<td>740</td>
+				<td>760</td>
+				<td>790</td>
+				<td>790</td>
+				<td>780</td>
+				<td>760</td>
+				<td>740</td>
+				<td>730</td>
+				<td>720</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171227</td>
+				<td>680</td>
+				<td>640</td>
+				<td>620</td>
+				<td>620</td>
+				<td>620</td>
+				<td>640</td>
+				<td>650</td>
+				<td>690</td>
+				<td>720</td>
+				<td>710</td>
+				<td>690</td>
+				<td>670</td>
+				<td>640</td>
+				<td>650</td>
+				<td>640</td>
+				<td>640</td>
+				<td>670</td>
+				<td>720</td>
+				<td>770</td>
+				<td>770</td>
+				<td>750</td>
+				<td>730</td>
+				<td>710</td>
+				<td>710</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171228</td>
+				<td>690</td>
+				<td>640</td>
+				<td>630</td>
+				<td>630</td>
+				<td>630</td>
+				<td>660</td>
+				<td>650</td>
+				<td>700</td>
+				<td>730</td>
+				<td>700</td>
+				<td>690</td>
+				<td>660</td>
+				<td>620</td>
+				<td>630</td>
+				<td>630</td>
+				<td>620</td>
+				<td>650</td>
+				<td>710</td>
+				<td>790</td>
+				<td>780</td>
+				<td>770</td>
+				<td>750</td>
+				<td>740</td>
+				<td>730</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171229</td>
+				<td>670</td>
+				<td>630</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>620</td>
+				<td>650</td>
+				<td>690</td>
+				<td>730</td>
+				<td>710</td>
+				<td>700</td>
+				<td>680</td>
+				<td>650</td>
+				<td>660</td>
+				<td>650</td>
+				<td>650</td>
+				<td>680</td>
+				<td>760</td>
+				<td>790</td>
+				<td>780</td>
+				<td>770</td>
+				<td>740</td>
+				<td>730</td>
+				<td>720</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171230</td>
+				<td>610</td>
+				<td>580</td>
+				<td>550</td>
+				<td>540</td>
+				<td>550</td>
+				<td>560</td>
+				<td>580</td>
+				<td>600</td>
+				<td>630</td>
+				<td>640</td>
+				<td>640</td>
+				<td>630</td>
+				<td>600</td>
+				<td>600</td>
+				<td>600</td>
+				<td>620</td>
+				<td>660</td>
+				<td>700</td>
+				<td>710</td>
+				<td>700</td>
+				<td>690</td>
+				<td>670</td>
+				<td>670</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20171231</td>
+				<td>650</td>
+				<td>610</td>
+				<td>590</td>
+				<td>580</td>
+				<td>580</td>
+				<td>590</td>
+				<td>610</td>
+				<td>610</td>
+				<td>600</td>
+				<td>600</td>
+				<td>580</td>
+				<td>560</td>
+				<td>560</td>
+				<td>550</td>
+				<td>550</td>
+				<td>550</td>
+				<td>590</td>
+				<td>650</td>
+				<td>680</td>
+				<td>680</td>
+				<td>650</td>
+				<td>650</td>
+				<td>640</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+		
+		
+		
+		</tbody>
+	</table>
+</body>
+</html>
