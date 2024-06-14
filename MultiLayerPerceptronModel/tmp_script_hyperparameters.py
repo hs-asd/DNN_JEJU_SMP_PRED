@@ -15,10 +15,9 @@ RANGE_TEST = ((2023, 1, 1), (2023, 12, 31))
 LEARNING_RATE = 1e-3
 DIM_INPUT = 3
 DIM_HIDDEN = 80
-ACTIVATION_FUNCTION = 'ReLU'
-# Todo SCALING_OPTION 변수명 변경(normalization, regularization과 같이 전처리를 데이터에 따라 다르게 할 것인데 해당 구분을 위한 dict 변수)
+ACTIVATION_FUNCTION = 'ReLU'  # Choose one of the following options: 'ReLU'
 SCALING_MAP = {'SMP LAND': 'MinMax', 'BIDFORECAST JEJU': 'MinMax', 'BIDFORECAST LAND': 'MinMax'}
-EPOCHS = 1e+5
-LOSS_FUNCTION = None
+EPOCHS = int(1.5e+4)
+LOSS_FUNCTION = 'L1'  # Choose one of the following options: 'L1'
 
 

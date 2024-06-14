@@ -3,6 +3,7 @@ import numpy as np
 import configparser
 import datetime
 import sklearn.preprocessing as sklpre
+import torch
 
 # Todo 아래 줄의 설정에 대한 설명 주석 추가
 pd.options.mode.copy_on_write = True
@@ -272,6 +273,23 @@ class DataPreprocessor:
         self.df_y_data = y_data
         self.labels = list(x_data.keys())
 
+        self.df_x_train = None
+        self.df_x_validation = None
+        self.df_x_test = None
+
+        self.df_y_train = None
+        self.df_y_validation = None
+        self.df_y_test = None
+
+        self.tensor_x_train = None
+        self.tensor_x_validation = None
+        self.tensor_x_test = None
+
+        self.tensor_y_train = None
+        self.tensor_y_validation = None
+        self.tensor_y_test = None
+
+
     # Todo 설명 주석 달기
     """
     FUNCTION NAME: DataPreprocessor.scaleData
@@ -319,15 +337,28 @@ class DataPreprocessor:
     def splitData(self, train_range, validation_range, test_range):
         datetime_start_train = datetime.datetime(*train_range[0])
         datetime_end_train = datetime.datetime(*train_range[-1])
-        df_train = self.df_x_data[datetime_start_train:datetime_end_train]
+        self.df_x_train = self.df_x_data[datetime_start_train:datetime_end_train]
+        self.df_y_train = self.df_y_data[datetime_start_train:datetime_end_train]
 
-        datetime_start_val = datetime.datetime(*validation_range[0])
-        datetime_end_val = datetime.datetime(*validation_range[-1])
-        df_val = self.df_x_data[datetime_start_val:datetime_end_val]
+        datetime_start_validation = datetime.datetime(*validation_range[0])
+        datetime_end_validation = datetime.datetime(*validation_range[-1])
+        self.df_x_validation = self.df_x_data[datetime_start_validation:datetime_end_validation]
+        self.df_y_validation = self.df_y_data[datetime_start_validation:datetime_end_validation]
 
         datetime_start_test = datetime.datetime(*test_range[0])
         datetime_end_test = datetime.datetime(*test_range[-1])
-        df_test = self.df_x_data[datetime_start_test:datetime_end_test]
+        self.df_x_test = self.df_x_data[datetime_start_test:datetime_end_test]
+        self.df_y_test = self.df_y_data[datetime_start_test:datetime_end_test]
 
-        return df_train, df_val, df_test
+    def dataframeToTensor(self):
+        self.tensor_x_train = torch.Tensor(self.df_x_train.values)
+        self.tensor_x_validation = torch.Tensor(self.df_x_validation.values)
+        self.tensor_x_test = torch.Tensor(self.df_x_test.values)
+
+        self.tensor_y_train = torch.Tensor(self.df_y_train.values)
+        self.tensor_y_validation = torch.Tensor(self.df_y_validation.values)
+        self.tensor_y_test = torch.Tensor(self.df_y_test.values)
+
+    def getData(self):
+        return self.tensor_x_train, self.tensor_x_validation, self.tensor_x_test, self.tensor_y_train, self.tensor_y_validation, self.tensor_y_test
 

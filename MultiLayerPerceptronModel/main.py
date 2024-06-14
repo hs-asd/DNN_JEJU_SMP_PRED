@@ -1,30 +1,35 @@
-import model                                # MLP based model
+from model import *                         # MLP based model
 from tmp_script_hyperparameters import *    # (tmp)hyperparameters, static variables
 from data import DataLoader                 # data loading module
-from data import DataPreprocessor          # data preprocessing module
+from data import DataPreprocessor           # data preprocessing module
 
 
 if __name__ == '__main__':
-    # 엑셀 파일에서 데이터를 불러오기 위해 인스턴스 DataLoader 선언
+    # 엑셀 파일에서 데이터를 불러오기 위해 DataLoader 인스턴스 선언
     data_loader = DataLoader('data/config.ini')
 
-    # data/ 디렉토리의 config.ini 설정에 따라 pd.DataFrame 형태의 데이터 생성을 위한 DataSet.importData() 메서드 실행
+    # data/ 디렉토리의 config.ini 설정에 따라 pandas.DataFrame 데이터 생성
     X, y = data_loader.importData()
 
-    # 데이터 전처리를 위해 인스턴스 DataPreprocessor 선언
+    # 데이터 전처리를 위해 DataPreprocessor 인스턴스 선언
     data_preprocessor = DataPreprocessor(X, y)
 
     # 데이터 scaling
     data_preprocessor.scaleData(SCALING_MAP)
 
     # Train data, Validation data, Test data 생성
-    x_train, x_val, x_test = data_preprocessor.splitData(RANGE_TRAIN, RANGE_VALIDATION, RANGE_TEST)
+    data_preprocessor.splitData(RANGE_TRAIN, RANGE_VALIDATION, RANGE_TEST)
 
-    # Todo torch.Tensor 데이터 변환 구조 생각(아마 DataPreprocessor에 메서드 정의해서 할듯)
+    # pandas.DataFrame -> torch.Tensor 변환
+    data_preprocessor.dataframeToTensor()
+
+    # 학습 데이터 선언
+    x_train, x_validation, x_test, y_train, y_validation, y_test = data_preprocessor.getData()
 
     # MLP model 선언
-    MLP = model.MultiLayerPerceptron(input_dim=DIM_INPUT, hidden_dim=DIM_HIDDEN, lr=LEARNING_RATE, activation_function=ACTIVATION_FUNCTION)
+    MLP = MultiLayerPerceptron(input_dim=DIM_INPUT, hidden_dim=DIM_HIDDEN, activation_function=ACTIVATION_FUNCTION)
 
-    # Todo train 구조 만들기(early stopping 구현 고려해야함, 구조만 구현 가능하게 고려하고 방식은 논문 서칭 후 구현)
+    # train
+    train(MLP, x_train, y_train, x_validation, y_validation, EPOCHS, LEARNING_RATE, LOSS_FUNCTION)
 
-    
+
