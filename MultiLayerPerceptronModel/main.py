@@ -5,11 +5,11 @@ from data import DataPreprocessor           # data preprocessing module
 
 
 if __name__ == '__main__':
-    # 엑셀 파일에서 데이터를 불러오기 위해 DataLoader 인스턴스 선언
-    data_loader = DataLoader('data/config.ini')
+    # 엑셀 파일에서 데이터를 불러오기 위해 DataLoader 인스턴스 선언 및 pandas.DataFrame 데이터 생성
+    data_loader = DataLoader(load_from_cache=True, cache_path='pkl/data.pkl')
 
-    # data/ 디렉토리의 config.ini 설정에 따라 pandas.DataFrame 데이터 생성
-    X, y = data_loader.importData()
+    # X, y 데이터 반환
+    X, y = data_loader.df_x_data, data_loader.df_y_data
 
     # 데이터 전처리를 위해 DataPreprocessor 인스턴스 선언
     data_preprocessor = DataPreprocessor(X, y)
@@ -30,6 +30,6 @@ if __name__ == '__main__':
     MLP = MultiLayerPerceptron(input_dim=DIM_INPUT, hidden_dim=DIM_HIDDEN, activation_function=ACTIVATION_FUNCTION)
 
     # train
-    train(MLP, x_train, y_train, x_validation, y_validation, EPOCHS, LEARNING_RATE, LOSS_FUNCTION)
+    # train(MLP, x_train, y_train, x_validation, y_validation, EPOCHS, LEARNING_RATE, LOSS_FUNCTION, path_pt)
 
 

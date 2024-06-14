@@ -4,12 +4,13 @@ import configparser
 import datetime
 import sklearn.preprocessing as sklpre
 import torch
+import pickle
 
 # Todo 아래 줄의 설정에 대한 설명 주석 추가
 pd.options.mode.copy_on_write = True
 
-class Data:
-    def __init__(self):
+class DataLoader:
+    def __init__(self, config_path='data/config.ini', load_from_cache=True, cache_path='pkl/data.pkl'):
         # self.config_label: 데이터 종류 구분을 위한 문자열 데이터
         self.config_label = None
         # self.config_list_file_path: 해당 데이터를 읽어올 파일 목록의 경로(문자열)를 값으로 갖는 list
@@ -30,26 +31,50 @@ class Data:
         self.config_data_format = None
         # self.config_interval: 데이터의 시간 간격을 나타내는 문자열 변수 값은 다음 값 중 하나 -> 'HOUR', 'DAY'
         self.config_interval = None
+
+        self.config_list_data_path = None
+        self.df_data = None
+        self.df_x_data = None
+        self.df_y_data = None
+        self.ary_datetime_daily = None
+        self.ary_datetime_hourly = None
+        self.df_info_duplicate = pd.DataFrame(columns=['datetime', 'value', 'label'])
+        self.df_info_missing = None
+        self.label_output = None
+
+        self.readDataConfig(config_path)
+        self.path_cache = cache_path
+
+        if load_from_cache:
+            try:
+                self.loadDataFromPkl()
+            except FileNotFoundError:
+                print('Cache file not found.')
+                self.loadDataFromExcel()
+                self.saveDataToPkl()
+        else:
+            self.loadDataFromExcel()
+
     """
-    FUNCTION NAME: Data.readConfig
-    
+    FUNCTION NAME: DataLoader.readConfig
+
     PARAMETER:
         1. path
             1-1. data 폴더 내에서 데이터별로 다른 폴더에 엑셀 파일이 위치
             1-2. 해당 데이터별 폴더의 경로를 나타내는 문자열 값
             1-3. 폴더명 뒤에 '/'까지 입력 해야함
-            
+
                 e.g. 'data/bid forecast jeju/'
-    
+
     RETURN:
         None
-    
+
     DESCRIPTION:
         1. 입력 받은 path 경로에 있는 config.ini 파일을 읽는 동작을 수행
         2. config.ini 에서 읽어온 값들을 통해 self.config...와 같은 변수명을 갖는 변수들 선언
-        
+
             e.g. self.config_list_file_path
-        
+
     """
     def readConfig(self, path):
         config = configparser.ConfigParser()
@@ -70,17 +95,17 @@ class Data:
         self.config_interval = config['PROPERTIES']['interval']
 
     """
-    FUNCTION NAME: Data.readExcelFile
+    FUNCTION NAME: DataLoader.readExcelFile
 
     PARAMETER:
         1. file_path
             1-1. 읽어 올 엑셀 파일의 경로를 나타냄
-            
+
                 e.g. 'data/smp_jeju/smp_jeju_2015.xlsx'
 
     RETURN:
         1. df
-            
+
     DESCRIPTION:
         1. 엑셀 파일의 경로를 나타내는 file_path에 해당하는 엑셀파일을 읽어와 pd.DataFrame으로 반환하는 함수
         2. 읽어오는 과정에서 config파일에서 설정한 다음 사항이 고려됨
@@ -88,11 +113,12 @@ class Data:
             2-2. 엑셀 시트 상에서 날짜 열의 위치(self.config_col_date)
             2-3. 날짜열 데이터 형식 변환 필요(self.config_flag_date_convert)
             3-4. 날짜열 데이터 형식(self.config_datetime_foramt)
-        
+
     """
     def readExcelFile(self, file_path):
         # 날짜열과 데이터열만 불러오기 위해 불러올 열 번호들의 list를 선언
-        cols_to_read = [self.config_col_date] + [col for col in range(self.config_col_start_data, self.config_col_end_data+1)]
+        cols_to_read = [self.config_col_date] + [col for col in
+                                                 range(self.config_col_start_data, self.config_col_end_data + 1)]
 
         df = pd.read_excel(file_path, usecols=cols_to_read, skiprows=self.config_row_start_data, header=None)
         # 날짜 데이터의 column 이름을 datetime으로 변경
@@ -114,7 +140,7 @@ class Data:
         return df
 
     """
-    FUNCTION NAME: Data.importExcelFiles
+    FUNCTION NAME: DataLoader.importExcelFiles
 
     PARAMETER:
         None
@@ -126,28 +152,13 @@ class Data:
         1. Data.config_lsit_file_path에 있는 데이터들을 Data.readExcelFile 함수를 통해 pandas.DataFrame으로 불러와 합친 후 반환하는 함수
 
     """
-    def importExcelFiles(self):
+    def importExcelFilesInPath(self):
         df = self.readExcelFile(self.config_list_file_path[0])
 
         for file_path in self.config_list_file_path[1:]:
             df = pd.concat([df, self.readExcelFile(file_path)], ignore_index=True)
 
         return df
-
-# Todo DataLoader와 Data를 구분해야하는 지
-class DataLoader:
-    def __init__(self, config_path):
-        self.config_list_data_path = None
-        self.df_data = None
-        self.df_x_data = None
-        self.df_y_data = None
-        self.ary_datetime_daily = None
-        self.ary_datetime_hourly = None
-        self.df_info_duplicate = pd.DataFrame(columns=['datetime', 'value', 'label'])
-        self.df_info_missing = None
-        self.label_output = None
-
-        self.readDataConfig(config_path)
 
     """
     FUNCTION NAME: DataLoader.readDataConfig
@@ -210,7 +221,7 @@ class DataLoader:
         self.ary_datetime_daily = np.array([start_date + datetime.timedelta(days=i) for i in range(total_day + 1)])
 
     """
-    FUNCTION NAME: DataLoader.importData
+    FUNCTION NAME: DataLoader.loadData
 
     PARAMETER:
         None
@@ -224,14 +235,13 @@ class DataLoader:
             1-2. 모든 데이터의 DataFrame을 합친 후 결측치가 존재하는 날짜의 데이터를 삭제 후 DataLoader.df_info_missing에 저장
         
     """
-    def importData(self):
-        print("start importData")
+    def loadDataFromExcel(self):
+        print("Load data from excel")
         list_df = []
         for path in self.config_list_data_path:
-            data = Data()
-            data.readConfig(path)
-            df_current_path = data.importExcelFiles()
-            label = data.config_label
+            self.readConfig(path)
+            df_current_path = self.importExcelFilesInPath()
+            label = self.config_label
 
             # 중복 값이 있을 시, 제거 후 정보(datetime, value, label) 반환 (중복의 기준은 같은 날짜의 데이터가 있는 지 여부)
             if df_current_path['datetime'].duplicated().any():
@@ -244,27 +254,41 @@ class DataLoader:
 
             df_current_path.set_index('datetime', inplace=True)
             # DataFrame 상에서 데이터 구분 용이를 위해 데이터 label을 column 이름으로 설정
-            df_current_path.rename(columns={'value': data.config_label}, inplace=True)
-            # 결측치 처리를 위해 전체 날짜 범위에 해당하는 numpy.array 데이터로 index를 재설정(결측치가 존재하는 날짜의 값은 nan으로 채워짐)
-            df_reindexed = df_current_path.reindex(self.ary_datetime_hourly)
+            df_current_path.rename(columns={'value': self.config_label}, inplace=True)
+            # 결측치 처리를 위해 datetime 값을 index로 재설정(결측치가 존재하는 날짜의 값은 nan으로 채워짐)
+            df_indexed = df_current_path.reindex(self.ary_datetime_hourly)
 
-            list_df.append(df_reindexed)
+            list_df.append(df_indexed)
 
         df_data = pd.concat(list_df, axis=1)
         # DataFrame.any(axis=1): index 별로 True of False 값을 갖는 Series를 반환(해당 index에 해당하는 데이터에 True 값이 하나라도 있을 경우 True 반환)
         self.df_info_missing = df_data[df_data.isna().any(axis=1)]
         df_data.dropna(inplace=True)
 
-        # df로 반환하기 위해 대괄호 두개로 인덱싱
-        df_x_data = df_data.drop(columns=self.label_output)
         # columns: single label or list-like
+        df_x_data = df_data.drop(columns=self.label_output)
+        # df로 반환하기 위해 대괄호 두개로 인덱싱
         df_y_data = df_data[[self.label_output]]
 
         self.df_data = df_data
         self.df_x_data = df_x_data
         self.df_y_data = df_y_data
 
-        return df_x_data, df_y_data
+    # Todo 설명 주석 달기
+    def loadDataFromPkl(self):
+        print("Load data from pkl")
+        with open(self.path_cache, 'rb') as f:
+            loaded_data = pickle.load(f)
+
+        self.df_data, self.df_x_data, self.df_y_data = loaded_data
+
+    # Todo 설명 주석 달기
+    def saveDataToPkl(self):
+        print("Save data to pkl")
+        data = [self.df_data, self.df_x_data, self.df_y_data]
+
+        with open(self.path_cache, 'wb') as f:
+            pickle.dump(data, f)
 
 # Todo DataPreprocessor의 기능을 DataLoader와 구분해야하는 지
 class DataPreprocessor:
@@ -288,7 +312,6 @@ class DataPreprocessor:
         self.tensor_y_train = None
         self.tensor_y_validation = None
         self.tensor_y_test = None
-
 
     # Todo 설명 주석 달기
     """
@@ -350,6 +373,7 @@ class DataPreprocessor:
         self.df_x_test = self.df_x_data[datetime_start_test:datetime_end_test]
         self.df_y_test = self.df_y_data[datetime_start_test:datetime_end_test]
 
+    # Todo 설명 주석 달기
     def dataframeToTensor(self):
         self.tensor_x_train = torch.Tensor(self.df_x_train.values)
         self.tensor_x_validation = torch.Tensor(self.df_x_validation.values)
@@ -359,6 +383,6 @@ class DataPreprocessor:
         self.tensor_y_validation = torch.Tensor(self.df_y_validation.values)
         self.tensor_y_test = torch.Tensor(self.df_y_test.values)
 
+    # Todo 설명 주석 달기
     def getData(self):
         return self.tensor_x_train, self.tensor_x_validation, self.tensor_x_test, self.tensor_y_train, self.tensor_y_validation, self.tensor_y_test
-

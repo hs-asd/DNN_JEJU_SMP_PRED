@@ -26,7 +26,7 @@ class MultiLayerPerceptron(nn.Module):
 
         return out
 
-def train(model, x_train, y_train, x_validation, y_validation, epochs, lr, loss_fn):
+def train(model, x_train, y_train, x_validation, y_validation, epochs, lr, loss_fn, path):
     # loss function 설정
     if loss_fn == 'L1':
         criterion = nn.L1Loss()
@@ -58,7 +58,7 @@ def train(model, x_train, y_train, x_validation, y_validation, epochs, lr, loss_
 
         if epoch % 500 == 0:
             print('epoch: ', epoch, '/', epochs, f'Train loss: {loss_train.item(): 0.3f}', f'Validation loss: {loss_validation.item(): 0.3f}')
-
+            # torch.save(model.state_dict(), 'pt/' + '' + '/' + str(epoch + 1) + '.pt')
 class TestBed:
     def __init__(self):
         pass
