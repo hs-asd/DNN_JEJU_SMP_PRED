@@ -2,6 +2,7 @@ import torch.nn as nn
 import torch.optim
 import numpy as np
 
+
 class MultiLayerPerceptron(nn.Module):
     def __init__(self, input_dim, hidden_dim, activation_function):
         super(MultiLayerPerceptron, self).__init__()
@@ -26,6 +27,7 @@ class MultiLayerPerceptron(nn.Module):
 
         return out
 
+
 def train(model, x_train, y_train, x_validation, y_validation, epochs, lr, loss_fn, path):
     # loss function 설정
     if loss_fn == 'L1':
@@ -42,7 +44,7 @@ def train(model, x_train, y_train, x_validation, y_validation, epochs, lr, loss_
 
     print('start train')
 
-    for epoch in range(1, epochs+1):
+    for epoch in range(1, epochs + 1):
         out_train = model.forward(x_train)
         with torch.no_grad():
             out_validation = model.forward(x_validation)
@@ -53,12 +55,30 @@ def train(model, x_train, y_train, x_validation, y_validation, epochs, lr, loss_
 
         loss_validation = criterion(out_validation, y_validation)
 
-        ary_losses_train[epoch-1] = loss_train.item()
-        ary_losses_validation[epoch-1] = loss_validation.item()
+        ary_losses_train[epoch - 1] = loss_train.item()
+        ary_losses_validation[epoch - 1] = loss_validation.item()
 
         if epoch % 500 == 0:
-            print('epoch: ', epoch, '/', epochs, f'Train loss: {loss_train.item(): 0.3f}', f'Validation loss: {loss_validation.item(): 0.3f}')
-            # torch.save(model.state_dict(), 'pt/' + '' + '/' + str(epoch + 1) + '.pt')
+            print('epoch: ', epoch, '/', epochs, f'Train loss: {loss_train.item(): 0.3f}',
+                  f'Validation loss: {loss_validation.item(): 0.3f}')
+            torch.save(model.state_dict(), path + str(epoch) + '.pt')
+
+
 class TestBed:
-    def __init__(self):
-        pass
+    def __init__(self, model, pt_path, x, y_real):
+        self.MAPE = None
+        self.model = model
+        self.path_pt = pt_path
+        self.x = x
+        self.y_real = np.array(y_real)
+        self.y_pred = None
+
+    def predict(self, pt_path):
+        self.model.load_state_dic(torch.load(pt_path))
+        self.model.eval()
+        with torch.no_grad():
+            self.y_pred = np.array(self.model.forward(self.x))
+
+    def calcStatistics(self):
+        # Calculate MAPE(Mean Absolute Percentage Error)
+        self.MAPE = np.mean(abs((self.y_real - self.y_pred) / self.y_real) * 100)

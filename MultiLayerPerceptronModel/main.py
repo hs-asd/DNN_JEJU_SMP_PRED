@@ -30,6 +30,6 @@ if __name__ == '__main__':
     MLP = MultiLayerPerceptron(input_dim=DIM_INPUT, hidden_dim=DIM_HIDDEN, activation_function=ACTIVATION_FUNCTION)
 
     # train
-    # train(MLP, x_train, y_train, x_validation, y_validation, EPOCHS, LEARNING_RATE, LOSS_FUNCTION, path_pt)
+    train(MLP, x_train, y_train, x_validation, y_validation, EPOCHS, LEARNING_RATE, LOSS_FUNCTION, 'pt/test1/')
 
 

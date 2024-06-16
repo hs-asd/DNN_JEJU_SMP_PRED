@@ -15,9 +15,9 @@ RANGE_TEST = ((2023, 1, 1), (2023, 12, 31))
 LEARNING_RATE = 1e-3
 DIM_INPUT = 3
 DIM_HIDDEN = 80
-ACTIVATION_FUNCTION = 'ReLU'  # Choose one of the following options: 'ReLU'
+ACTIVATION_FUNCTION = 'ReLU'  # Choose one of the following options: 'ReLU',
 SCALING_MAP = {'SMP LAND': 'MinMax', 'BIDFORECAST JEJU': 'MinMax', 'BIDFORECAST LAND': 'MinMax'}
 EPOCHS = int(1.5e+4)
-LOSS_FUNCTION = 'L1'  # Choose one of the following options: 'L1'
+LOSS_FUNCTION = 'L1'  # Choose one of the following options: 'L1',
 
 
