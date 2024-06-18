@@ -1,7 +1,11 @@
+import datetime
+
 import torch.nn as nn
 import torch.optim
 import numpy as np
-from settings import settings
+from settings import *
+import logging
+
 
 class MultiLayerPerceptron(nn.Module):
     def __init__(self, input_dim, hidden_dim, activation_function):
@@ -29,6 +33,37 @@ class MultiLayerPerceptron(nn.Module):
 
 
 def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, epochs, lr, loss_fn, path_pt_files):
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.DEBUG)
+
+    stream_handler = logging.StreamHandler()
+    stream_handler.setLevel(logging.DEBUG)
+
+    file_handler = logging.FileHandler(path_pt_files + 'log_train.log', mode='a')
+    file_handler.setLevel(logging.INFO)
+
+    formatter = logging.Formatter('%(asctime)s | %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+    stream_handler.setFormatter(formatter)
+    file_handler.setFormatter(formatter)
+
+    logger.addHandler(stream_handler)
+    logger.addHandler(file_handler)
+
+    logger.info('Train Settings')
+    logger.info('   Cache File:             %s', CACHE_FILE)
+    logger.info('   Learning Rate:          %s', LEARNING_RATE)
+    logger.info('   Input Dimension:        %s', DIM_INPUT)
+    logger.info('   Hidden Dimension:       %s', DIM_HIDDEN)
+    logger.info('   Ouput Dimension:        %s', DIM_OUTPUT)
+    logger.info('   Activation Function:    %s', ACTIVATION_FUNCTION)
+    logger.info('   Scale Map:              %s', SCALING_MAP)
+    logger.info('   Epochs:                 %s', EPOCHS)
+    logger.info('   Loss Function:          %s', LOSS_FUNCTION)
+    logger.info('   Train Range:            %s ~ %s', datetime.datetime(*RANGE_TRAIN[0]), datetime.datetime(*RANGE_TRAIN[-1]))
+    logger.info('   Validation Range:       %s ~ %s', datetime.datetime(*RANGE_VALIDATION[0]), datetime.datetime(*RANGE_VALIDATION[-1]))
+    logger.info('   Test Range:             %s ~ %s', datetime.datetime(*RANGE_TEST[0]), datetime.datetime(*RANGE_TEST[-1]))
+
+    # pandas.DataFrame -> torch.Tensor
     list_df_datas = [x_train, y_train, x_validation, y_validation,  x_test, y_test]
     list_tensor_datas = [torch.Tensor(df.values) for df in list_df_datas]
     x_train, y_train, x_validation, y_validation, x_test, y_test = list_tensor_datas
@@ -49,10 +84,10 @@ def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, 
     ary_losses_validation = np.zeros(epochs)
     ary_losses_test = np.zeros(epochs)
 
-    print('start train')
+    logger.info('Start Train.')
 
     for epoch in range(1, epochs + 1):
-        print(epoch)
+        logger.debug(epoch)
         out_train = model.forward(x_train)
         with torch.no_grad():
             out_validation = model.forward(x_validation)
@@ -78,12 +113,12 @@ def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, 
         MAPE_validation = np.mean(abs((ary_real_validation - ary_pred_validation) / ary_real_validation) * 100)
         MAPE_test = np.mean(abs((ary_real_test - ary_pred_test) / ary_real_test) * 100)
 
-        if epoch % 500 == 0:
-            print('epoch: ', epoch, '/', epochs, '\n',
-                  f'Train loss: {loss_train.item(): 0.3f}', f'Validation loss: {loss_validation.item(): 0.3f}', '\n',
-                  f'validation MAPE: {MAPE_validation: 0.3f}', f'test MAPE: {MAPE_test: 0.3f}')
+        if epoch % 200 == 0:
+            logger.info('Epoch: %s / %s', epoch, epochs)
+            logger.info('   Train Loss:         %.2f', loss_train.item())
+            logger.info('   Validation Loss:    %.2f', loss_validation.item())
+            logger.info('   Validation MAPE:    %.2f', MAPE_validation)
+            logger.info('   Test MAPE:          %.2f', MAPE_test)
+
             torch.save(model.state_dict(), path_pt_files + str(epoch) + '.pt')
 
-    with open(path_pt_files + 'hyperparameters.txt', 'w') as f:
-        for key, value in settings.items():
-            f.write(f'{key}: {value}\n')

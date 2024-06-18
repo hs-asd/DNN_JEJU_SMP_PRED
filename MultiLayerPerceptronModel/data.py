@@ -2,12 +2,31 @@ import pandas as pd
 import numpy as np
 import configparser
 import datetime
-import sklearn.preprocessing as sklpre
+from sklearn import preprocessing
 import torch
 import pickle
+import logging
 
 # Todo 아래 줄의 설정에 대한 설명 주석 추가
 pd.options.mode.copy_on_write = True
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
+stream_handler = logging.StreamHandler()
+stream_handler.setLevel(logging.DEBUG)
+
+file_handler = logging.FileHandler('pkl/log_data.log', mode='a')
+# FileHandler는 DEBUG level을 무시
+file_handler.setLevel(logging.INFO)
+
+formatter = logging.Formatter('%(asctime)s | %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+stream_handler.setFormatter(formatter)
+file_handler.setFormatter(formatter)
+
+logger.addHandler(stream_handler)
+logger.addHandler(file_handler)
+
 
 class DataLoader:
     def __init__(self, config_path='data/config.ini', cache_path='pkl/data.pkl'):
@@ -50,8 +69,8 @@ class DataLoader:
         try:
             self.loadDataFromPkl()
         except FileNotFoundError:
-            print('Cache file not found.')
-            print('lodd data from excel files')
+            logger.debug('Cache file not found.')
+            logger.debug('Load data from excel files.')
             self.loadDataFromExcel()
             self.saveDataToPkl()
 
@@ -119,8 +138,7 @@ class DataLoader:
     """
     def readExcelFile(self, file_path):
         # 날짜열과 데이터열만 불러오기 위해 불러올 열 번호들의 list를 선언
-        cols_to_read = [self.config_col_date] + [col for col in
-                                                 range(self.config_col_start_data, self.config_col_end_data + 1)]
+        cols_to_read = [self.config_col_date] + [col for col in range(self.config_col_start_data, self.config_col_end_data + 1)]
 
         df = pd.read_excel(file_path, usecols=cols_to_read, skiprows=self.config_row_start_data, header=None)
         # 날짜 데이터의 column 이름을 datetime으로 변경
@@ -238,7 +256,8 @@ class DataLoader:
         
     """
     def loadDataFromExcel(self):
-        print("Load data from excel")
+        logger.debug('loadDataFromExcel is executed.')
+
         list_df = []
         for path in self.config_list_data_path:
             self.readConfig(path)
@@ -291,19 +310,24 @@ class DataLoader:
         self.df_data = df_data
         self.df_x_data = df_x_data
         self.df_y_data = df_y_data
+        logger.info('Cache File: %s', self.path_cache)
+        logger.info('   Input Labels:\t\t%s', df_x_data.keys().values)
+        logger.info('   Ouput Label:\t\t%s', self.label_output)
+        logger.info('   Imported Data Range:\t%s ~ %s', self.ary_datetime_hourly[0], self.ary_datetime_hourly[-1])
+        logger.info('   EXported Data Range:\t%s ~ %s\n', self.df_data.index[0], self.df_data.index[-1])
 
     # Todo 설명 주석 달기
     def loadDataFromPkl(self):
-        print("Load data from pkl")
+        logger.debug('Load data from cache file: %s', self.path_cache)
         with open(self.path_cache, 'rb') as f:
             loaded_data = pickle.load(f)
 
-        self.df_data, self.df_x_data, self.df_y_data = loaded_data
+        self.df_data, self.df_x_data, self.df_y_data, self.df_info_missing, self.df_info_duplicate = loaded_data
 
     # Todo 설명 주석 달기
     def saveDataToPkl(self):
-        print("Save data to pkl")
-        data = [self.df_data, self.df_x_data, self.df_y_data]
+        logger.debug('Save data to pickle file.')
+        data = [self.df_data, self.df_x_data, self.df_y_data, self.df_info_missing, self.df_info_duplicate]
 
         with open(self.path_cache, 'wb') as f:
             pickle.dump(data, f)
@@ -338,7 +362,7 @@ class DataPreprocessor:
     def scaleData(self, scaling_map=None):
         for label in self.labels:
             if scaling_map[label] == 'MinMax':
-                scaler = sklpre.MinMaxScaler(feature_range=(0, 1))
+                scaler = preprocessing.MinMaxScaler(feature_range=(0, 1))
                 self.df_x_data[label] = scaler.fit_transform(self.df_x_data[label].values.reshape(-1, 1))
             else:
                 pass
