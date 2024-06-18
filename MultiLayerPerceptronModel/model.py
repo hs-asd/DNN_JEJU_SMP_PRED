@@ -1,7 +1,7 @@
 import torch.nn as nn
 import torch.optim
 import numpy as np
-
+from settings import settings
 
 class MultiLayerPerceptron(nn.Module):
     def __init__(self, input_dim, hidden_dim, activation_function):
@@ -28,10 +28,16 @@ class MultiLayerPerceptron(nn.Module):
         return out
 
 
-def train(model, x_train, y_train, x_validation, y_validation, epochs, lr, loss_fn, path):
+def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, epochs, lr, loss_fn, path_pt_files):
+    list_df_datas = [x_train, y_train, x_validation, y_validation,  x_test, y_test]
+    list_tensor_datas = [torch.Tensor(df.values) for df in list_df_datas]
+    x_train, y_train, x_validation, y_validation, x_test, y_test = list_tensor_datas
+
     # loss function 설정
     if loss_fn == 'L1':
         criterion = nn.L1Loss()
+    elif loss_fn == 'MSE':
+        criterion = nn.MSELoss()
     else:
         criterion = nn.L1Loss()
 
@@ -41,44 +47,43 @@ def train(model, x_train, y_train, x_validation, y_validation, epochs, lr, loss_
     # epoch 마다 loss 값 저장을 하기 위한 변수 선언
     ary_losses_train = np.zeros(epochs)
     ary_losses_validation = np.zeros(epochs)
+    ary_losses_test = np.zeros(epochs)
 
     print('start train')
 
     for epoch in range(1, epochs + 1):
+        print(epoch)
         out_train = model.forward(x_train)
         with torch.no_grad():
             out_validation = model.forward(x_validation)
+            out_test = model.forward(x_test)
 
         loss_train = criterion(out_train, y_train)
         loss_train.backward()
         optimizer.step()
 
         loss_validation = criterion(out_validation, y_validation)
+        loss_test = criterion(out_test, y_test)
 
+        # 후에 로깅 등을 위해 에폭별로 로스값 기록
         ary_losses_train[epoch - 1] = loss_train.item()
         ary_losses_validation[epoch - 1] = loss_validation.item()
+        ary_losses_test[epoch - 1] = loss_test.item()
+
+        # 출력을 위한 MAPE 계산
+        ary_real_validation, ary_pred_validation = np.array(y_validation), np.array(out_validation)
+        ary_real_test, ary_pred_test = np.array(y_test), np.array(out_test)
+        ary_real_test, ary_real_validation = ary_real_test[ary_real_test > 0], ary_real_validation[ary_real_validation > 0]
+
+        MAPE_validation = np.mean(abs((ary_real_validation - ary_pred_validation) / ary_real_validation) * 100)
+        MAPE_test = np.mean(abs((ary_real_test - ary_pred_test) / ary_real_test) * 100)
 
         if epoch % 500 == 0:
-            print('epoch: ', epoch, '/', epochs, f'Train loss: {loss_train.item(): 0.3f}',
-                  f'Validation loss: {loss_validation.item(): 0.3f}')
-            torch.save(model.state_dict(), path + str(epoch) + '.pt')
+            print('epoch: ', epoch, '/', epochs, '\n',
+                  f'Train loss: {loss_train.item(): 0.3f}', f'Validation loss: {loss_validation.item(): 0.3f}', '\n',
+                  f'validation MAPE: {MAPE_validation: 0.3f}', f'test MAPE: {MAPE_test: 0.3f}')
+            torch.save(model.state_dict(), path_pt_files + str(epoch) + '.pt')
 
-
-class TestBed:
-    def __init__(self, model, pt_path, x, y_real):
-        self.MAPE = None
-        self.model = model
-        self.path_pt = pt_path
-        self.x = x
-        self.y_real = np.array(y_real)
-        self.y_pred = None
-
-    def predict(self, pt_path):
-        self.model.load_state_dic(torch.load(pt_path))
-        self.model.eval()
-        with torch.no_grad():
-            self.y_pred = np.array(self.model.forward(self.x))
-
-    def calcStatistics(self):
-        # Calculate MAPE(Mean Absolute Percentage Error)
-        self.MAPE = np.mean(abs((self.y_real - self.y_pred) / self.y_real) * 100)
+    with open(path_pt_files + 'hyperparameters.txt', 'w') as f:
+        for key, value in settings.items():
+            f.write(f'{key}: {value}\n')

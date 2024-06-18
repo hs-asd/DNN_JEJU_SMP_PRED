@@ -10,7 +10,7 @@ import pickle
 pd.options.mode.copy_on_write = True
 
 class DataLoader:
-    def __init__(self, config_path='data/config.ini', load_from_cache=True, cache_path='pkl/data.pkl'):
+    def __init__(self, config_path='data/config.ini', cache_path='pkl/data.pkl'):
         # self.config_label: 데이터 종류 구분을 위한 문자열 데이터
         self.config_label = None
         # self.config_list_file_path: 해당 데이터를 읽어올 파일 목록의 경로(문자열)를 값으로 갖는 list
@@ -23,14 +23,16 @@ class DataLoader:
         self.config_row_start_data = None
         # self.config_col_end_data: 최소, 최대, 평균 등을 제외한 실제 데이터가 끝나는 열의 인덱스(zero-based)
         self.config_col_end_data = None
-        # self.config_flag_date_convert: 날짜 데이터가 문자열로 입력되어있을 경우 datetime 형식으로 변경해야 함을 나타내는 값
-        self.config_flag_date_convert = False
+        # self.config_date_dtype_conversion: 날짜 데이터가 문자열로 입력되어있을 경우 datetime 형식으로 변경해야 함을 나타내는 값
+        self.config_date_dtype_conversion = False
         # self.config_datetime_foramt: datetime으로 변경할 문자열(혹은 정수) 데이터의 foramt을 나타냄(e.g. '%Y%m%d')
         self.config_datetime_format = None
         # self.config_data_format: 엑셀 파일 상의 데이터 형식을 나타내는 문자열 변수 값은 다음 두 값 중 하나 -> 'TABLE', 'STACK'
         self.config_data_format = None
         # self.config_interval: 데이터의 시간 간격을 나타내는 문자열 변수 값은 다음 값 중 하나 -> 'HOUR', 'DAY'
         self.config_interval = None
+        # self.config_day_ahead_conversion: 전일값 사용 플래그(True일 시 전일 값을 입력 값으로 사용)
+        self.config_day_ahead_conversion = None
 
         self.config_list_data_path = None
         self.df_data = None
@@ -45,15 +47,14 @@ class DataLoader:
         self.readDataConfig(config_path)
         self.path_cache = cache_path
 
-        if load_from_cache:
-            try:
-                self.loadDataFromPkl()
-            except FileNotFoundError:
-                print('Cache file not found.')
-                self.loadDataFromExcel()
-                self.saveDataToPkl()
-        else:
+        try:
+            self.loadDataFromPkl()
+        except FileNotFoundError:
+            print('Cache file not found.')
+            print('lodd data from excel files')
             self.loadDataFromExcel()
+            self.saveDataToPkl()
+
 
     """
     FUNCTION NAME: DataLoader.readConfig
@@ -89,10 +90,11 @@ class DataLoader:
         self.config_row_start_data = config['PROPERTIES'].getint('row of start data')
         self.config_col_end_data = config['PROPERTIES'].getint('col of end data')
         self.config_label = config['PROPERTIES']['data label']
-        self.config_flag_date_convert = config['PROPERTIES'].getboolean('datetime convert flag')
+        self.config_date_dtype_conversion = config['PROPERTIES'].getboolean('datetime convert flag')
         self.config_datetime_format = config['PROPERTIES']['datetime format']
         self.config_data_format = config['PROPERTIES']['data format']
         self.config_interval = config['PROPERTIES']['interval']
+        self.config_day_ahead_conversion = config['PROPERTIES'].getboolean('day-ahead conversion')
 
     """
     FUNCTION NAME: DataLoader.readExcelFile
@@ -111,7 +113,7 @@ class DataLoader:
         2. 읽어오는 과정에서 config파일에서 설정한 다음 사항이 고려됨
             2-1. 엑셀 시트 상에서 데이터의 범위(self.config_col_start_data, self.config_row_start_data, self.config_col_end_data)
             2-2. 엑셀 시트 상에서 날짜 열의 위치(self.config_col_date)
-            2-3. 날짜열 데이터 형식 변환 필요(self.config_flag_date_convert)
+            2-3. 날짜열 데이터 형식 변환 필요(self.config_date_dtype_conversion)
             3-4. 날짜열 데이터 형식(self.config_datetime_foramt)
 
     """
@@ -125,7 +127,7 @@ class DataLoader:
         df.rename(columns={0: 'datetime'}, inplace=True)
 
         # 날짜데이터가 int, str일 경우 datetime으로 변환
-        df['datetime'] = pd.to_datetime(df['datetime'], format=self.config_datetime_format) if self.config_flag_date_convert else df['datetime']
+        df['datetime'] = pd.to_datetime(df['datetime'], format=self.config_datetime_format) if self.config_date_dtype_conversion else df['datetime']
 
         # 엑셀 데이터가 'TABLE'인 경우 'STACK' 형으로 변경
         if self.config_data_format == 'TABLE':
@@ -253,16 +255,32 @@ class DataLoader:
                 pass
 
             df_current_path.set_index('datetime', inplace=True)
-            # DataFrame 상에서 데이터 구분 용이를 위해 데이터 label을 column 이름으로 설정
-            df_current_path.rename(columns={'value': self.config_label}, inplace=True)
             # 결측치 처리를 위해 datetime 값을 index로 재설정(결측치가 존재하는 날짜의 값은 nan으로 채워짐)
             df_indexed = df_current_path.reindex(self.ary_datetime_hourly)
+            # DataFrame 상에서 데이터 구분 용이를 위해 데이터 label을 column 이름으로 설정
+            df_indexed.rename(columns={'value': self.config_label}, inplace=True)
 
-            list_df.append(df_indexed)
+            # 전일 값을 사용하는 데이터이고, 출력 값일 경우 전일의 값을 당일 예측에 사용한다고 보고 두 값을 df_indexed, df_day_ahead로 구분해서 모두 list_df에 추가
+            if self.config_day_ahead_conversion and self.label_output == self.config_label:
+                # 시간별 데이터이기 때문에 하루 전 값을 사용하기 위해 24개 데이터를 SHIFT
+                df_day_ahead = df_indexed.shift(24)
+                df_day_ahead.rename(columns={self.config_label: 'DA ' + self.config_label}, inplace=True)
+                list_df.append(df_day_ahead)
+                list_df.append(df_indexed)
+            # 전일 값을 사용하는 데이터의 경우(self.config_day_ahead_conversion = True) 24개 행을 SHIFT한 df_day_ahead를 list_df에 추가
+            elif self.config_day_ahead_conversion and self.label_output != self.config_label:
+                # 시간별 데이터이기 때문에 하루 전 값을 사용하기 위해 24개 데이터를 SHIFT
+                df_day_ahead = df_indexed.shift(24)
+                df_day_ahead.rename(columns={self.config_label: 'DA ' + self.config_label}, inplace=True)
+                list_df.append(df_day_ahead)
+            else:
+                list_df.append(df_indexed)
 
         df_data = pd.concat(list_df, axis=1)
+        # 결측지가 존재하는 행을 self.df_info_missing에 반환
         # DataFrame.any(axis=1): index 별로 True of False 값을 갖는 Series를 반환(해당 index에 해당하는 데이터에 True 값이 하나라도 있을 경우 True 반환)
         self.df_info_missing = df_data[df_data.isna().any(axis=1)]
+        # 결측치가 존재하는 행을 drop
         df_data.dropna(inplace=True)
 
         # columns: single label or list-like
@@ -296,22 +314,12 @@ class DataPreprocessor:
         self.df_x_data = x_data
         self.df_y_data = y_data
         self.labels = list(x_data.keys())
-
         self.df_x_train = None
         self.df_x_validation = None
         self.df_x_test = None
-
         self.df_y_train = None
         self.df_y_validation = None
         self.df_y_test = None
-
-        self.tensor_x_train = None
-        self.tensor_x_validation = None
-        self.tensor_x_test = None
-
-        self.tensor_y_train = None
-        self.tensor_y_validation = None
-        self.tensor_y_test = None
 
     # Todo 설명 주석 달기
     """
@@ -374,15 +382,5 @@ class DataPreprocessor:
         self.df_y_test = self.df_y_data[datetime_start_test:datetime_end_test]
 
     # Todo 설명 주석 달기
-    def dataframeToTensor(self):
-        self.tensor_x_train = torch.Tensor(self.df_x_train.values)
-        self.tensor_x_validation = torch.Tensor(self.df_x_validation.values)
-        self.tensor_x_test = torch.Tensor(self.df_x_test.values)
-
-        self.tensor_y_train = torch.Tensor(self.df_y_train.values)
-        self.tensor_y_validation = torch.Tensor(self.df_y_validation.values)
-        self.tensor_y_test = torch.Tensor(self.df_y_test.values)
-
-    # Todo 설명 주석 달기
     def getData(self):
-        return self.tensor_x_train, self.tensor_x_validation, self.tensor_x_test, self.tensor_y_train, self.tensor_y_validation, self.tensor_y_test
+        return self.df_x_train, self.df_x_validation, self.df_x_test, self.df_y_train, self.df_y_validation, self.df_y_test

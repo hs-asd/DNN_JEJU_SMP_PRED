@@ -1,0 +1,5306 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head><title>육지 PSS 목록</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<style>
+		table { border:1px solid #ccc; font-size:12px; width:635px; }
+		table caption span{ font-size:20px; height:100px; }
+		table thead tr th { background:#666; font-weight:bold; color:#fff; height:30px; text-align:center; border:1px solid #ccc;}
+		table thead tr td { border:none; height:30px; text-align:right; }
+		table tbody tr td { border:1px solid #ccc; text-align:center;}
+		table tbody tr td.line { border:none; height:30px;}
+		.txt_center { text-align:center; }
+		.txt_left { text-align:left; }		
+		.txt_right { text-align:right; }
+		.text_xls { mso-number-format: "@"; text-align:left;}
+	</style>
+	</head>
+<body>
+	<table>
+		<caption><span>년도별 수요예측 리스트 (단위 : MW)</span></caption>
+		<thead>
+			<tr>
+				<th scope="col">구분</th>
+				<th>1h</th>
+				<th>2h</th>
+				<th>3h</th>
+				<th>4h</th>
+				<th>5h</th>
+				<th>6h</th>
+				<th>7h</th>
+				<th>8h</th>
+				<th>9h</th>
+				<th>10h</th>
+				<th>11h</th>
+				<th>12h</th>
+				<th>13h</th>
+				<th>14h</th>
+				<th>15h</th>
+				<th>16h</th>
+				<th>17h</th>
+				<th>18h</th>
+				<th>19h</th>
+				<th>20h</th>
+				<th>21h</th>
+				<th>22h</th>
+				<th>23h</th>
+				<th>24h</th>
+<!-- 				<th>최소</th> -->
+<!-- 				<th>최대</th> -->
+<!-- 				<th>평균</th> -->
+			</tr>
+		</thead>
+		<tbody>
+		
+		
+			
+			<tr>
+				<td>20240101</td>
+				<td>730</td>
+				<td>689</td>
+				<td>662</td>
+				<td>644</td>
+				<td>660</td>
+				<td>687</td>
+				<td>726</td>
+				<td>776</td>
+				<td>793</td>
+				<td>796</td>
+				<td>791</td>
+				<td>771</td>
+				<td>761</td>
+				<td>755</td>
+				<td>765</td>
+				<td>797</td>
+				<td>835</td>
+				<td>869</td>
+				<td>881</td>
+				<td>864</td>
+				<td>853</td>
+				<td>833</td>
+				<td>816</td>
+				<td>790</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240102</td>
+				<td>736</td>
+				<td>700</td>
+				<td>681</td>
+				<td>665</td>
+				<td>688</td>
+				<td>716</td>
+				<td>752</td>
+				<td>798</td>
+				<td>860</td>
+				<td>839</td>
+				<td>796</td>
+				<td>778</td>
+				<td>765</td>
+				<td>777</td>
+				<td>789</td>
+				<td>815</td>
+				<td>837</td>
+				<td>881</td>
+				<td>917</td>
+				<td>887</td>
+				<td>861</td>
+				<td>840</td>
+				<td>828</td>
+				<td>805</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240103</td>
+				<td>728</td>
+				<td>689</td>
+				<td>670</td>
+				<td>653</td>
+				<td>652</td>
+				<td>669</td>
+				<td>706</td>
+				<td>760</td>
+				<td>818</td>
+				<td>810</td>
+				<td>809</td>
+				<td>780</td>
+				<td>752</td>
+				<td>772</td>
+				<td>762</td>
+				<td>760</td>
+				<td>800</td>
+				<td>863</td>
+				<td>899</td>
+				<td>878</td>
+				<td>861</td>
+				<td>836</td>
+				<td>818</td>
+				<td>789</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240104</td>
+				<td>743</td>
+				<td>704</td>
+				<td>684</td>
+				<td>666</td>
+				<td>666</td>
+				<td>684</td>
+				<td>722</td>
+				<td>770</td>
+				<td>821</td>
+				<td>799</td>
+				<td>764</td>
+				<td>714</td>
+				<td>678</td>
+				<td>698</td>
+				<td>713</td>
+				<td>734</td>
+				<td>786</td>
+				<td>852</td>
+				<td>888</td>
+				<td>882</td>
+				<td>866</td>
+				<td>841</td>
+				<td>814</td>
+				<td>795</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240105</td>
+				<td>730</td>
+				<td>692</td>
+				<td>672</td>
+				<td>655</td>
+				<td>644</td>
+				<td>661</td>
+				<td>697</td>
+				<td>739</td>
+				<td>787</td>
+				<td>764</td>
+				<td>725</td>
+				<td>685</td>
+				<td>652</td>
+				<td>675</td>
+				<td>682</td>
+				<td>704</td>
+				<td>741</td>
+				<td>807</td>
+				<td>842</td>
+				<td>830</td>
+				<td>816</td>
+				<td>799</td>
+				<td>783</td>
+				<td>765</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240106</td>
+				<td>751</td>
+				<td>713</td>
+				<td>687</td>
+				<td>673</td>
+				<td>676</td>
+				<td>695</td>
+				<td>722</td>
+				<td>789</td>
+				<td>806</td>
+				<td>786</td>
+				<td>739</td>
+				<td>693</td>
+				<td>660</td>
+				<td>667</td>
+				<td>700</td>
+				<td>747</td>
+				<td>806</td>
+				<td>877</td>
+				<td>915</td>
+				<td>895</td>
+				<td>874</td>
+				<td>845</td>
+				<td>825</td>
+				<td>800</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240107</td>
+				<td>759</td>
+				<td>722</td>
+				<td>695</td>
+				<td>682</td>
+				<td>682</td>
+				<td>696</td>
+				<td>720</td>
+				<td>749</td>
+				<td>771</td>
+				<td>769</td>
+				<td>762</td>
+				<td>758</td>
+				<td>747</td>
+				<td>769</td>
+				<td>787</td>
+				<td>802</td>
+				<td>839</td>
+				<td>888</td>
+				<td>943</td>
+				<td>921</td>
+				<td>898</td>
+				<td>869</td>
+				<td>846</td>
+				<td>804</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240108</td>
+				<td>773</td>
+				<td>737</td>
+				<td>703</td>
+				<td>678</td>
+				<td>696</td>
+				<td>724</td>
+				<td>762</td>
+				<td>801</td>
+				<td>827</td>
+				<td>833</td>
+				<td>792</td>
+				<td>774</td>
+				<td>760</td>
+				<td>769</td>
+				<td>781</td>
+				<td>819</td>
+				<td>912</td>
+				<td>960</td>
+				<td>980</td>
+				<td>959</td>
+				<td>920</td>
+				<td>885</td>
+				<td>858</td>
+				<td>831</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240109</td>
+				<td>766</td>
+				<td>728</td>
+				<td>703</td>
+				<td>685</td>
+				<td>700</td>
+				<td>717</td>
+				<td>750</td>
+				<td>794</td>
+				<td>834</td>
+				<td>804</td>
+				<td>749</td>
+				<td>725</td>
+				<td>718</td>
+				<td>745</td>
+				<td>769</td>
+				<td>785</td>
+				<td>830</td>
+				<td>872</td>
+				<td>902</td>
+				<td>898</td>
+				<td>885</td>
+				<td>860</td>
+				<td>840</td>
+				<td>821</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240110</td>
+				<td>736</td>
+				<td>700</td>
+				<td>676</td>
+				<td>659</td>
+				<td>671</td>
+				<td>690</td>
+				<td>738</td>
+				<td>824</td>
+				<td>884</td>
+				<td>864</td>
+				<td>848</td>
+				<td>816</td>
+				<td>777</td>
+				<td>796</td>
+				<td>801</td>
+				<td>810</td>
+				<td>852</td>
+				<td>921</td>
+				<td>965</td>
+				<td>923</td>
+				<td>903</td>
+				<td>882</td>
+				<td>861</td>
+				<td>846</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240111</td>
+				<td>800</td>
+				<td>764</td>
+				<td>740</td>
+				<td>722</td>
+				<td>722</td>
+				<td>728</td>
+				<td>754</td>
+				<td>806</td>
+				<td>839</td>
+				<td>804</td>
+				<td>771</td>
+				<td>746</td>
+				<td>714</td>
+				<td>738</td>
+				<td>759</td>
+				<td>791</td>
+				<td>848</td>
+				<td>895</td>
+				<td>914</td>
+				<td>904</td>
+				<td>886</td>
+				<td>862</td>
+				<td>835</td>
+				<td>820</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240112</td>
+				<td>749</td>
+				<td>712</td>
+				<td>693</td>
+				<td>676</td>
+				<td>668</td>
+				<td>683</td>
+				<td>725</td>
+				<td>767</td>
+				<td>799</td>
+				<td>786</td>
+				<td>764</td>
+				<td>748</td>
+				<td>724</td>
+				<td>741</td>
+				<td>758</td>
+				<td>772</td>
+				<td>812</td>
+				<td>875</td>
+				<td>926</td>
+				<td>908</td>
+				<td>896</td>
+				<td>882</td>
+				<td>864</td>
+				<td>848</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240113</td>
+				<td>805</td>
+				<td>766</td>
+				<td>740</td>
+				<td>723</td>
+				<td>723</td>
+				<td>742</td>
+				<td>771</td>
+				<td>820</td>
+				<td>836</td>
+				<td>801</td>
+				<td>721</td>
+				<td>674</td>
+				<td>645</td>
+				<td>658</td>
+				<td>688</td>
+				<td>737</td>
+				<td>806</td>
+				<td>875</td>
+				<td>925</td>
+				<td>908</td>
+				<td>894</td>
+				<td>882</td>
+				<td>870</td>
+				<td>848</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240114</td>
+				<td>798</td>
+				<td>759</td>
+				<td>737</td>
+				<td>725</td>
+				<td>720</td>
+				<td>732</td>
+				<td>745</td>
+				<td>750</td>
+				<td>749</td>
+				<td>729</td>
+				<td>703</td>
+				<td>678</td>
+				<td>657</td>
+				<td>678</td>
+				<td>693</td>
+				<td>713</td>
+				<td>757</td>
+				<td>800</td>
+				<td>846</td>
+				<td>836</td>
+				<td>830</td>
+				<td>820</td>
+				<td>810</td>
+				<td>795</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240115</td>
+				<td>741</td>
+				<td>712</td>
+				<td>696</td>
+				<td>689</td>
+				<td>697</td>
+				<td>713</td>
+				<td>755</td>
+				<td>812</td>
+				<td>861</td>
+				<td>821</td>
+				<td>786</td>
+				<td>756</td>
+				<td>724</td>
+				<td>739</td>
+				<td>764</td>
+				<td>825</td>
+				<td>890</td>
+				<td>931</td>
+				<td>945</td>
+				<td>938</td>
+				<td>915</td>
+				<td>884</td>
+				<td>858</td>
+				<td>843</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240116</td>
+				<td>833</td>
+				<td>793</td>
+				<td>769</td>
+				<td>750</td>
+				<td>760</td>
+				<td>778</td>
+				<td>815</td>
+				<td>844</td>
+				<td>853</td>
+				<td>809</td>
+				<td>743</td>
+				<td>693</td>
+				<td>660</td>
+				<td>679</td>
+				<td>716</td>
+				<td>763</td>
+				<td>814</td>
+				<td>876</td>
+				<td>937</td>
+				<td>921</td>
+				<td>900</td>
+				<td>875</td>
+				<td>855</td>
+				<td>841</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240117</td>
+				<td>794</td>
+				<td>763</td>
+				<td>730</td>
+				<td>715</td>
+				<td>703</td>
+				<td>729</td>
+				<td>771</td>
+				<td>810</td>
+				<td>844</td>
+				<td>830</td>
+				<td>811</td>
+				<td>793</td>
+				<td>773</td>
+				<td>776</td>
+				<td>781</td>
+				<td>796</td>
+				<td>828</td>
+				<td>866</td>
+				<td>886</td>
+				<td>879</td>
+				<td>862</td>
+				<td>835</td>
+				<td>814</td>
+				<td>799</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240118</td>
+				<td>744</td>
+				<td>710</td>
+				<td>689</td>
+				<td>674</td>
+				<td>675</td>
+				<td>690</td>
+				<td>723</td>
+				<td>766</td>
+				<td>782</td>
+				<td>786</td>
+				<td>794</td>
+				<td>775</td>
+				<td>749</td>
+				<td>749</td>
+				<td>754</td>
+				<td>768</td>
+				<td>796</td>
+				<td>825</td>
+				<td>878</td>
+				<td>869</td>
+				<td>854</td>
+				<td>837</td>
+				<td>809</td>
+				<td>788</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240119</td>
+				<td>726</td>
+				<td>687</td>
+				<td>671</td>
+				<td>651</td>
+				<td>654</td>
+				<td>670</td>
+				<td>706</td>
+				<td>753</td>
+				<td>783</td>
+				<td>793</td>
+				<td>798</td>
+				<td>774</td>
+				<td>757</td>
+				<td>758</td>
+				<td>758</td>
+				<td>748</td>
+				<td>776</td>
+				<td>821</td>
+				<td>876</td>
+				<td>866</td>
+				<td>850</td>
+				<td>822</td>
+				<td>776</td>
+				<td>754</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240120</td>
+				<td>702</td>
+				<td>671</td>
+				<td>652</td>
+				<td>639</td>
+				<td>634</td>
+				<td>648</td>
+				<td>672</td>
+				<td>741</td>
+				<td>748</td>
+				<td>731</td>
+				<td>739</td>
+				<td>736</td>
+				<td>720</td>
+				<td>719</td>
+				<td>724</td>
+				<td>738</td>
+				<td>756</td>
+				<td>813</td>
+				<td>858</td>
+				<td>831</td>
+				<td>808</td>
+				<td>795</td>
+				<td>770</td>
+				<td>758</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240121</td>
+				<td>714</td>
+				<td>678</td>
+				<td>651</td>
+				<td>638</td>
+				<td>630</td>
+				<td>639</td>
+				<td>679</td>
+				<td>722</td>
+				<td>723</td>
+				<td>714</td>
+				<td>712</td>
+				<td>699</td>
+				<td>695</td>
+				<td>696</td>
+				<td>710</td>
+				<td>723</td>
+				<td>754</td>
+				<td>802</td>
+				<td>845</td>
+				<td>833</td>
+				<td>818</td>
+				<td>800</td>
+				<td>778</td>
+				<td>768</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240122</td>
+				<td>726</td>
+				<td>703</td>
+				<td>691</td>
+				<td>686</td>
+				<td>689</td>
+				<td>711</td>
+				<td>757</td>
+				<td>826</td>
+				<td>895</td>
+				<td>907</td>
+				<td>884</td>
+				<td>861</td>
+				<td>834</td>
+				<td>856</td>
+				<td>866</td>
+				<td>884</td>
+				<td>934</td>
+				<td>980</td>
+				<td>1,007</td>
+				<td>972</td>
+				<td>953</td>
+				<td>926</td>
+				<td>890</td>
+				<td>875</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240123</td>
+				<td>839</td>
+				<td>804</td>
+				<td>781</td>
+				<td>762</td>
+				<td>780</td>
+				<td>803</td>
+				<td>851</td>
+				<td>904</td>
+				<td>938</td>
+				<td>1,008</td>
+				<td>997</td>
+				<td>977</td>
+				<td>958</td>
+				<td>977</td>
+				<td>1,002</td>
+				<td>1,019</td>
+				<td>1,040</td>
+				<td>1,061</td>
+				<td>1,042</td>
+				<td>1,015</td>
+				<td>979</td>
+				<td>955</td>
+				<td>924</td>
+				<td>888</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240124</td>
+				<td>858</td>
+				<td>784</td>
+				<td>734</td>
+				<td>716</td>
+				<td>722</td>
+				<td>762</td>
+				<td>824</td>
+				<td>895</td>
+				<td>958</td>
+				<td>964</td>
+				<td>926</td>
+				<td>911</td>
+				<td>885</td>
+				<td>908</td>
+				<td>914</td>
+				<td>945</td>
+				<td>1,006</td>
+				<td>1,046</td>
+				<td>1,056</td>
+				<td>1,033</td>
+				<td>998</td>
+				<td>961</td>
+				<td>931</td>
+				<td>904</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240125</td>
+				<td>850</td>
+				<td>810</td>
+				<td>784</td>
+				<td>770</td>
+				<td>798</td>
+				<td>826</td>
+				<td>865</td>
+				<td>913</td>
+				<td>963</td>
+				<td>978</td>
+				<td>958</td>
+				<td>908</td>
+				<td>889</td>
+				<td>894</td>
+				<td>899</td>
+				<td>938</td>
+				<td>984</td>
+				<td>994</td>
+				<td>1,011</td>
+				<td>992</td>
+				<td>959</td>
+				<td>925</td>
+				<td>893</td>
+				<td>860</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240126</td>
+				<td>805</td>
+				<td>770</td>
+				<td>747</td>
+				<td>734</td>
+				<td>730</td>
+				<td>744</td>
+				<td>778</td>
+				<td>817</td>
+				<td>884</td>
+				<td>894</td>
+				<td>864</td>
+				<td>832</td>
+				<td>800</td>
+				<td>810</td>
+				<td>818</td>
+				<td>836</td>
+				<td>861</td>
+				<td>912</td>
+				<td>935</td>
+				<td>935</td>
+				<td>923</td>
+				<td>911</td>
+				<td>892</td>
+				<td>862</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240127</td>
+				<td>842</td>
+				<td>800</td>
+				<td>773</td>
+				<td>758</td>
+				<td>758</td>
+				<td>776</td>
+				<td>805</td>
+				<td>848</td>
+				<td>862</td>
+				<td>855</td>
+				<td>835</td>
+				<td>808</td>
+				<td>790</td>
+				<td>789</td>
+				<td>802</td>
+				<td>822</td>
+				<td>863</td>
+				<td>903</td>
+				<td>935</td>
+				<td>927</td>
+				<td>913</td>
+				<td>897</td>
+				<td>879</td>
+				<td>867</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240128</td>
+				<td>815</td>
+				<td>787</td>
+				<td>772</td>
+				<td>757</td>
+				<td>742</td>
+				<td>755</td>
+				<td>779</td>
+				<td>792</td>
+				<td>796</td>
+				<td>774</td>
+				<td>780</td>
+				<td>773</td>
+				<td>747</td>
+				<td>769</td>
+				<td>779</td>
+				<td>816</td>
+				<td>841</td>
+				<td>884</td>
+				<td>920</td>
+				<td>913</td>
+				<td>902</td>
+				<td>886</td>
+				<td>868</td>
+				<td>855</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240129</td>
+				<td>771</td>
+				<td>733</td>
+				<td>698</td>
+				<td>694</td>
+				<td>713</td>
+				<td>736</td>
+				<td>785</td>
+				<td>845</td>
+				<td>890</td>
+				<td>903</td>
+				<td>880</td>
+				<td>852</td>
+				<td>820</td>
+				<td>861</td>
+				<td>880</td>
+				<td>906</td>
+				<td>924</td>
+				<td>963</td>
+				<td>994</td>
+				<td>977</td>
+				<td>955</td>
+				<td>938</td>
+				<td>926</td>
+				<td>908</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240130</td>
+				<td>841</td>
+				<td>796</td>
+				<td>767</td>
+				<td>747</td>
+				<td>731</td>
+				<td>746</td>
+				<td>770</td>
+				<td>810</td>
+				<td>827</td>
+				<td>819</td>
+				<td>790</td>
+				<td>761</td>
+				<td>750</td>
+				<td>785</td>
+				<td>812</td>
+				<td>824</td>
+				<td>843</td>
+				<td>881</td>
+				<td>908</td>
+				<td>918</td>
+				<td>908</td>
+				<td>883</td>
+				<td>846</td>
+				<td>812</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240131</td>
+				<td>811</td>
+				<td>769</td>
+				<td>742</td>
+				<td>723</td>
+				<td>712</td>
+				<td>717</td>
+				<td>736</td>
+				<td>775</td>
+				<td>796</td>
+				<td>812</td>
+				<td>827</td>
+				<td>815</td>
+				<td>787</td>
+				<td>795</td>
+				<td>813</td>
+				<td>825</td>
+				<td>834</td>
+				<td>852</td>
+				<td>870</td>
+				<td>884</td>
+				<td>874</td>
+				<td>861</td>
+				<td>842</td>
+				<td>825</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240201</td>
+				<td>758</td>
+				<td>723</td>
+				<td>697</td>
+				<td>677</td>
+				<td>680</td>
+				<td>689</td>
+				<td>720</td>
+				<td>788</td>
+				<td>861</td>
+				<td>869</td>
+				<td>869</td>
+				<td>867</td>
+				<td>837</td>
+				<td>824</td>
+				<td>816</td>
+				<td>836</td>
+				<td>847</td>
+				<td>877</td>
+				<td>898</td>
+				<td>885</td>
+				<td>863</td>
+				<td>830</td>
+				<td>806</td>
+				<td>787</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240202</td>
+				<td>746</td>
+				<td>710</td>
+				<td>682</td>
+				<td>664</td>
+				<td>660</td>
+				<td>668</td>
+				<td>698</td>
+				<td>754</td>
+				<td>812</td>
+				<td>825</td>
+				<td>835</td>
+				<td>827</td>
+				<td>787</td>
+				<td>779</td>
+				<td>776</td>
+				<td>786</td>
+				<td>812</td>
+				<td>848</td>
+				<td>872</td>
+				<td>856</td>
+				<td>837</td>
+				<td>808</td>
+				<td>774</td>
+				<td>753</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240203</td>
+				<td>705</td>
+				<td>673</td>
+				<td>653</td>
+				<td>639</td>
+				<td>644</td>
+				<td>656</td>
+				<td>681</td>
+				<td>752</td>
+				<td>780</td>
+				<td>791</td>
+				<td>801</td>
+				<td>791</td>
+				<td>783</td>
+				<td>774</td>
+				<td>775</td>
+				<td>785</td>
+				<td>810</td>
+				<td>843</td>
+				<td>882</td>
+				<td>865</td>
+				<td>846</td>
+				<td>824</td>
+				<td>796</td>
+				<td>772</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240204</td>
+				<td>716</td>
+				<td>677</td>
+				<td>652</td>
+				<td>641</td>
+				<td>638</td>
+				<td>652</td>
+				<td>675</td>
+				<td>725</td>
+				<td>733</td>
+				<td>740</td>
+				<td>759</td>
+				<td>748</td>
+				<td>747</td>
+				<td>745</td>
+				<td>750</td>
+				<td>761</td>
+				<td>784</td>
+				<td>830</td>
+				<td>874</td>
+				<td>849</td>
+				<td>825</td>
+				<td>810</td>
+				<td>787</td>
+				<td>772</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240205</td>
+				<td>726</td>
+				<td>701</td>
+				<td>685</td>
+				<td>656</td>
+				<td>671</td>
+				<td>712</td>
+				<td>795</td>
+				<td>853</td>
+				<td>873</td>
+				<td>873</td>
+				<td>858</td>
+				<td>844</td>
+				<td>820</td>
+				<td>824</td>
+				<td>835</td>
+				<td>845</td>
+				<td>880</td>
+				<td>909</td>
+				<td>942</td>
+				<td>912</td>
+				<td>881</td>
+				<td>843</td>
+				<td>817</td>
+				<td>786</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240206</td>
+				<td>729</td>
+				<td>692</td>
+				<td>665</td>
+				<td>652</td>
+				<td>659</td>
+				<td>676</td>
+				<td>710</td>
+				<td>750</td>
+				<td>806</td>
+				<td>845</td>
+				<td>844</td>
+				<td>815</td>
+				<td>789</td>
+				<td>788</td>
+				<td>786</td>
+				<td>808</td>
+				<td>850</td>
+				<td>879</td>
+				<td>889</td>
+				<td>858</td>
+				<td>836</td>
+				<td>805</td>
+				<td>794</td>
+				<td>777</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240207</td>
+				<td>740</td>
+				<td>702</td>
+				<td>675</td>
+				<td>661</td>
+				<td>678</td>
+				<td>695</td>
+				<td>730</td>
+				<td>780</td>
+				<td>810</td>
+				<td>805</td>
+				<td>770</td>
+				<td>721</td>
+				<td>688</td>
+				<td>696</td>
+				<td>714</td>
+				<td>743</td>
+				<td>799</td>
+				<td>870</td>
+				<td>936</td>
+				<td>910</td>
+				<td>888</td>
+				<td>866</td>
+				<td>839</td>
+				<td>821</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240208</td>
+				<td>796</td>
+				<td>758</td>
+				<td>728</td>
+				<td>714</td>
+				<td>719</td>
+				<td>737</td>
+				<td>772</td>
+				<td>805</td>
+				<td>852</td>
+				<td>876</td>
+				<td>814</td>
+				<td>773</td>
+				<td>743</td>
+				<td>759</td>
+				<td>765</td>
+				<td>789</td>
+				<td>831</td>
+				<td>862</td>
+				<td>904</td>
+				<td>890</td>
+				<td>871</td>
+				<td>841</td>
+				<td>825</td>
+				<td>808</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240209</td>
+				<td>737</td>
+				<td>702</td>
+				<td>678</td>
+				<td>664</td>
+				<td>664</td>
+				<td>679</td>
+				<td>717</td>
+				<td>738</td>
+				<td>738</td>
+				<td>719</td>
+				<td>689</td>
+				<td>680</td>
+				<td>691</td>
+				<td>695</td>
+				<td>705</td>
+				<td>716</td>
+				<td>737</td>
+				<td>748</td>
+				<td>784</td>
+				<td>770</td>
+				<td>760</td>
+				<td>754</td>
+				<td>743</td>
+				<td>728</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240210</td>
+				<td>648</td>
+				<td>608</td>
+				<td>576</td>
+				<td>564</td>
+				<td>564</td>
+				<td>576</td>
+				<td>607</td>
+				<td>648</td>
+				<td>670</td>
+				<td>652</td>
+				<td>622</td>
+				<td>591</td>
+				<td>578</td>
+				<td>606</td>
+				<td>619</td>
+				<td>641</td>
+				<td>663</td>
+				<td>698</td>
+				<td>753</td>
+				<td>741</td>
+				<td>725</td>
+				<td>716</td>
+				<td>703</td>
+				<td>686</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240211</td>
+				<td>656</td>
+				<td>631</td>
+				<td>614</td>
+				<td>604</td>
+				<td>604</td>
+				<td>615</td>
+				<td>642</td>
+				<td>678</td>
+				<td>697</td>
+				<td>678</td>
+				<td>637</td>
+				<td>599</td>
+				<td>568</td>
+				<td>580</td>
+				<td>603</td>
+				<td>631</td>
+				<td>688</td>
+				<td>723</td>
+				<td>760</td>
+				<td>749</td>
+				<td>735</td>
+				<td>728</td>
+				<td>717</td>
+				<td>711</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240212</td>
+				<td>671</td>
+				<td>635</td>
+				<td>610</td>
+				<td>596</td>
+				<td>630</td>
+				<td>646</td>
+				<td>687</td>
+				<td>723</td>
+				<td>762</td>
+				<td>718</td>
+				<td>647</td>
+				<td>624</td>
+				<td>604</td>
+				<td>600</td>
+				<td>613</td>
+				<td>644</td>
+				<td>692</td>
+				<td>743</td>
+				<td>816</td>
+				<td>826</td>
+				<td>807</td>
+				<td>773</td>
+				<td>760</td>
+				<td>739</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240213</td>
+				<td>704</td>
+				<td>683</td>
+				<td>662</td>
+				<td>650</td>
+				<td>664</td>
+				<td>679</td>
+				<td>716</td>
+				<td>767</td>
+				<td>799</td>
+				<td>786</td>
+				<td>763</td>
+				<td>748</td>
+				<td>728</td>
+				<td>734</td>
+				<td>741</td>
+				<td>758</td>
+				<td>790</td>
+				<td>828</td>
+				<td>878</td>
+				<td>872</td>
+				<td>865</td>
+				<td>848</td>
+				<td>832</td>
+				<td>811</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240214</td>
+				<td>677</td>
+				<td>643</td>
+				<td>617</td>
+				<td>605</td>
+				<td>598</td>
+				<td>615</td>
+				<td>645</td>
+				<td>683</td>
+				<td>724</td>
+				<td>737</td>
+				<td>765</td>
+				<td>770</td>
+				<td>750</td>
+				<td>749</td>
+				<td>741</td>
+				<td>756</td>
+				<td>787</td>
+				<td>815</td>
+				<td>849</td>
+				<td>833</td>
+				<td>814</td>
+				<td>805</td>
+				<td>794</td>
+				<td>778</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240215</td>
+				<td>686</td>
+				<td>652</td>
+				<td>625</td>
+				<td>612</td>
+				<td>622</td>
+				<td>639</td>
+				<td>670</td>
+				<td>701</td>
+				<td>739</td>
+				<td>746</td>
+				<td>777</td>
+				<td>759</td>
+				<td>748</td>
+				<td>773</td>
+				<td>773</td>
+				<td>780</td>
+				<td>803</td>
+				<td>833</td>
+				<td>867</td>
+				<td>892</td>
+				<td>873</td>
+				<td>843</td>
+				<td>832</td>
+				<td>816</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240216</td>
+				<td>743</td>
+				<td>698</td>
+				<td>669</td>
+				<td>656</td>
+				<td>670</td>
+				<td>686</td>
+				<td>718</td>
+				<td>759</td>
+				<td>780</td>
+				<td>800</td>
+				<td>762</td>
+				<td>715</td>
+				<td>678</td>
+				<td>677</td>
+				<td>690</td>
+				<td>726</td>
+				<td>758</td>
+				<td>798</td>
+				<td>834</td>
+				<td>851</td>
+				<td>830</td>
+				<td>800</td>
+				<td>772</td>
+				<td>739</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240217</td>
+				<td>723</td>
+				<td>695</td>
+				<td>668</td>
+				<td>645</td>
+				<td>654</td>
+				<td>671</td>
+				<td>696</td>
+				<td>721</td>
+				<td>719</td>
+				<td>698</td>
+				<td>667</td>
+				<td>638</td>
+				<td>612</td>
+				<td>607</td>
+				<td>638</td>
+				<td>677</td>
+				<td>717</td>
+				<td>758</td>
+				<td>788</td>
+				<td>799</td>
+				<td>787</td>
+				<td>762</td>
+				<td>744</td>
+				<td>715</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240218</td>
+				<td>669</td>
+				<td>644</td>
+				<td>626</td>
+				<td>619</td>
+				<td>623</td>
+				<td>632</td>
+				<td>649</td>
+				<td>661</td>
+				<td>666</td>
+				<td>668</td>
+				<td>665</td>
+				<td>654</td>
+				<td>646</td>
+				<td>645</td>
+				<td>651</td>
+				<td>660</td>
+				<td>672</td>
+				<td>695</td>
+				<td>716</td>
+				<td>725</td>
+				<td>716</td>
+				<td>699</td>
+				<td>681</td>
+				<td>671</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240219</td>
+				<td>695</td>
+				<td>677</td>
+				<td>660</td>
+				<td>649</td>
+				<td>645</td>
+				<td>648</td>
+				<td>660</td>
+				<td>672</td>
+				<td>697</td>
+				<td>716</td>
+				<td>717</td>
+				<td>713</td>
+				<td>691</td>
+				<td>675</td>
+				<td>670</td>
+				<td>680</td>
+				<td>702</td>
+				<td>738</td>
+				<td>768</td>
+				<td>778</td>
+				<td>768</td>
+				<td>750</td>
+				<td>739</td>
+				<td>729</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240220</td>
+				<td>685</td>
+				<td>659</td>
+				<td>648</td>
+				<td>634</td>
+				<td>652</td>
+				<td>677</td>
+				<td>719</td>
+				<td>744</td>
+				<td>750</td>
+				<td>750</td>
+				<td>759</td>
+				<td>752</td>
+				<td>741</td>
+				<td>758</td>
+				<td>756</td>
+				<td>751</td>
+				<td>758</td>
+				<td>784</td>
+				<td>799</td>
+				<td>816</td>
+				<td>807</td>
+				<td>794</td>
+				<td>785</td>
+				<td>768</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240221</td>
+				<td>688</td>
+				<td>657</td>
+				<td>635</td>
+				<td>621</td>
+				<td>624</td>
+				<td>648</td>
+				<td>687</td>
+				<td>710</td>
+				<td>717</td>
+				<td>726</td>
+				<td>730</td>
+				<td>720</td>
+				<td>707</td>
+				<td>726</td>
+				<td>728</td>
+				<td>726</td>
+				<td>742</td>
+				<td>760</td>
+				<td>789</td>
+				<td>777</td>
+				<td>765</td>
+				<td>747</td>
+				<td>725</td>
+				<td>707</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240222</td>
+				<td>692</td>
+				<td>668</td>
+				<td>647</td>
+				<td>635</td>
+				<td>638</td>
+				<td>657</td>
+				<td>690</td>
+				<td>752</td>
+				<td>802</td>
+				<td>828</td>
+				<td>827</td>
+				<td>797</td>
+				<td>759</td>
+				<td>763</td>
+				<td>760</td>
+				<td>763</td>
+				<td>777</td>
+				<td>796</td>
+				<td>830</td>
+				<td>850</td>
+				<td>836</td>
+				<td>821</td>
+				<td>804</td>
+				<td>785</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240223</td>
+				<td>706</td>
+				<td>674</td>
+				<td>650</td>
+				<td>637</td>
+				<td>646</td>
+				<td>662</td>
+				<td>697</td>
+				<td>746</td>
+				<td>807</td>
+				<td>844</td>
+				<td>868</td>
+				<td>848</td>
+				<td>818</td>
+				<td>796</td>
+				<td>798</td>
+				<td>804</td>
+				<td>825</td>
+				<td>852</td>
+				<td>869</td>
+				<td>854</td>
+				<td>837</td>
+				<td>811</td>
+				<td>766</td>
+				<td>749</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240224</td>
+				<td>723</td>
+				<td>680</td>
+				<td>646</td>
+				<td>620</td>
+				<td>636</td>
+				<td>654</td>
+				<td>680</td>
+				<td>725</td>
+				<td>769</td>
+				<td>783</td>
+				<td>784</td>
+				<td>766</td>
+				<td>750</td>
+				<td>765</td>
+				<td>772</td>
+				<td>784</td>
+				<td>810</td>
+				<td>834</td>
+				<td>865</td>
+				<td>845</td>
+				<td>817</td>
+				<td>802</td>
+				<td>772</td>
+				<td>755</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240225</td>
+				<td>711</td>
+				<td>665</td>
+				<td>617</td>
+				<td>608</td>
+				<td>622</td>
+				<td>645</td>
+				<td>672</td>
+				<td>698</td>
+				<td>706</td>
+				<td>725</td>
+				<td>729</td>
+				<td>720</td>
+				<td>710</td>
+				<td>704</td>
+				<td>710</td>
+				<td>725</td>
+				<td>755</td>
+				<td>790</td>
+				<td>829</td>
+				<td>834</td>
+				<td>817</td>
+				<td>798</td>
+				<td>772</td>
+				<td>756</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240226</td>
+				<td>720</td>
+				<td>674</td>
+				<td>636</td>
+				<td>621</td>
+				<td>645</td>
+				<td>665</td>
+				<td>699</td>
+				<td>757</td>
+				<td>801</td>
+				<td>821</td>
+				<td>803</td>
+				<td>776</td>
+				<td>761</td>
+				<td>791</td>
+				<td>809</td>
+				<td>828</td>
+				<td>854</td>
+				<td>883</td>
+				<td>907</td>
+				<td>894</td>
+				<td>860</td>
+				<td>830</td>
+				<td>800</td>
+				<td>774</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240227</td>
+				<td>714</td>
+				<td>680</td>
+				<td>657</td>
+				<td>644</td>
+				<td>651</td>
+				<td>667</td>
+				<td>703</td>
+				<td>729</td>
+				<td>765</td>
+				<td>783</td>
+				<td>775</td>
+				<td>769</td>
+				<td>751</td>
+				<td>766</td>
+				<td>775</td>
+				<td>791</td>
+				<td>811</td>
+				<td>839</td>
+				<td>862</td>
+				<td>877</td>
+				<td>846</td>
+				<td>824</td>
+				<td>802</td>
+				<td>787</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240228</td>
+				<td>742</td>
+				<td>708</td>
+				<td>682</td>
+				<td>672</td>
+				<td>681</td>
+				<td>700</td>
+				<td>742</td>
+				<td>772</td>
+				<td>798</td>
+				<td>768</td>
+				<td>728</td>
+				<td>682</td>
+				<td>640</td>
+				<td>647</td>
+				<td>662</td>
+				<td>663</td>
+				<td>699</td>
+				<td>797</td>
+				<td>832</td>
+				<td>860</td>
+				<td>837</td>
+				<td>812</td>
+				<td>784</td>
+				<td>770</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240229</td>
+				<td>734</td>
+				<td>686</td>
+				<td>661</td>
+				<td>647</td>
+				<td>651</td>
+				<td>673</td>
+				<td>714</td>
+				<td>755</td>
+				<td>769</td>
+				<td>785</td>
+				<td>807</td>
+				<td>791</td>
+				<td>779</td>
+				<td>786</td>
+				<td>791</td>
+				<td>793</td>
+				<td>807</td>
+				<td>822</td>
+				<td>844</td>
+				<td>857</td>
+				<td>846</td>
+				<td>831</td>
+				<td>811</td>
+				<td>784</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240301</td>
+				<td>732</td>
+				<td>686</td>
+				<td>660</td>
+				<td>647</td>
+				<td>651</td>
+				<td>672</td>
+				<td>712</td>
+				<td>750</td>
+				<td>797</td>
+				<td>779</td>
+				<td>760</td>
+				<td>740</td>
+				<td>722</td>
+				<td>748</td>
+				<td>769</td>
+				<td>787</td>
+				<td>798</td>
+				<td>817</td>
+				<td>872</td>
+				<td>902</td>
+				<td>878</td>
+				<td>849</td>
+				<td>822</td>
+				<td>804</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240302</td>
+				<td>771</td>
+				<td>731</td>
+				<td>708</td>
+				<td>697</td>
+				<td>700</td>
+				<td>719</td>
+				<td>754</td>
+				<td>787</td>
+				<td>804</td>
+				<td>800</td>
+				<td>798</td>
+				<td>780</td>
+				<td>744</td>
+				<td>735</td>
+				<td>734</td>
+				<td>748</td>
+				<td>768</td>
+				<td>800</td>
+				<td>873</td>
+				<td>903</td>
+				<td>894</td>
+				<td>868</td>
+				<td>851</td>
+				<td>818</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240303</td>
+				<td>760</td>
+				<td>721</td>
+				<td>701</td>
+				<td>686</td>
+				<td>684</td>
+				<td>702</td>
+				<td>736</td>
+				<td>766</td>
+				<td>748</td>
+				<td>719</td>
+				<td>687</td>
+				<td>653</td>
+				<td>632</td>
+				<td>654</td>
+				<td>677</td>
+				<td>709</td>
+				<td>737</td>
+				<td>782</td>
+				<td>820</td>
+				<td>830</td>
+				<td>815</td>
+				<td>807</td>
+				<td>795</td>
+				<td>782</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240304</td>
+				<td>723</td>
+				<td>682</td>
+				<td>659</td>
+				<td>647</td>
+				<td>650</td>
+				<td>669</td>
+				<td>705</td>
+				<td>749</td>
+				<td>796</td>
+				<td>801</td>
+				<td>782</td>
+				<td>768</td>
+				<td>747</td>
+				<td>784</td>
+				<td>794</td>
+				<td>804</td>
+				<td>813</td>
+				<td>820</td>
+				<td>828</td>
+				<td>857</td>
+				<td>848</td>
+				<td>822</td>
+				<td>804</td>
+				<td>770</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240305</td>
+				<td>723</td>
+				<td>688</td>
+				<td>666</td>
+				<td>652</td>
+				<td>651</td>
+				<td>668</td>
+				<td>703</td>
+				<td>752</td>
+				<td>787</td>
+				<td>813</td>
+				<td>818</td>
+				<td>801</td>
+				<td>784</td>
+				<td>790</td>
+				<td>802</td>
+				<td>808</td>
+				<td>810</td>
+				<td>819</td>
+				<td>831</td>
+				<td>821</td>
+				<td>809</td>
+				<td>793</td>
+				<td>786</td>
+				<td>770</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240306</td>
+				<td>713</td>
+				<td>680</td>
+				<td>659</td>
+				<td>646</td>
+				<td>656</td>
+				<td>672</td>
+				<td>706</td>
+				<td>764</td>
+				<td>826</td>
+				<td>854</td>
+				<td>841</td>
+				<td>803</td>
+				<td>778</td>
+				<td>792</td>
+				<td>806</td>
+				<td>823</td>
+				<td>850</td>
+				<td>869</td>
+				<td>891</td>
+				<td>869</td>
+				<td>846</td>
+				<td>822</td>
+				<td>797</td>
+				<td>782</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240307</td>
+				<td>740</td>
+				<td>685</td>
+				<td>659</td>
+				<td>646</td>
+				<td>656</td>
+				<td>677</td>
+				<td>726</td>
+				<td>764</td>
+				<td>744</td>
+				<td>719</td>
+				<td>704</td>
+				<td>678</td>
+				<td>658</td>
+				<td>680</td>
+				<td>704</td>
+				<td>726</td>
+				<td>758</td>
+				<td>791</td>
+				<td>858</td>
+				<td>891</td>
+				<td>866</td>
+				<td>842</td>
+				<td>817</td>
+				<td>797</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240308</td>
+				<td>745</td>
+				<td>713</td>
+				<td>684</td>
+				<td>670</td>
+				<td>690</td>
+				<td>706</td>
+				<td>748</td>
+				<td>771</td>
+				<td>804</td>
+				<td>809</td>
+				<td>753</td>
+				<td>707</td>
+				<td>670</td>
+				<td>644</td>
+				<td>635</td>
+				<td>683</td>
+				<td>745</td>
+				<td>812</td>
+				<td>867</td>
+				<td>902</td>
+				<td>887</td>
+				<td>861</td>
+				<td>836</td>
+				<td>818</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240309</td>
+				<td>769</td>
+				<td>731</td>
+				<td>705</td>
+				<td>689</td>
+				<td>706</td>
+				<td>722</td>
+				<td>750</td>
+				<td>748</td>
+				<td>727</td>
+				<td>696</td>
+				<td>645</td>
+				<td>614</td>
+				<td>591</td>
+				<td>586</td>
+				<td>614</td>
+				<td>642</td>
+				<td>704</td>
+				<td>756</td>
+				<td>807</td>
+				<td>916</td>
+				<td>899</td>
+				<td>878</td>
+				<td>864</td>
+				<td>844</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240310</td>
+				<td>811</td>
+				<td>785</td>
+				<td>758</td>
+				<td>740</td>
+				<td>738</td>
+				<td>742</td>
+				<td>764</td>
+				<td>763</td>
+				<td>729</td>
+				<td>672</td>
+				<td>639</td>
+				<td>614</td>
+				<td>604</td>
+				<td>599</td>
+				<td>609</td>
+				<td>650</td>
+				<td>710</td>
+				<td>764</td>
+				<td>848</td>
+				<td>909</td>
+				<td>906</td>
+				<td>891</td>
+				<td>874</td>
+				<td>855</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240311</td>
+				<td>831</td>
+				<td>794</td>
+				<td>775</td>
+				<td>750</td>
+				<td>735</td>
+				<td>755</td>
+				<td>793</td>
+				<td>799</td>
+				<td>795</td>
+				<td>800</td>
+				<td>788</td>
+				<td>773</td>
+				<td>764</td>
+				<td>775</td>
+				<td>782</td>
+				<td>794</td>
+				<td>817</td>
+				<td>838</td>
+				<td>864</td>
+				<td>885</td>
+				<td>873</td>
+				<td>863</td>
+				<td>857</td>
+				<td>842</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240312</td>
+				<td>805</td>
+				<td>769</td>
+				<td>744</td>
+				<td>731</td>
+				<td>734</td>
+				<td>750</td>
+				<td>797</td>
+				<td>841</td>
+				<td>844</td>
+				<td>814</td>
+				<td>772</td>
+				<td>740</td>
+				<td>714</td>
+				<td>715</td>
+				<td>719</td>
+				<td>729</td>
+				<td>761</td>
+				<td>799</td>
+				<td>849</td>
+				<td>883</td>
+				<td>873</td>
+				<td>857</td>
+				<td>841</td>
+				<td>825</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240313</td>
+				<td>763</td>
+				<td>727</td>
+				<td>702</td>
+				<td>690</td>
+				<td>701</td>
+				<td>716</td>
+				<td>748</td>
+				<td>760</td>
+				<td>743</td>
+				<td>699</td>
+				<td>651</td>
+				<td>620</td>
+				<td>601</td>
+				<td>618</td>
+				<td>651</td>
+				<td>689</td>
+				<td>738</td>
+				<td>802</td>
+				<td>831</td>
+				<td>820</td>
+				<td>804</td>
+				<td>801</td>
+				<td>787</td>
+				<td>767</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240314</td>
+				<td>762</td>
+				<td>723</td>
+				<td>693</td>
+				<td>681</td>
+				<td>691</td>
+				<td>707</td>
+				<td>750</td>
+				<td>764</td>
+				<td>735</td>
+				<td>701</td>
+				<td>664</td>
+				<td>630</td>
+				<td>608</td>
+				<td>614</td>
+				<td>647</td>
+				<td>691</td>
+				<td>743</td>
+				<td>805</td>
+				<td>871</td>
+				<td>904</td>
+				<td>895</td>
+				<td>882</td>
+				<td>866</td>
+				<td>849</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240315</td>
+				<td>784</td>
+				<td>750</td>
+				<td>731</td>
+				<td>717</td>
+				<td>714</td>
+				<td>730</td>
+				<td>771</td>
+				<td>789</td>
+				<td>736</td>
+				<td>672</td>
+				<td>624</td>
+				<td>585</td>
+				<td>568</td>
+				<td>578</td>
+				<td>602</td>
+				<td>643</td>
+				<td>704</td>
+				<td>766</td>
+				<td>827</td>
+				<td>861</td>
+				<td>870</td>
+				<td>851</td>
+				<td>826</td>
+				<td>805</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240316</td>
+				<td>744</td>
+				<td>714</td>
+				<td>692</td>
+				<td>680</td>
+				<td>677</td>
+				<td>681</td>
+				<td>697</td>
+				<td>688</td>
+				<td>648</td>
+				<td>604</td>
+				<td>582</td>
+				<td>567</td>
+				<td>553</td>
+				<td>571</td>
+				<td>607</td>
+				<td>640</td>
+				<td>677</td>
+				<td>736</td>
+				<td>803</td>
+				<td>828</td>
+				<td>824</td>
+				<td>808</td>
+				<td>772</td>
+				<td>757</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240317</td>
+				<td>731</td>
+				<td>691</td>
+				<td>664</td>
+				<td>664</td>
+				<td>671</td>
+				<td>693</td>
+				<td>720</td>
+				<td>731</td>
+				<td>725</td>
+				<td>715</td>
+				<td>709</td>
+				<td>694</td>
+				<td>648</td>
+				<td>667</td>
+				<td>697</td>
+				<td>725</td>
+				<td>779</td>
+				<td>791</td>
+				<td>804</td>
+				<td>844</td>
+				<td>834</td>
+				<td>822</td>
+				<td>807</td>
+				<td>791</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240318</td>
+				<td>749</td>
+				<td>730</td>
+				<td>703</td>
+				<td>686</td>
+				<td>706</td>
+				<td>726</td>
+				<td>755</td>
+				<td>758</td>
+				<td>741</td>
+				<td>698</td>
+				<td>661</td>
+				<td>630</td>
+				<td>623</td>
+				<td>658</td>
+				<td>674</td>
+				<td>705</td>
+				<td>750</td>
+				<td>771</td>
+				<td>791</td>
+				<td>853</td>
+				<td>848</td>
+				<td>832</td>
+				<td>821</td>
+				<td>809</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240319</td>
+				<td>740</td>
+				<td>702</td>
+				<td>675</td>
+				<td>666</td>
+				<td>678</td>
+				<td>714</td>
+				<td>768</td>
+				<td>768</td>
+				<td>723</td>
+				<td>717</td>
+				<td>710</td>
+				<td>661</td>
+				<td>599</td>
+				<td>591</td>
+				<td>596</td>
+				<td>627</td>
+				<td>691</td>
+				<td>719</td>
+				<td>793</td>
+				<td>848</td>
+				<td>841</td>
+				<td>831</td>
+				<td>813</td>
+				<td>795</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240320</td>
+				<td>761</td>
+				<td>730</td>
+				<td>714</td>
+				<td>705</td>
+				<td>698</td>
+				<td>719</td>
+				<td>741</td>
+				<td>713</td>
+				<td>667</td>
+				<td>634</td>
+				<td>596</td>
+				<td>555</td>
+				<td>547</td>
+				<td>555</td>
+				<td>572</td>
+				<td>610</td>
+				<td>651</td>
+				<td>702</td>
+				<td>760</td>
+				<td>806</td>
+				<td>809</td>
+				<td>792</td>
+				<td>769</td>
+				<td>757</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240321</td>
+				<td>728</td>
+				<td>701</td>
+				<td>683</td>
+				<td>674</td>
+				<td>669</td>
+				<td>689</td>
+				<td>724</td>
+				<td>735</td>
+				<td>706</td>
+				<td>645</td>
+				<td>597</td>
+				<td>565</td>
+				<td>550</td>
+				<td>563</td>
+				<td>586</td>
+				<td>616</td>
+				<td>673</td>
+				<td>730</td>
+				<td>807</td>
+				<td>859</td>
+				<td>858</td>
+				<td>842</td>
+				<td>821</td>
+				<td>806</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240322</td>
+				<td>733</td>
+				<td>706</td>
+				<td>688</td>
+				<td>676</td>
+				<td>685</td>
+				<td>700</td>
+				<td>716</td>
+				<td>702</td>
+				<td>663</td>
+				<td>617</td>
+				<td>573</td>
+				<td>545</td>
+				<td>531</td>
+				<td>543</td>
+				<td>586</td>
+				<td>637</td>
+				<td>719</td>
+				<td>766</td>
+				<td>824</td>
+				<td>815</td>
+				<td>799</td>
+				<td>792</td>
+				<td>790</td>
+				<td>779</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240323</td>
+				<td>698</td>
+				<td>671</td>
+				<td>650</td>
+				<td>637</td>
+				<td>647</td>
+				<td>665</td>
+				<td>685</td>
+				<td>701</td>
+				<td>694</td>
+				<td>680</td>
+				<td>653</td>
+				<td>639</td>
+				<td>637</td>
+				<td>647</td>
+				<td>662</td>
+				<td>679</td>
+				<td>691</td>
+				<td>712</td>
+				<td>738</td>
+				<td>780</td>
+				<td>770</td>
+				<td>761</td>
+				<td>752</td>
+				<td>741</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240324</td>
+				<td>696</td>
+				<td>677</td>
+				<td>664</td>
+				<td>651</td>
+				<td>659</td>
+				<td>674</td>
+				<td>696</td>
+				<td>695</td>
+				<td>687</td>
+				<td>673</td>
+				<td>662</td>
+				<td>659</td>
+				<td>666</td>
+				<td>669</td>
+				<td>674</td>
+				<td>682</td>
+				<td>698</td>
+				<td>725</td>
+				<td>766</td>
+				<td>753</td>
+				<td>745</td>
+				<td>736</td>
+				<td>727</td>
+				<td>709</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240325</td>
+				<td>654</td>
+				<td>608</td>
+				<td>595</td>
+				<td>588</td>
+				<td>592</td>
+				<td>609</td>
+				<td>626</td>
+				<td>655</td>
+				<td>689</td>
+				<td>694</td>
+				<td>674</td>
+				<td>655</td>
+				<td>654</td>
+				<td>667</td>
+				<td>677</td>
+				<td>698</td>
+				<td>718</td>
+				<td>742</td>
+				<td>754</td>
+				<td>742</td>
+				<td>731</td>
+				<td>721</td>
+				<td>710</td>
+				<td>702</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240326</td>
+				<td>739</td>
+				<td>727</td>
+				<td>717</td>
+				<td>711</td>
+				<td>719</td>
+				<td>739</td>
+				<td>766</td>
+				<td>781</td>
+				<td>772</td>
+				<td>757</td>
+				<td>740</td>
+				<td>718</td>
+				<td>702</td>
+				<td>704</td>
+				<td>711</td>
+				<td>729</td>
+				<td>750</td>
+				<td>786</td>
+				<td>830</td>
+				<td>818</td>
+				<td>808</td>
+				<td>796</td>
+				<td>787</td>
+				<td>778</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240327</td>
+				<td>733</td>
+				<td>692</td>
+				<td>673</td>
+				<td>662</td>
+				<td>671</td>
+				<td>692</td>
+				<td>730</td>
+				<td>737</td>
+				<td>701</td>
+				<td>663</td>
+				<td>625</td>
+				<td>594</td>
+				<td>585</td>
+				<td>597</td>
+				<td>625</td>
+				<td>664</td>
+				<td>714</td>
+				<td>772</td>
+				<td>825</td>
+				<td>816</td>
+				<td>799</td>
+				<td>776</td>
+				<td>754</td>
+				<td>735</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240328</td>
+				<td>684</td>
+				<td>648</td>
+				<td>626</td>
+				<td>612</td>
+				<td>617</td>
+				<td>631</td>
+				<td>676</td>
+				<td>730</td>
+				<td>743</td>
+				<td>751</td>
+				<td>753</td>
+				<td>748</td>
+				<td>729</td>
+				<td>736</td>
+				<td>738</td>
+				<td>740</td>
+				<td>745</td>
+				<td>767</td>
+				<td>809</td>
+				<td>831</td>
+				<td>821</td>
+				<td>801</td>
+				<td>779</td>
+				<td>759</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240329</td>
+				<td>688</td>
+				<td>658</td>
+				<td>643</td>
+				<td>633</td>
+				<td>625</td>
+				<td>638</td>
+				<td>667</td>
+				<td>667</td>
+				<td>647</td>
+				<td>611</td>
+				<td>573</td>
+				<td>545</td>
+				<td>525</td>
+				<td>535</td>
+				<td>567</td>
+				<td>604</td>
+				<td>641</td>
+				<td>683</td>
+				<td>733</td>
+				<td>767</td>
+				<td>754</td>
+				<td>736</td>
+				<td>718</td>
+				<td>700</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240330</td>
+				<td>655</td>
+				<td>634</td>
+				<td>613</td>
+				<td>579</td>
+				<td>595</td>
+				<td>608</td>
+				<td>632</td>
+				<td>647</td>
+				<td>622</td>
+				<td>596</td>
+				<td>576</td>
+				<td>553</td>
+				<td>533</td>
+				<td>557</td>
+				<td>588</td>
+				<td>611</td>
+				<td>649</td>
+				<td>697</td>
+				<td>741</td>
+				<td>734</td>
+				<td>723</td>
+				<td>712</td>
+				<td>704</td>
+				<td>688</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240331</td>
+				<td>624</td>
+				<td>591</td>
+				<td>572</td>
+				<td>561</td>
+				<td>568</td>
+				<td>583</td>
+				<td>604</td>
+				<td>625</td>
+				<td>623</td>
+				<td>632</td>
+				<td>630</td>
+				<td>610</td>
+				<td>585</td>
+				<td>572</td>
+				<td>579</td>
+				<td>608</td>
+				<td>652</td>
+				<td>712</td>
+				<td>735</td>
+				<td>729</td>
+				<td>724</td>
+				<td>715</td>
+				<td>705</td>
+				<td>694</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240401</td>
+				<td>650</td>
+				<td>632</td>
+				<td>620</td>
+				<td>605</td>
+				<td>620</td>
+				<td>649</td>
+				<td>689</td>
+				<td>705</td>
+				<td>700</td>
+				<td>668</td>
+				<td>628</td>
+				<td>601</td>
+				<td>564</td>
+				<td>564</td>
+				<td>590</td>
+				<td>625</td>
+				<td>664</td>
+				<td>716</td>
+				<td>774</td>
+				<td>761</td>
+				<td>744</td>
+				<td>738</td>
+				<td>728</td>
+				<td>711</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240402</td>
+				<td>719</td>
+				<td>684</td>
+				<td>664</td>
+				<td>658</td>
+				<td>666</td>
+				<td>686</td>
+				<td>714</td>
+				<td>754</td>
+				<td>765</td>
+				<td>744</td>
+				<td>734</td>
+				<td>730</td>
+				<td>726</td>
+				<td>736</td>
+				<td>740</td>
+				<td>743</td>
+				<td>750</td>
+				<td>771</td>
+				<td>801</td>
+				<td>786</td>
+				<td>768</td>
+				<td>762</td>
+				<td>752</td>
+				<td>743</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240403</td>
+				<td>684</td>
+				<td>650</td>
+				<td>628</td>
+				<td>618</td>
+				<td>622</td>
+				<td>649</td>
+				<td>687</td>
+				<td>721</td>
+				<td>727</td>
+				<td>721</td>
+				<td>709</td>
+				<td>700</td>
+				<td>700</td>
+				<td>703</td>
+				<td>706</td>
+				<td>716</td>
+				<td>731</td>
+				<td>756</td>
+				<td>784</td>
+				<td>788</td>
+				<td>780</td>
+				<td>766</td>
+				<td>744</td>
+				<td>729</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240404</td>
+				<td>682</td>
+				<td>646</td>
+				<td>626</td>
+				<td>611</td>
+				<td>611</td>
+				<td>624</td>
+				<td>651</td>
+				<td>675</td>
+				<td>679</td>
+				<td>686</td>
+				<td>665</td>
+				<td>658</td>
+				<td>644</td>
+				<td>657</td>
+				<td>659</td>
+				<td>672</td>
+				<td>700</td>
+				<td>722</td>
+				<td>738</td>
+				<td>781</td>
+				<td>771</td>
+				<td>748</td>
+				<td>730</td>
+				<td>708</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240405</td>
+				<td>627</td>
+				<td>603</td>
+				<td>588</td>
+				<td>573</td>
+				<td>588</td>
+				<td>609</td>
+				<td>634</td>
+				<td>651</td>
+				<td>674</td>
+				<td>687</td>
+				<td>646</td>
+				<td>617</td>
+				<td>598</td>
+				<td>604</td>
+				<td>620</td>
+				<td>642</td>
+				<td>667</td>
+				<td>694</td>
+				<td>720</td>
+				<td>752</td>
+				<td>744</td>
+				<td>726</td>
+				<td>707</td>
+				<td>684</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240406</td>
+				<td>655</td>
+				<td>632</td>
+				<td>620</td>
+				<td>604</td>
+				<td>611</td>
+				<td>618</td>
+				<td>630</td>
+				<td>635</td>
+				<td>615</td>
+				<td>598</td>
+				<td>578</td>
+				<td>582</td>
+				<td>599</td>
+				<td>632</td>
+				<td>648</td>
+				<td>659</td>
+				<td>668</td>
+				<td>711</td>
+				<td>754</td>
+				<td>740</td>
+				<td>722</td>
+				<td>704</td>
+				<td>686</td>
+				<td>666</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240407</td>
+				<td>645</td>
+				<td>626</td>
+				<td>612</td>
+				<td>604</td>
+				<td>606</td>
+				<td>620</td>
+				<td>630</td>
+				<td>639</td>
+				<td>638</td>
+				<td>612</td>
+				<td>586</td>
+				<td>562</td>
+				<td>563</td>
+				<td>595</td>
+				<td>611</td>
+				<td>627</td>
+				<td>648</td>
+				<td>679</td>
+				<td>719</td>
+				<td>718</td>
+				<td>712</td>
+				<td>704</td>
+				<td>691</td>
+				<td>678</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240408</td>
+				<td>650</td>
+				<td>635</td>
+				<td>618</td>
+				<td>598</td>
+				<td>609</td>
+				<td>624</td>
+				<td>652</td>
+				<td>671</td>
+				<td>678</td>
+				<td>695</td>
+				<td>691</td>
+				<td>672</td>
+				<td>649</td>
+				<td>665</td>
+				<td>681</td>
+				<td>703</td>
+				<td>724</td>
+				<td>739</td>
+				<td>775</td>
+				<td>760</td>
+				<td>746</td>
+				<td>732</td>
+				<td>713</td>
+				<td>686</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240409</td>
+				<td>646</td>
+				<td>618</td>
+				<td>603</td>
+				<td>590</td>
+				<td>589</td>
+				<td>610</td>
+				<td>640</td>
+				<td>650</td>
+				<td>655</td>
+				<td>639</td>
+				<td>603</td>
+				<td>573</td>
+				<td>553</td>
+				<td>569</td>
+				<td>589</td>
+				<td>610</td>
+				<td>646</td>
+				<td>684</td>
+				<td>728</td>
+				<td>777</td>
+				<td>766</td>
+				<td>751</td>
+				<td>738</td>
+				<td>726</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240410</td>
+				<td>683</td>
+				<td>655</td>
+				<td>641</td>
+				<td>628</td>
+				<td>630</td>
+				<td>650</td>
+				<td>660</td>
+				<td>595</td>
+				<td>561</td>
+				<td>531</td>
+				<td>503</td>
+				<td>491</td>
+				<td>480</td>
+				<td>495</td>
+				<td>528</td>
+				<td>567</td>
+				<td>625</td>
+				<td>694</td>
+				<td>749</td>
+				<td>778</td>
+				<td>760</td>
+				<td>745</td>
+				<td>731</td>
+				<td>707</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240411</td>
+				<td>660</td>
+				<td>625</td>
+				<td>601</td>
+				<td>590</td>
+				<td>592</td>
+				<td>608</td>
+				<td>634</td>
+				<td>648</td>
+				<td>660</td>
+				<td>673</td>
+				<td>660</td>
+				<td>635</td>
+				<td>603</td>
+				<td>617</td>
+				<td>642</td>
+				<td>676</td>
+				<td>722</td>
+				<td>747</td>
+				<td>764</td>
+				<td>786</td>
+				<td>771</td>
+				<td>760</td>
+				<td>744</td>
+				<td>721</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240412</td>
+				<td>666</td>
+				<td>640</td>
+				<td>623</td>
+				<td>614</td>
+				<td>629</td>
+				<td>649</td>
+				<td>661</td>
+				<td>651</td>
+				<td>625</td>
+				<td>602</td>
+				<td>589</td>
+				<td>574</td>
+				<td>566</td>
+				<td>588</td>
+				<td>611</td>
+				<td>630</td>
+				<td>645</td>
+				<td>661</td>
+				<td>694</td>
+				<td>726</td>
+				<td>736</td>
+				<td>722</td>
+				<td>699</td>
+				<td>670</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240413</td>
+				<td>643</td>
+				<td>614</td>
+				<td>590</td>
+				<td>580</td>
+				<td>584</td>
+				<td>592</td>
+				<td>599</td>
+				<td>606</td>
+				<td>602</td>
+				<td>566</td>
+				<td>543</td>
+				<td>520</td>
+				<td>503</td>
+				<td>511</td>
+				<td>523</td>
+				<td>557</td>
+				<td>595</td>
+				<td>654</td>
+				<td>697</td>
+				<td>730</td>
+				<td>727</td>
+				<td>717</td>
+				<td>693</td>
+				<td>680</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240414</td>
+				<td>632</td>
+				<td>608</td>
+				<td>591</td>
+				<td>581</td>
+				<td>571</td>
+				<td>580</td>
+				<td>586</td>
+				<td>580</td>
+				<td>562</td>
+				<td>546</td>
+				<td>515</td>
+				<td>482</td>
+				<td>468</td>
+				<td>496</td>
+				<td>525</td>
+				<td>569</td>
+				<td>601</td>
+				<td>633</td>
+				<td>686</td>
+				<td>721</td>
+				<td>744</td>
+				<td>722</td>
+				<td>686</td>
+				<td>652</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240415</td>
+				<td>612</td>
+				<td>575</td>
+				<td>542</td>
+				<td>532</td>
+				<td>533</td>
+				<td>547</td>
+				<td>589</td>
+				<td>619</td>
+				<td>651</td>
+				<td>672</td>
+				<td>703</td>
+				<td>707</td>
+				<td>686</td>
+				<td>693</td>
+				<td>702</td>
+				<td>704</td>
+				<td>717</td>
+				<td>730</td>
+				<td>759</td>
+				<td>789</td>
+				<td>771</td>
+				<td>752</td>
+				<td>728</td>
+				<td>708</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240416</td>
+				<td>664</td>
+				<td>639</td>
+				<td>621</td>
+				<td>608</td>
+				<td>604</td>
+				<td>617</td>
+				<td>631</td>
+				<td>633</td>
+				<td>639</td>
+				<td>615</td>
+				<td>577</td>
+				<td>545</td>
+				<td>525</td>
+				<td>540</td>
+				<td>567</td>
+				<td>593</td>
+				<td>623</td>
+				<td>659</td>
+				<td>692</td>
+				<td>738</td>
+				<td>737</td>
+				<td>719</td>
+				<td>705</td>
+				<td>687</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240417</td>
+				<td>653</td>
+				<td>629</td>
+				<td>613</td>
+				<td>605</td>
+				<td>599</td>
+				<td>605</td>
+				<td>609</td>
+				<td>603</td>
+				<td>595</td>
+				<td>576</td>
+				<td>546</td>
+				<td>516</td>
+				<td>495</td>
+				<td>506</td>
+				<td>534</td>
+				<td>570</td>
+				<td>603</td>
+				<td>649</td>
+				<td>687</td>
+				<td>711</td>
+				<td>702</td>
+				<td>689</td>
+				<td>677</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240418</td>
+				<td>622</td>
+				<td>595</td>
+				<td>578</td>
+				<td>568</td>
+				<td>583</td>
+				<td>601</td>
+				<td>614</td>
+				<td>619</td>
+				<td>609</td>
+				<td>574</td>
+				<td>532</td>
+				<td>502</td>
+				<td>488</td>
+				<td>500</td>
+				<td>529</td>
+				<td>560</td>
+				<td>594</td>
+				<td>638</td>
+				<td>689</td>
+				<td>729</td>
+				<td>738</td>
+				<td>725</td>
+				<td>707</td>
+				<td>687</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240419</td>
+				<td>647</td>
+				<td>624</td>
+				<td>609</td>
+				<td>602</td>
+				<td>606</td>
+				<td>616</td>
+				<td>626</td>
+				<td>616</td>
+				<td>582</td>
+				<td>545</td>
+				<td>512</td>
+				<td>489</td>
+				<td>484</td>
+				<td>505</td>
+				<td>536</td>
+				<td>574</td>
+				<td>612</td>
+				<td>655</td>
+				<td>703</td>
+				<td>750</td>
+				<td>740</td>
+				<td>720</td>
+				<td>703</td>
+				<td>685</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240420</td>
+				<td>628</td>
+				<td>598</td>
+				<td>575</td>
+				<td>565</td>
+				<td>579</td>
+				<td>592</td>
+				<td>599</td>
+				<td>602</td>
+				<td>604</td>
+				<td>616</td>
+				<td>632</td>
+				<td>632</td>
+				<td>621</td>
+				<td>635</td>
+				<td>646</td>
+				<td>650</td>
+				<td>660</td>
+				<td>679</td>
+				<td>705</td>
+				<td>720</td>
+				<td>740</td>
+				<td>731</td>
+				<td>709</td>
+				<td>693</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240421</td>
+				<td>641</td>
+				<td>606</td>
+				<td>584</td>
+				<td>575</td>
+				<td>587</td>
+				<td>598</td>
+				<td>608</td>
+				<td>621</td>
+				<td>622</td>
+				<td>637</td>
+				<td>635</td>
+				<td>633</td>
+				<td>630</td>
+				<td>634</td>
+				<td>640</td>
+				<td>651</td>
+				<td>663</td>
+				<td>683</td>
+				<td>701</td>
+				<td>735</td>
+				<td>723</td>
+				<td>708</td>
+				<td>690</td>
+				<td>675</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240422</td>
+				<td>626</td>
+				<td>604</td>
+				<td>591</td>
+				<td>584</td>
+				<td>592</td>
+				<td>607</td>
+				<td>629</td>
+				<td>660</td>
+				<td>662</td>
+				<td>650</td>
+				<td>635</td>
+				<td>622</td>
+				<td>609</td>
+				<td>614</td>
+				<td>624</td>
+				<td>632</td>
+				<td>641</td>
+				<td>658</td>
+				<td>692</td>
+				<td>757</td>
+				<td>750</td>
+				<td>731</td>
+				<td>717</td>
+				<td>703</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240423</td>
+				<td>678</td>
+				<td>647</td>
+				<td>629</td>
+				<td>625</td>
+				<td>629</td>
+				<td>650</td>
+				<td>653</td>
+				<td>655</td>
+				<td>653</td>
+				<td>640</td>
+				<td>630</td>
+				<td>612</td>
+				<td>606</td>
+				<td>624</td>
+				<td>647</td>
+				<td>657</td>
+				<td>667</td>
+				<td>682</td>
+				<td>701</td>
+				<td>741</td>
+				<td>752</td>
+				<td>735</td>
+				<td>717</td>
+				<td>693</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240424</td>
+				<td>657</td>
+				<td>627</td>
+				<td>610</td>
+				<td>605</td>
+				<td>610</td>
+				<td>617</td>
+				<td>623</td>
+				<td>617</td>
+				<td>605</td>
+				<td>595</td>
+				<td>576</td>
+				<td>551</td>
+				<td>528</td>
+				<td>531</td>
+				<td>549</td>
+				<td>579</td>
+				<td>621</td>
+				<td>664</td>
+				<td>706</td>
+				<td>739</td>
+				<td>727</td>
+				<td>715</td>
+				<td>700</td>
+				<td>685</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240425</td>
+				<td>625</td>
+				<td>586</td>
+				<td>564</td>
+				<td>543</td>
+				<td>546</td>
+				<td>567</td>
+				<td>577</td>
+				<td>563</td>
+				<td>531</td>
+				<td>522</td>
+				<td>517</td>
+				<td>507</td>
+				<td>499</td>
+				<td>518</td>
+				<td>545</td>
+				<td>572</td>
+				<td>614</td>
+				<td>662</td>
+				<td>728</td>
+				<td>755</td>
+				<td>749</td>
+				<td>721</td>
+				<td>692</td>
+				<td>664</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240426</td>
+				<td>641</td>
+				<td>609</td>
+				<td>589</td>
+				<td>581</td>
+				<td>588</td>
+				<td>606</td>
+				<td>622</td>
+				<td>620</td>
+				<td>643</td>
+				<td>656</td>
+				<td>664</td>
+				<td>656</td>
+				<td>634</td>
+				<td>650</td>
+				<td>668</td>
+				<td>697</td>
+				<td>719</td>
+				<td>743</td>
+				<td>763</td>
+				<td>767</td>
+				<td>760</td>
+				<td>747</td>
+				<td>736</td>
+				<td>712</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240427</td>
+				<td>647</td>
+				<td>616</td>
+				<td>593</td>
+				<td>579</td>
+				<td>589</td>
+				<td>601</td>
+				<td>596</td>
+				<td>581</td>
+				<td>561</td>
+				<td>544</td>
+				<td>529</td>
+				<td>505</td>
+				<td>490</td>
+				<td>513</td>
+				<td>542</td>
+				<td>577</td>
+				<td>604</td>
+				<td>642</td>
+				<td>686</td>
+				<td>718</td>
+				<td>735</td>
+				<td>723</td>
+				<td>695</td>
+				<td>676</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240428</td>
+				<td>626</td>
+				<td>600</td>
+				<td>578</td>
+				<td>567</td>
+				<td>582</td>
+				<td>594</td>
+				<td>611</td>
+				<td>611</td>
+				<td>614</td>
+				<td>608</td>
+				<td>595</td>
+				<td>589</td>
+				<td>579</td>
+				<td>597</td>
+				<td>612</td>
+				<td>622</td>
+				<td>651</td>
+				<td>666</td>
+				<td>687</td>
+				<td>712</td>
+				<td>699</td>
+				<td>682</td>
+				<td>667</td>
+				<td>643</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240429</td>
+				<td>610</td>
+				<td>570</td>
+				<td>541</td>
+				<td>532</td>
+				<td>537</td>
+				<td>549</td>
+				<td>575</td>
+				<td>637</td>
+				<td>675</td>
+				<td>681</td>
+				<td>672</td>
+				<td>665</td>
+				<td>645</td>
+				<td>647</td>
+				<td>654</td>
+				<td>659</td>
+				<td>665</td>
+				<td>681</td>
+				<td>717</td>
+				<td>762</td>
+				<td>751</td>
+				<td>727</td>
+				<td>712</td>
+				<td>692</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240430</td>
+				<td>634</td>
+				<td>600</td>
+				<td>581</td>
+				<td>571</td>
+				<td>574</td>
+				<td>590</td>
+				<td>617</td>
+				<td>647</td>
+				<td>664</td>
+				<td>659</td>
+				<td>655</td>
+				<td>647</td>
+				<td>638</td>
+				<td>645</td>
+				<td>642</td>
+				<td>646</td>
+				<td>668</td>
+				<td>682</td>
+				<td>698</td>
+				<td>736</td>
+				<td>747</td>
+				<td>729</td>
+				<td>702</td>
+				<td>678</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240501</td>
+				<td>637</td>
+				<td>611</td>
+				<td>595</td>
+				<td>590</td>
+				<td>592</td>
+				<td>602</td>
+				<td>607</td>
+				<td>600</td>
+				<td>594</td>
+				<td>588</td>
+				<td>567</td>
+				<td>541</td>
+				<td>532</td>
+				<td>567</td>
+				<td>594</td>
+				<td>596</td>
+				<td>604</td>
+				<td>628</td>
+				<td>660</td>
+				<td>716</td>
+				<td>718</td>
+				<td>714</td>
+				<td>703</td>
+				<td>689</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240502</td>
+				<td>644</td>
+				<td>623</td>
+				<td>607</td>
+				<td>602</td>
+				<td>607</td>
+				<td>622</td>
+				<td>625</td>
+				<td>613</td>
+				<td>595</td>
+				<td>562</td>
+				<td>520</td>
+				<td>489</td>
+				<td>493</td>
+				<td>524</td>
+				<td>547</td>
+				<td>586</td>
+				<td>629</td>
+				<td>668</td>
+				<td>696</td>
+				<td>724</td>
+				<td>716</td>
+				<td>701</td>
+				<td>684</td>
+				<td>669</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240503</td>
+				<td>615</td>
+				<td>589</td>
+				<td>575</td>
+				<td>563</td>
+				<td>567</td>
+				<td>574</td>
+				<td>575</td>
+				<td>566</td>
+				<td>538</td>
+				<td>531</td>
+				<td>515</td>
+				<td>506</td>
+				<td>498</td>
+				<td>516</td>
+				<td>539</td>
+				<td>569</td>
+				<td>589</td>
+				<td>633</td>
+				<td>687</td>
+				<td>718</td>
+				<td>706</td>
+				<td>685</td>
+				<td>671</td>
+				<td>655</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240504</td>
+				<td>616</td>
+				<td>578</td>
+				<td>556</td>
+				<td>545</td>
+				<td>553</td>
+				<td>568</td>
+				<td>574</td>
+				<td>567</td>
+				<td>548</td>
+				<td>535</td>
+				<td>509</td>
+				<td>490</td>
+				<td>486</td>
+				<td>511</td>
+				<td>532</td>
+				<td>561</td>
+				<td>586</td>
+				<td>611</td>
+				<td>638</td>
+				<td>680</td>
+				<td>713</td>
+				<td>690</td>
+				<td>670</td>
+				<td>649</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240505</td>
+				<td>638</td>
+				<td>611</td>
+				<td>588</td>
+				<td>578</td>
+				<td>576</td>
+				<td>586</td>
+				<td>589</td>
+				<td>597</td>
+				<td>601</td>
+				<td>601</td>
+				<td>596</td>
+				<td>594</td>
+				<td>591</td>
+				<td>602</td>
+				<td>608</td>
+				<td>613</td>
+				<td>619</td>
+				<td>641</td>
+				<td>665</td>
+				<td>688</td>
+				<td>684</td>
+				<td>666</td>
+				<td>645</td>
+				<td>624</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240506</td>
+				<td>590</td>
+				<td>563</td>
+				<td>549</td>
+				<td>541</td>
+				<td>544</td>
+				<td>554</td>
+				<td>583</td>
+				<td>631</td>
+				<td>655</td>
+				<td>668</td>
+				<td>669</td>
+				<td>645</td>
+				<td>619</td>
+				<td>622</td>
+				<td>634</td>
+				<td>639</td>
+				<td>646</td>
+				<td>669</td>
+				<td>687</td>
+				<td>725</td>
+				<td>715</td>
+				<td>703</td>
+				<td>693</td>
+				<td>675</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240507</td>
+				<td>629</td>
+				<td>601</td>
+				<td>583</td>
+				<td>574</td>
+				<td>577</td>
+				<td>590</td>
+				<td>601</td>
+				<td>612</td>
+				<td>611</td>
+				<td>593</td>
+				<td>569</td>
+				<td>547</td>
+				<td>518</td>
+				<td>525</td>
+				<td>553</td>
+				<td>581</td>
+				<td>600</td>
+				<td>634</td>
+				<td>680</td>
+				<td>728</td>
+				<td>745</td>
+				<td>724</td>
+				<td>696</td>
+				<td>674</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240508</td>
+				<td>642</td>
+				<td>607</td>
+				<td>588</td>
+				<td>585</td>
+				<td>589</td>
+				<td>602</td>
+				<td>611</td>
+				<td>647</td>
+				<td>667</td>
+				<td>682</td>
+				<td>687</td>
+				<td>681</td>
+				<td>669</td>
+				<td>685</td>
+				<td>690</td>
+				<td>684</td>
+				<td>687</td>
+				<td>693</td>
+				<td>712</td>
+				<td>743</td>
+				<td>727</td>
+				<td>717</td>
+				<td>702</td>
+				<td>690</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240509</td>
+				<td>645</td>
+				<td>607</td>
+				<td>588</td>
+				<td>585</td>
+				<td>593</td>
+				<td>605</td>
+				<td>608</td>
+				<td>605</td>
+				<td>596</td>
+				<td>577</td>
+				<td>549</td>
+				<td>522</td>
+				<td>514</td>
+				<td>537</td>
+				<td>560</td>
+				<td>576</td>
+				<td>597</td>
+				<td>627</td>
+				<td>667</td>
+				<td>712</td>
+				<td>727</td>
+				<td>716</td>
+				<td>698</td>
+				<td>674</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240510</td>
+				<td>647</td>
+				<td>615</td>
+				<td>592</td>
+				<td>584</td>
+				<td>587</td>
+				<td>594</td>
+				<td>602</td>
+				<td>606</td>
+				<td>596</td>
+				<td>578</td>
+				<td>548</td>
+				<td>517</td>
+				<td>504</td>
+				<td>516</td>
+				<td>538</td>
+				<td>561</td>
+				<td>588</td>
+				<td>621</td>
+				<td>667</td>
+				<td>713</td>
+				<td>737</td>
+				<td>731</td>
+				<td>704</td>
+				<td>682</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240511</td>
+				<td>659</td>
+				<td>627</td>
+				<td>603</td>
+				<td>588</td>
+				<td>584</td>
+				<td>599</td>
+				<td>610</td>
+				<td>603</td>
+				<td>622</td>
+				<td>631</td>
+				<td>628</td>
+				<td>629</td>
+				<td>628</td>
+				<td>639</td>
+				<td>642</td>
+				<td>648</td>
+				<td>635</td>
+				<td>658</td>
+				<td>680</td>
+				<td>722</td>
+				<td>742</td>
+				<td>734</td>
+				<td>710</td>
+				<td>691</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240512</td>
+				<td>636</td>
+				<td>616</td>
+				<td>597</td>
+				<td>593</td>
+				<td>597</td>
+				<td>603</td>
+				<td>617</td>
+				<td>622</td>
+				<td>631</td>
+				<td>637</td>
+				<td>643</td>
+				<td>645</td>
+				<td>624</td>
+				<td>609</td>
+				<td>617</td>
+				<td>615</td>
+				<td>616</td>
+				<td>646</td>
+				<td>683</td>
+				<td>706</td>
+				<td>710</td>
+				<td>704</td>
+				<td>696</td>
+				<td>681</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240513</td>
+				<td>590</td>
+				<td>563</td>
+				<td>549</td>
+				<td>541</td>
+				<td>544</td>
+				<td>553</td>
+				<td>570</td>
+				<td>584</td>
+				<td>584</td>
+				<td>570</td>
+				<td>533</td>
+				<td>511</td>
+				<td>504</td>
+				<td>513</td>
+				<td>542</td>
+				<td>570</td>
+				<td>600</td>
+				<td>633</td>
+				<td>676</td>
+				<td>715</td>
+				<td>725</td>
+				<td>714</td>
+				<td>696</td>
+				<td>672</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240514</td>
+				<td>621</td>
+				<td>603</td>
+				<td>592</td>
+				<td>583</td>
+				<td>581</td>
+				<td>591</td>
+				<td>593</td>
+				<td>591</td>
+				<td>590</td>
+				<td>566</td>
+				<td>532</td>
+				<td>510</td>
+				<td>506</td>
+				<td>517</td>
+				<td>543</td>
+				<td>568</td>
+				<td>594</td>
+				<td>622</td>
+				<td>662</td>
+				<td>710</td>
+				<td>729</td>
+				<td>715</td>
+				<td>702</td>
+				<td>678</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240515</td>
+				<td>624</td>
+				<td>586</td>
+				<td>551</td>
+				<td>540</td>
+				<td>535</td>
+				<td>545</td>
+				<td>550</td>
+				<td>547</td>
+				<td>537</td>
+				<td>535</td>
+				<td>523</td>
+				<td>509</td>
+				<td>501</td>
+				<td>518</td>
+				<td>545</td>
+				<td>581</td>
+				<td>609</td>
+				<td>638</td>
+				<td>676</td>
+				<td>705</td>
+				<td>701</td>
+				<td>683</td>
+				<td>664</td>
+				<td>646</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240516</td>
+				<td>610</td>
+				<td>601</td>
+				<td>587</td>
+				<td>577</td>
+				<td>582</td>
+				<td>587</td>
+				<td>585</td>
+				<td>573</td>
+				<td>570</td>
+				<td>561</td>
+				<td>546</td>
+				<td>527</td>
+				<td>518</td>
+				<td>529</td>
+				<td>554</td>
+				<td>577</td>
+				<td>604</td>
+				<td>640</td>
+				<td>663</td>
+				<td>709</td>
+				<td>728</td>
+				<td>714</td>
+				<td>701</td>
+				<td>683</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240517</td>
+				<td>629</td>
+				<td>612</td>
+				<td>599</td>
+				<td>585</td>
+				<td>577</td>
+				<td>584</td>
+				<td>582</td>
+				<td>568</td>
+				<td>549</td>
+				<td>532</td>
+				<td>522</td>
+				<td>511</td>
+				<td>509</td>
+				<td>520</td>
+				<td>540</td>
+				<td>562</td>
+				<td>586</td>
+				<td>615</td>
+				<td>665</td>
+				<td>704</td>
+				<td>722</td>
+				<td>710</td>
+				<td>699</td>
+				<td>676</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240518</td>
+				<td>647</td>
+				<td>609</td>
+				<td>583</td>
+				<td>564</td>
+				<td>572</td>
+				<td>581</td>
+				<td>572</td>
+				<td>555</td>
+				<td>543</td>
+				<td>544</td>
+				<td>524</td>
+				<td>509</td>
+				<td>495</td>
+				<td>510</td>
+				<td>527</td>
+				<td>550</td>
+				<td>580</td>
+				<td>624</td>
+				<td>656</td>
+				<td>703</td>
+				<td>728</td>
+				<td>713</td>
+				<td>695</td>
+				<td>672</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240519</td>
+				<td>627</td>
+				<td>616</td>
+				<td>606</td>
+				<td>599</td>
+				<td>607</td>
+				<td>611</td>
+				<td>605</td>
+				<td>585</td>
+				<td>572</td>
+				<td>552</td>
+				<td>523</td>
+				<td>494</td>
+				<td>484</td>
+				<td>503</td>
+				<td>533</td>
+				<td>566</td>
+				<td>609</td>
+				<td>647</td>
+				<td>684</td>
+				<td>719</td>
+				<td>728</td>
+				<td>718</td>
+				<td>703</td>
+				<td>691</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240520</td>
+				<td>634</td>
+				<td>601</td>
+				<td>580</td>
+				<td>565</td>
+				<td>570</td>
+				<td>577</td>
+				<td>574</td>
+				<td>566</td>
+				<td>564</td>
+				<td>556</td>
+				<td>532</td>
+				<td>517</td>
+				<td>511</td>
+				<td>525</td>
+				<td>553</td>
+				<td>581</td>
+				<td>606</td>
+				<td>631</td>
+				<td>660</td>
+				<td>709</td>
+				<td>729</td>
+				<td>714</td>
+				<td>696</td>
+				<td>671</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240521</td>
+				<td>636</td>
+				<td>608</td>
+				<td>590</td>
+				<td>581</td>
+				<td>579</td>
+				<td>580</td>
+				<td>577</td>
+				<td>571</td>
+				<td>571</td>
+				<td>571</td>
+				<td>554</td>
+				<td>530</td>
+				<td>517</td>
+				<td>525</td>
+				<td>544</td>
+				<td>564</td>
+				<td>596</td>
+				<td>635</td>
+				<td>672</td>
+				<td>710</td>
+				<td>724</td>
+				<td>709</td>
+				<td>689</td>
+				<td>665</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240522</td>
+				<td>636</td>
+				<td>608</td>
+				<td>590</td>
+				<td>581</td>
+				<td>579</td>
+				<td>591</td>
+				<td>595</td>
+				<td>600</td>
+				<td>610</td>
+				<td>626</td>
+				<td>632</td>
+				<td>608</td>
+				<td>598</td>
+				<td>612</td>
+				<td>626</td>
+				<td>645</td>
+				<td>665</td>
+				<td>676</td>
+				<td>693</td>
+				<td>709</td>
+				<td>723</td>
+				<td>708</td>
+				<td>680</td>
+				<td>656</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240523</td>
+				<td>603</td>
+				<td>581</td>
+				<td>566</td>
+				<td>558</td>
+				<td>566</td>
+				<td>576</td>
+				<td>582</td>
+				<td>578</td>
+				<td>587</td>
+				<td>588</td>
+				<td>588</td>
+				<td>567</td>
+				<td>555</td>
+				<td>580</td>
+				<td>600</td>
+				<td>618</td>
+				<td>631</td>
+				<td>661</td>
+				<td>689</td>
+				<td>715</td>
+				<td>729</td>
+				<td>700</td>
+				<td>671</td>
+				<td>642</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240524</td>
+				<td>581</td>
+				<td>559</td>
+				<td>542</td>
+				<td>532</td>
+				<td>529</td>
+				<td>541</td>
+				<td>551</td>
+				<td>571</td>
+				<td>585</td>
+				<td>576</td>
+				<td>544</td>
+				<td>521</td>
+				<td>515</td>
+				<td>531</td>
+				<td>554</td>
+				<td>581</td>
+				<td>609</td>
+				<td>643</td>
+				<td>683</td>
+				<td>717</td>
+				<td>721</td>
+				<td>691</td>
+				<td>655</td>
+				<td>625</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240525</td>
+				<td>580</td>
+				<td>555</td>
+				<td>536</td>
+				<td>525</td>
+				<td>529</td>
+				<td>537</td>
+				<td>535</td>
+				<td>537</td>
+				<td>550</td>
+				<td>555</td>
+				<td>551</td>
+				<td>537</td>
+				<td>527</td>
+				<td>545</td>
+				<td>560</td>
+				<td>583</td>
+				<td>597</td>
+				<td>621</td>
+				<td>649</td>
+				<td>691</td>
+				<td>713</td>
+				<td>699</td>
+				<td>674</td>
+				<td>642</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240526</td>
+				<td>593</td>
+				<td>565</td>
+				<td>547</td>
+				<td>535</td>
+				<td>537</td>
+				<td>542</td>
+				<td>549</td>
+				<td>562</td>
+				<td>570</td>
+				<td>573</td>
+				<td>597</td>
+				<td>584</td>
+				<td>584</td>
+				<td>605</td>
+				<td>619</td>
+				<td>640</td>
+				<td>660</td>
+				<td>661</td>
+				<td>678</td>
+				<td>691</td>
+				<td>722</td>
+				<td>702</td>
+				<td>681</td>
+				<td>642</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240527</td>
+				<td>610</td>
+				<td>584</td>
+				<td>560</td>
+				<td>551</td>
+				<td>555</td>
+				<td>569</td>
+				<td>575</td>
+				<td>590</td>
+				<td>633</td>
+				<td>659</td>
+				<td>685</td>
+				<td>678</td>
+				<td>668</td>
+				<td>676</td>
+				<td>685</td>
+				<td>690</td>
+				<td>698</td>
+				<td>704</td>
+				<td>707</td>
+				<td>718</td>
+				<td>723</td>
+				<td>703</td>
+				<td>668</td>
+				<td>643</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240528</td>
+				<td>598</td>
+				<td>567</td>
+				<td>546</td>
+				<td>534</td>
+				<td>535</td>
+				<td>543</td>
+				<td>559</td>
+				<td>596</td>
+				<td>630</td>
+				<td>626</td>
+				<td>608</td>
+				<td>588</td>
+				<td>582</td>
+				<td>597</td>
+				<td>613</td>
+				<td>631</td>
+				<td>660</td>
+				<td>684</td>
+				<td>695</td>
+				<td>718</td>
+				<td>721</td>
+				<td>698</td>
+				<td>672</td>
+				<td>642</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240529</td>
+				<td>598</td>
+				<td>567</td>
+				<td>546</td>
+				<td>534</td>
+				<td>535</td>
+				<td>542</td>
+				<td>550</td>
+				<td>561</td>
+				<td>562</td>
+				<td>552</td>
+				<td>534</td>
+				<td>510</td>
+				<td>503</td>
+				<td>532</td>
+				<td>562</td>
+				<td>608</td>
+				<td>641</td>
+				<td>666</td>
+				<td>685</td>
+				<td>711</td>
+				<td>723</td>
+				<td>691</td>
+				<td>663</td>
+				<td>634</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240530</td>
+				<td>589</td>
+				<td>559</td>
+				<td>538</td>
+				<td>528</td>
+				<td>530</td>
+				<td>540</td>
+				<td>561</td>
+				<td>589</td>
+				<td>607</td>
+				<td>611</td>
+				<td>600</td>
+				<td>597</td>
+				<td>596</td>
+				<td>608</td>
+				<td>623</td>
+				<td>635</td>
+				<td>658</td>
+				<td>678</td>
+				<td>692</td>
+				<td>710</td>
+				<td>713</td>
+				<td>693</td>
+				<td>670</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240531</td>
+				<td>598</td>
+				<td>568</td>
+				<td>548</td>
+				<td>538</td>
+				<td>539</td>
+				<td>547</td>
+				<td>567</td>
+				<td>599</td>
+				<td>645</td>
+				<td>666</td>
+				<td>667</td>
+				<td>628</td>
+				<td>598</td>
+				<td>627</td>
+				<td>635</td>
+				<td>644</td>
+				<td>660</td>
+				<td>678</td>
+				<td>688</td>
+				<td>712</td>
+				<td>719</td>
+				<td>699</td>
+				<td>676</td>
+				<td>644</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240601</td>
+				<td>591</td>
+				<td>557</td>
+				<td>535</td>
+				<td>521</td>
+				<td>522</td>
+				<td>527</td>
+				<td>529</td>
+				<td>551</td>
+				<td>559</td>
+				<td>552</td>
+				<td>542</td>
+				<td>528</td>
+				<td>518</td>
+				<td>537</td>
+				<td>553</td>
+				<td>571</td>
+				<td>603</td>
+				<td>630</td>
+				<td>660</td>
+				<td>686</td>
+				<td>702</td>
+				<td>680</td>
+				<td>663</td>
+				<td>638</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240602</td>
+				<td>600</td>
+				<td>568</td>
+				<td>550</td>
+				<td>538</td>
+				<td>541</td>
+				<td>542</td>
+				<td>556</td>
+				<td>565</td>
+				<td>571</td>
+				<td>568</td>
+				<td>562</td>
+				<td>552</td>
+				<td>543</td>
+				<td>547</td>
+				<td>566</td>
+				<td>593</td>
+				<td>619</td>
+				<td>657</td>
+				<td>689</td>
+				<td>711</td>
+				<td>704</td>
+				<td>684</td>
+				<td>659</td>
+				<td>638</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240603</td>
+				<td>590</td>
+				<td>561</td>
+				<td>540</td>
+				<td>530</td>
+				<td>531</td>
+				<td>538</td>
+				<td>549</td>
+				<td>562</td>
+				<td>578</td>
+				<td>594</td>
+				<td>578</td>
+				<td>552</td>
+				<td>542</td>
+				<td>566</td>
+				<td>590</td>
+				<td>610</td>
+				<td>634</td>
+				<td>658</td>
+				<td>682</td>
+				<td>712</td>
+				<td>715</td>
+				<td>690</td>
+				<td>666</td>
+				<td>636</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240604</td>
+				<td>593</td>
+				<td>561</td>
+				<td>541</td>
+				<td>530</td>
+				<td>529</td>
+				<td>537</td>
+				<td>555</td>
+				<td>583</td>
+				<td>599</td>
+				<td>588</td>
+				<td>568</td>
+				<td>542</td>
+				<td>535</td>
+				<td>553</td>
+				<td>572</td>
+				<td>593</td>
+				<td>617</td>
+				<td>643</td>
+				<td>680</td>
+				<td>701</td>
+				<td>705</td>
+				<td>687</td>
+				<td>666</td>
+				<td>637</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240605</td>
+				<td>593</td>
+				<td>561</td>
+				<td>541</td>
+				<td>530</td>
+				<td>529</td>
+				<td>537</td>
+				<td>557</td>
+				<td>587</td>
+				<td>609</td>
+				<td>614</td>
+				<td>623</td>
+				<td>616</td>
+				<td>613</td>
+				<td>628</td>
+				<td>649</td>
+				<td>670</td>
+				<td>680</td>
+				<td>691</td>
+				<td>694</td>
+				<td>704</td>
+				<td>721</td>
+				<td>700</td>
+				<td>658</td>
+				<td>629</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240606</td>
+				<td>585</td>
+				<td>555</td>
+				<td>537</td>
+				<td>525</td>
+				<td>521</td>
+				<td>528</td>
+				<td>534</td>
+				<td>539</td>
+				<td>559</td>
+				<td>581</td>
+				<td>601</td>
+				<td>621</td>
+				<td>621</td>
+				<td>620</td>
+				<td>616</td>
+				<td>620</td>
+				<td>630</td>
+				<td>646</td>
+				<td>669</td>
+				<td>694</td>
+				<td>682</td>
+				<td>666</td>
+				<td>644</td>
+				<td>617</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240607</td>
+				<td>587</td>
+				<td>557</td>
+				<td>537</td>
+				<td>524</td>
+				<td>516</td>
+				<td>527</td>
+				<td>545</td>
+				<td>567</td>
+				<td>594</td>
+				<td>604</td>
+				<td>600</td>
+				<td>588</td>
+				<td>569</td>
+				<td>572</td>
+				<td>584</td>
+				<td>615</td>
+				<td>636</td>
+				<td>670</td>
+				<td>690</td>
+				<td>713</td>
+				<td>719</td>
+				<td>697</td>
+				<td>675</td>
+				<td>640</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240608</td>
+				<td>592</td>
+				<td>559</td>
+				<td>539</td>
+				<td>525</td>
+				<td>529</td>
+				<td>534</td>
+				<td>555</td>
+				<td>576</td>
+				<td>598</td>
+				<td>620</td>
+				<td>634</td>
+				<td>626</td>
+				<td>614</td>
+				<td>631</td>
+				<td>643</td>
+				<td>651</td>
+				<td>662</td>
+				<td>674</td>
+				<td>681</td>
+				<td>687</td>
+				<td>706</td>
+				<td>690</td>
+				<td>657</td>
+				<td>631</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240609</td>
+				<td>589</td>
+				<td>555</td>
+				<td>539</td>
+				<td>527</td>
+				<td>531</td>
+				<td>534</td>
+				<td>566</td>
+				<td>594</td>
+				<td>608</td>
+				<td>627</td>
+				<td>633</td>
+				<td>626</td>
+				<td>605</td>
+				<td>614</td>
+				<td>628</td>
+				<td>630</td>
+				<td>637</td>
+				<td>673</td>
+				<td>697</td>
+				<td>712</td>
+				<td>706</td>
+				<td>685</td>
+				<td>664</td>
+				<td>631</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240610</td>
+				<td>574</td>
+				<td>544</td>
+				<td>526</td>
+				<td>515</td>
+				<td>516</td>
+				<td>527</td>
+				<td>543</td>
+				<td>562</td>
+				<td>596</td>
+				<td>616</td>
+				<td>606</td>
+				<td>595</td>
+				<td>579</td>
+				<td>581</td>
+				<td>599</td>
+				<td>613</td>
+				<td>626</td>
+				<td>646</td>
+				<td>673</td>
+				<td>706</td>
+				<td>705</td>
+				<td>688</td>
+				<td>661</td>
+				<td>639</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240611</td>
+				<td>580</td>
+				<td>550</td>
+				<td>531</td>
+				<td>519</td>
+				<td>525</td>
+				<td>533</td>
+				<td>551</td>
+				<td>565</td>
+				<td>578</td>
+				<td>587</td>
+				<td>579</td>
+				<td>558</td>
+				<td>555</td>
+				<td>578</td>
+				<td>601</td>
+				<td>617</td>
+				<td>634</td>
+				<td>649</td>
+				<td>674</td>
+				<td>704</td>
+				<td>713</td>
+				<td>683</td>
+				<td>661</td>
+				<td>631</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240612</td>
+				<td>593</td>
+				<td>560</td>
+				<td>539</td>
+				<td>528</td>
+				<td>525</td>
+				<td>533</td>
+				<td>549</td>
+				<td>580</td>
+				<td>608</td>
+				<td>615</td>
+				<td>630</td>
+				<td>609</td>
+				<td>593</td>
+				<td>610</td>
+				<td>629</td>
+				<td>646</td>
+				<td>662</td>
+				<td>685</td>
+				<td>704</td>
+				<td>724</td>
+				<td>740</td>
+				<td>703</td>
+				<td>669</td>
+				<td>638</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240613</td>
+				<td>597</td>
+				<td>565</td>
+				<td>544</td>
+				<td>530</td>
+				<td>527</td>
+				<td>535</td>
+				<td>553</td>
+				<td>585</td>
+				<td>607</td>
+				<td>623</td>
+				<td>625</td>
+				<td>605</td>
+				<td>593</td>
+				<td>610</td>
+				<td>648</td>
+				<td>669</td>
+				<td>691</td>
+				<td>708</td>
+				<td>725</td>
+				<td>739</td>
+				<td>735</td>
+				<td>707</td>
+				<td>676</td>
+				<td>642</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240614</td>
+				<td>598</td>
+				<td>563</td>
+				<td>542</td>
+				<td>527</td>
+				<td>525</td>
+				<td>534</td>
+				<td>555</td>
+				<td>589</td>
+				<td>626</td>
+				<td>645</td>
+				<td>651</td>
+				<td>649</td>
+				<td>642</td>
+				<td>669</td>
+				<td>682</td>
+				<td>719</td>
+				<td>735</td>
+				<td>756</td>
+				<td>760</td>
+				<td>771</td>
+				<td>754</td>
+				<td>733</td>
+				<td>709</td>
+				<td>673</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240615</td>
+				<td>606</td>
+				<td>573</td>
+				<td>549</td>
+				<td>535</td>
+				<td>536</td>
+				<td>539</td>
+				<td>555</td>
+				<td>595</td>
+				<td>626</td>
+				<td>631</td>
+				<td>639</td>
+				<td>641</td>
+				<td>636</td>
+				<td>662</td>
+				<td>684</td>
+				<td>697</td>
+				<td>717</td>
+				<td>740</td>
+				<td>751</td>
+				<td>766</td>
+				<td>769</td>
+				<td>733</td>
+				<td>698</td>
+				<td>660</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240616</td>
+				<td>602</td>
+				<td>568</td>
+				<td>549</td>
+				<td>535</td>
+				<td>534</td>
+				<td>539</td>
+				<td>549</td>
+				<td>573</td>
+				<td>599</td>
+				<td>599</td>
+				<td>602</td>
+				<td>616</td>
+				<td>610</td>
+				<td>633</td>
+				<td>651</td>
+				<td>682</td>
+				<td>715</td>
+				<td>746</td>
+				<td>763</td>
+				<td>761</td>
+				<td>748</td>
+				<td>728</td>
+				<td>695</td>
+				<td>673</td>
+
+
+
+			</tr>
+			
+			<tr>
+				<td>20240617</td>
+				<td>623</td>
+				<td>580</td>
+				<td>547</td>
+				<td>514</td>
+				<td>515</td>
+				<td>525</td>
+				<td>541</td>
+				<td>576</td>
+				<td>632</td>
+				<td>665</td>
+				<td>668</td>
+				<td>655</td>
+				<td>652</td>
+				<td>664</td>
+				<td>683</td>
+				<td>705</td>
+				<td>728</td>
+				<td>742</td>
+				<td>769</td>
+				<td>792</td>
+				<td>772</td>
+				<td>740</td>
+				<td>699</td>
+				<td>661</td>
+
+
+
+			</tr>
+			
+		
+		
+		
+		</tbody>
+	</table>
+</body>
+</html>
