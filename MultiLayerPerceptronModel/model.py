@@ -64,7 +64,7 @@ def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, 
     logger.info('   Test Range:             %s ~ %s', datetime.datetime(*RANGE_TEST[0]), datetime.datetime(*RANGE_TEST[-1]))
 
     # pandas.DataFrame -> torch.Tensor
-    list_df_datas = [x_train, y_train, x_validation, y_validation,  x_test, y_test]
+    list_df_datas = [x_train, y_train, x_validation, y_validation, x_test, y_test]
     list_tensor_datas = [torch.Tensor(df.values) for df in list_df_datas]
     x_train, y_train, x_validation, y_validation, x_test, y_test = list_tensor_datas
 
@@ -79,15 +79,9 @@ def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, 
     # optimizer 설정
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
-    # epoch 마다 loss 값 저장을 하기 위한 변수 선언
-    ary_losses_train = np.zeros(epochs)
-    ary_losses_validation = np.zeros(epochs)
-    ary_losses_test = np.zeros(epochs)
-
     logger.info('Start Train.')
 
     for epoch in range(1, epochs + 1):
-        logger.debug(epoch)
         out_train = model.forward(x_train)
         with torch.no_grad():
             out_validation = model.forward(x_validation)
@@ -100,23 +94,32 @@ def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, 
         loss_validation = criterion(out_validation, y_validation)
         loss_test = criterion(out_test, y_test)
 
-        # 후에 로깅 등을 위해 에폭별로 로스값 기록
+        """
+        에폭별 loss값은 나중에 반환 후 testBed 에서 봐볼 필요 생기기 전에는 사용처 없어서 일단 주석 처리
+        
+        # epoch 마다 loss 값 저장을 하기 위한 변수 선언
+        ary_losses_train = np.zeros(epochs)
+        ary_losses_validation = np.zeros(epochs)
+        ary_losses_test = np.zeros(epochs)
+        # 후에 로깅 등을 위해 에폭 별로 로스값 기록
         ary_losses_train[epoch - 1] = loss_train.item()
         ary_losses_validation[epoch - 1] = loss_validation.item()
         ary_losses_test[epoch - 1] = loss_test.item()
-
-        # 출력을 위한 MAPE 계산
-        ary_real_validation, ary_pred_validation = np.array(y_validation), np.array(out_validation)
-        ary_real_test, ary_pred_test = np.array(y_test), np.array(out_test)
-        ary_real_test, ary_real_validation = ary_real_test[ary_real_test > 0], ary_real_validation[ary_real_validation > 0]
-
-        MAPE_validation = np.mean(abs((ary_real_validation - ary_pred_validation) / ary_real_validation) * 100)
-        MAPE_test = np.mean(abs((ary_real_test - ary_pred_test) / ary_real_test) * 100)
+        """
 
         if epoch % 200 == 0:
+            # 출력을 위한 MAPE 계산
+            ary_real_validation, ary_pred_validation = np.array(y_validation), np.array(out_validation)
+            ary_real_test, ary_pred_test = np.array(y_test), np.array(out_test)
+            ary_real_test, ary_real_validation = ary_real_test[ary_real_test > 0], ary_real_validation[ary_real_validation > 0]
+
+            MAPE_validation = np.mean(abs((ary_real_validation - ary_pred_validation) / ary_real_validation) * 100)
+            MAPE_test = np.mean(abs((ary_real_test - ary_pred_test) / ary_real_test) * 100)
+
             logger.info('Epoch: %s / %s', epoch, epochs)
             logger.info('   Train Loss:         %.2f', loss_train.item())
             logger.info('   Validation Loss:    %.2f', loss_validation.item())
+            logger.info('   Test Loss:          %.2f', loss_test.item())
             logger.info('   Validation MAPE:    %.2f', MAPE_validation)
             logger.info('   Test MAPE:          %.2f', MAPE_test)
 
