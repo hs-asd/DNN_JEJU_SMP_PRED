@@ -4,7 +4,7 @@
     현재는 변수들을 선언하는 용도로 사용
 """
 # DataLoader options
-CACHE_FILE = 'pkl/data_00.pkl'
+CACHE_FILE = 'pkl/data_00_tmp.pkl'
 
 # DataPreprocessor options
 RANGE_TRAIN = ((2015, 1, 1), (2021, 12, 31))
@@ -19,15 +19,5 @@ DIM_OUTPUT = 1
 ACTIVATION_FUNCTION = 'ReLU'  # Choose one of the following options: 'ReLU',
 SCALING_MAP = {'SMP LAND': 'MinMax', 'BIDFORECAST JEJU': 'MinMax', 'BIDFORECAST LAND': 'MinMax', 'DA SMP LAND': 'MinMax', 'DA SMP JEJU': 'MinMax'}
 EPOCHS = int(5e+4)
-LOSS_FUNCTION = 'L1'  # Choose one of the following options: 'L1', 'MSE'
-
-settings = {
-    'cache file': CACHE_FILE,
-    'learning rate': LEARNING_RATE,
-    'input dimension': DIM_INPUT,
-    'hidden dimension': DIM_HIDDEN,
-    'activation function': ACTIVATION_FUNCTION,
-    'scale map': SCALING_MAP,
-    'epochs': EPOCHS,
-    'loss function': LOSS_FUNCTION
-}
+LOSS_FUNCTION = 'MSE'  # Choose one of the following options: 'L1', 'MSE'
+RANDOM_SHUFFLE = False
