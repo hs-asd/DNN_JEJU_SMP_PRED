@@ -6,27 +6,12 @@ from sklearn import preprocessing
 import torch
 import pickle
 import logging
+import log
 
 # Todo 아래 줄의 설정에 대한 설명 주석 추가
 pd.options.mode.copy_on_write = True
 
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
-
-stream_handler = logging.StreamHandler()
-stream_handler.setLevel(logging.DEBUG)
-
-file_handler = logging.FileHandler('pkl/log_data.log', mode='a')
-# FileHandler는 DEBUG level을 무시
-file_handler.setLevel(logging.INFO)
-
-formatter = logging.Formatter('%(asctime)s | %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-stream_handler.setFormatter(formatter)
-file_handler.setFormatter(formatter)
-
-logger.addHandler(stream_handler)
-logger.addHandler(file_handler)
-
+logger_stream, logger_file = log.setLogger(__name__, file_name='pkl/data_configuration.log')
 
 class DataLoader:
     def __init__(self, config_path='data/config.ini', cache_path='pkl/data.pkl'):
@@ -69,8 +54,8 @@ class DataLoader:
         try:
             self.loadDataFromPkl()
         except FileNotFoundError:
-            logger.debug('Cache file not found.')
-            logger.debug('Load data from excel files.')
+            logger_stream.debug('Cache file not found.')
+            logger_stream.debug('Load data from excel files.')
             self.loadDataFromExcel()
             self.saveDataToPkl()
 
@@ -256,7 +241,7 @@ class DataLoader:
         
     """
     def loadDataFromExcel(self):
-        logger.debug('loadDataFromExcel is executed.')
+        logger_stream.debug('loadDataFromExcel is executed.')
 
         list_df = []
         for path in self.config_list_data_path:
@@ -310,15 +295,14 @@ class DataLoader:
         self.df_data = df_data
         self.df_x_data = df_x_data
         self.df_y_data = df_y_data
-        logger.info('Cache File: %s', self.path_cache)
-        logger.info('   Input Labels:\t\t%s', df_x_data.keys().values)
-        logger.info('   Ouput Label:\t\t%s', self.label_output)
-        logger.info('   Imported Data Range:\t%s ~ %s', self.ary_datetime_hourly[0], self.ary_datetime_hourly[-1])
-        logger.info('   EXported Data Range:\t%s ~ %s\n', self.df_data.index[0], self.df_data.index[-1])
+
+        log.loggingDataConfiguration(logger_stream, logger_file, self.path_cache, df_x_data.keys().values,
+                                     self.label_output, self.ary_datetime_hourly[0], self.ary_datetime_hourly[-1],
+                                     self.df_data.index[0], self.df_data.index[-1])
 
     # Todo 설명 주석 달기
     def loadDataFromPkl(self):
-        logger.debug('Load data from cache file: %s', self.path_cache)
+        logger_stream.debug('Load data from cache file: %s', self.path_cache)
         with open(self.path_cache, 'rb') as f:
             loaded_data = pickle.load(f)
 
@@ -326,7 +310,7 @@ class DataLoader:
 
     # Todo 설명 주석 달기
     def saveDataToPkl(self):
-        logger.debug('Save data to pickle file.')
+        logger_stream.debug('Save data to pickle file.')
         data = [self.df_data, self.df_x_data, self.df_y_data, self.df_info_missing, self.df_info_duplicate]
 
         with open(self.path_cache, 'wb') as f:
@@ -344,6 +328,14 @@ class DataPreprocessor:
         self.df_y_train = None
         self.df_y_validation = None
         self.df_y_test = None
+
+        self.tensor_x_train = None
+        self.tensor_x_validation = None
+        self.tensor_x_test = None
+
+        self.tensor_y_train = None
+        self.tensor_y_validation = None
+        self.tensor_y_test = None
 
     # Todo 설명 주석 달기
     """

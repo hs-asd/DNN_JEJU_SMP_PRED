@@ -1,6 +1,8 @@
 import sklearn.utils
+import torch
+
 from model import *                         # MLP based model
-from settings import *    # (tmp)hyperparameters, static variables
+from settings import *                      # (tmp)hyperparameters, static variables
 from data import DataLoader                 # data loading module
 from data import DataPreprocessor           # data preprocessing module
 from test import *
@@ -20,7 +22,10 @@ if __name__ == '__main__':
     data_preprocessor.splitData(RANGE_TRAIN, RANGE_VALIDATION, RANGE_TEST)
 
     # 학습 데이터의 랜덤 셔플링
-    data_preprocessor.df_x_train, data_preprocessor.df_y_train = sklearn.utils.shuffle(data_preprocessor.df_x_train, data_preprocessor.df_y_train, random_state=0)
+    if RANDOM_SHUFFLE:
+        data_preprocessor.df_x_train, data_preprocessor.df_y_train = sklearn.utils.shuffle(data_preprocessor.df_x_train, data_preprocessor.df_y_train, random_state=0)
+    else:
+        pass
 
     # 학습 데이터 선언
     x_train, x_validation, x_test, y_train, y_validation, y_test = data_preprocessor.getData()
@@ -29,8 +34,7 @@ if __name__ == '__main__':
     MLP = MultiLayerPerceptron(input_dim=DIM_INPUT, hidden_dim=DIM_HIDDEN, activation_function=ACTIVATION_FUNCTION)
 
     # train
-    train(MLP, x_train, y_train, x_validation, y_validation, x_test, y_test, EPOCHS, LEARNING_RATE, LOSS_FUNCTION, 'pt/test0/')
+    # train(MLP, x_train, y_train, x_validation, y_validation, x_test, y_test, EPOCHS, LEARNING_RATE, LOSS_FUNCTION, 'pt/non_shuffle_MSE/')
 
     # test
-    # runTest(MLP, x_test, y_test, 'pt/test7/49000.pt')
-
+    runTest(MLP, x_test, y_test, 'pt/non_shuffle_L1/10000.pt')

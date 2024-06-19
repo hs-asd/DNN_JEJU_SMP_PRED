@@ -1,11 +1,10 @@
 import datetime
-
 import torch.nn as nn
 import torch.optim
 import numpy as np
 from settings import *
 import logging
-
+import log
 
 class MultiLayerPerceptron(nn.Module):
     def __init__(self, input_dim, hidden_dim, activation_function):
@@ -33,35 +32,11 @@ class MultiLayerPerceptron(nn.Module):
 
 
 def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, epochs, lr, loss_fn, path_pt_files):
-    logger = logging.getLogger(__name__)
-    logger.setLevel(logging.DEBUG)
+    # logger 생성 및 설정
+    logger_stream, logger_file = log.setLogger(__name__, file_name=path_pt_files + '0train.log')
 
-    stream_handler = logging.StreamHandler()
-    stream_handler.setLevel(logging.DEBUG)
-
-    file_handler = logging.FileHandler(path_pt_files + 'log_train.log', mode='a')
-    file_handler.setLevel(logging.INFO)
-
-    formatter = logging.Formatter('%(asctime)s | %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-    stream_handler.setFormatter(formatter)
-    file_handler.setFormatter(formatter)
-
-    logger.addHandler(stream_handler)
-    logger.addHandler(file_handler)
-
-    logger.info('Train Settings')
-    logger.info('   Cache File:             %s', CACHE_FILE)
-    logger.info('   Learning Rate:          %s', LEARNING_RATE)
-    logger.info('   Input Dimension:        %s', DIM_INPUT)
-    logger.info('   Hidden Dimension:       %s', DIM_HIDDEN)
-    logger.info('   Ouput Dimension:        %s', DIM_OUTPUT)
-    logger.info('   Activation Function:    %s', ACTIVATION_FUNCTION)
-    logger.info('   Scale Map:              %s', SCALING_MAP)
-    logger.info('   Epochs:                 %s', EPOCHS)
-    logger.info('   Loss Function:          %s', LOSS_FUNCTION)
-    logger.info('   Train Range:            %s ~ %s', datetime.datetime(*RANGE_TRAIN[0]), datetime.datetime(*RANGE_TRAIN[-1]))
-    logger.info('   Validation Range:       %s ~ %s', datetime.datetime(*RANGE_VALIDATION[0]), datetime.datetime(*RANGE_VALIDATION[-1]))
-    logger.info('   Test Range:             %s ~ %s', datetime.datetime(*RANGE_TEST[0]), datetime.datetime(*RANGE_TEST[-1]))
+    # Train Setup log 작성
+    log.loggingTrainSetup(logger_stream, logger_file)
 
     # pandas.DataFrame -> torch.Tensor
     list_df_datas = [x_train, y_train, x_validation, y_validation, x_test, y_test]
@@ -79,49 +54,39 @@ def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, 
     # optimizer 설정
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
-    logger.info('Start Train.')
+    logger_file.info('Start Training.')
+    logger_stream.info('Start Training.')
 
     for epoch in range(1, epochs + 1):
+        model.train()
         out_train = model.forward(x_train)
+        loss_train = criterion(out_train, y_train)
+
+        optimizer.zero_grad()
+        loss_train.backward()
+        optimizer.step()
+
+        model.eval()
         with torch.no_grad():
             out_validation = model.forward(x_validation)
             out_test = model.forward(x_test)
 
-        loss_train = criterion(out_train, y_train)
-        loss_train.backward()
-        optimizer.step()
-
         loss_validation = criterion(out_validation, y_validation)
         loss_test = criterion(out_test, y_test)
 
-        """
-        에폭별 loss값은 나중에 반환 후 testBed 에서 봐볼 필요 생기기 전에는 사용처 없어서 일단 주석 처리
-        
-        # epoch 마다 loss 값 저장을 하기 위한 변수 선언
-        ary_losses_train = np.zeros(epochs)
-        ary_losses_validation = np.zeros(epochs)
-        ary_losses_test = np.zeros(epochs)
-        # 후에 로깅 등을 위해 에폭 별로 로스값 기록
-        ary_losses_train[epoch - 1] = loss_train.item()
-        ary_losses_validation[epoch - 1] = loss_validation.item()
-        ary_losses_test[epoch - 1] = loss_test.item()
-        """
-
-        if epoch % 200 == 0:
+        if epoch % 500 == 0:
             # 출력을 위한 MAPE 계산
             ary_real_validation, ary_pred_validation = np.array(y_validation), np.array(out_validation)
             ary_real_test, ary_pred_test = np.array(y_test), np.array(out_test)
-            ary_real_test, ary_real_validation = ary_real_test[ary_real_test > 0], ary_real_validation[ary_real_validation > 0]
 
-            MAPE_validation = np.mean(abs((ary_real_validation - ary_pred_validation) / ary_real_validation) * 100)
-            MAPE_test = np.mean(abs((ary_real_test - ary_pred_test) / ary_real_test) * 100)
+            ary_real, ary_pred = ary_real_validation[ary_real_validation != 0], ary_pred_validation[ary_real_validation != 0]
+            MAPE_validation = np.mean(abs((ary_real - ary_pred) / ary_real) * 100)
 
-            logger.info('Epoch: %s / %s', epoch, epochs)
-            logger.info('   Train Loss:         %.2f', loss_train.item())
-            logger.info('   Validation Loss:    %.2f', loss_validation.item())
-            logger.info('   Test Loss:          %.2f', loss_test.item())
-            logger.info('   Validation MAPE:    %.2f', MAPE_validation)
-            logger.info('   Test MAPE:          %.2f', MAPE_test)
+            ary_real, ary_pred = ary_real_test[ary_real_test != 0], ary_pred_test[ary_real_test != 0]
+            MAPE_test = np.mean(abs((ary_real - ary_pred) / ary_real) * 100)
 
+            # Train Metrics log 작성
+            log.loggingTrainMetrics(logger_stream, logger_file, epoch, loss_train, loss_validation, loss_test, MAPE_validation, MAPE_test)
+            # Epoch 별 .pt파일 저장
             torch.save(model.state_dict(), path_pt_files + str(epoch) + '.pt')
 
