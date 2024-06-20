@@ -1,8 +1,0 @@
-cache file: pkl/data_without_smp_land_using_DA_value_to_240617.pkl
-learning rate: 0.001
-input dimension: 4
-hidden dimension: 80
-activation function: ReLU
-scaile map: {'SMP LAND': 'MinMax', 'BIDFORECAST JEJU': 'MinMax', 'BIDFORECAST LAND': 'MinMax', 'DA SMP LAND': 'MinMax', 'DA SMP JEJU': 'MinMax'}
-epochs: 50000
-loss function: MSE

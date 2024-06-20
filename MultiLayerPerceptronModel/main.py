@@ -1,12 +1,9 @@
-import sklearn.utils
-import torch
-
-from model import *                         # MLP based model
 from settings import *                      # (tmp)hyperparameters, static variables
+from model import *                         # MLP based model
 from data import DataLoader                 # data loading module
 from data import DataPreprocessor           # data preprocessing module
 from test import *
-import datetime
+
 
 if __name__ == '__main__':
     # 엑셀 파일에서 데이터를 불러오기 위해 DataLoader 인스턴스 선언 및 pandas.DataFrame 데이터 생성
@@ -33,8 +30,8 @@ if __name__ == '__main__':
     # MLP model 선언
     MLP = MultiLayerPerceptron(input_dim=DIM_INPUT, hidden_dim=DIM_HIDDEN, activation_function=ACTIVATION_FUNCTION)
 
-    # train
-    # train(MLP, x_train, y_train, x_validation, y_validation, x_test, y_test, EPOCHS, LEARNING_RATE, LOSS_FUNCTION, 'pt/non_shuffle_MSE/')
+    # Training
+    train(MLP, x_train, y_train, x_validation, y_validation, x_test, y_test, EPOCHS, LEARNING_RATE, LOSS_FUNCTION, 'train/non_shuffle_L1/')
 
-    # test
-    runTest(MLP, x_test, y_test, 'pt/non_shuffle_L1/10000.pt')
+    # Test
+    #runTest(MLP, x_test, y_test, 'pt/shuffle_L1/7500.pt')

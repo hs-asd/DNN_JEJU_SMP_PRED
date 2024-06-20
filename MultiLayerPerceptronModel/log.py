@@ -1,11 +1,15 @@
 import logging
 from settings import *
-import datetime
+import os
 
 def setLogger(name, file_name, file_mode='a'):
+    dir_save = os.path.dirname(file_name)
+    if not os.path.exists(dir_save):
+        os.makedirs(dir_save)
+
     # logger 생성 및 설정
-    logger_stream = logging.getLogger(__name__ + '.stream')
-    logger_file = logging.getLogger(__name__ + '.file')
+    logger_stream = logging.getLogger(name + '.stream')
+    logger_file = logging.getLogger(name + '.file')
     logger_stream.setLevel(logging.DEBUG)
     logger_file.setLevel(logging.DEBUG)
     handler_stream = logging.StreamHandler()

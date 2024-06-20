@@ -1,11 +1,4 @@
-import pandas as pd
-import numpy as np
-import configparser
-import datetime
-from sklearn import preprocessing
-import torch
-import pickle
-import logging
+from settings import *
 import log
 
 # Todo 아래 줄의 설정에 대한 설명 주석 추가
@@ -58,7 +51,6 @@ class DataLoader:
             logger_stream.debug('Load data from excel files.')
             self.loadDataFromExcel()
             self.saveDataToPkl()
-
 
     """
     FUNCTION NAME: DataLoader.readConfig

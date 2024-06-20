@@ -1,11 +1,9 @@
-import datetime
+from settings import *
 import torch.nn as nn
 import torch.optim
-import numpy as np
-from settings import *
-import logging
 import log
-
+from test import saveFigureDuringTraining
+import os
 class MultiLayerPerceptron(nn.Module):
     def __init__(self, input_dim, hidden_dim, activation_function):
         super(MultiLayerPerceptron, self).__init__()
@@ -31,17 +29,17 @@ class MultiLayerPerceptron(nn.Module):
         return out
 
 
-def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, epochs, lr, loss_fn, path_pt_files):
+def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, epochs, lr, loss_fn, train_result_path):
     # logger 생성 및 설정
-    logger_stream, logger_file = log.setLogger(__name__, file_name=path_pt_files + '0train.log')
+    logger_stream, logger_file = log.setLogger(__name__, file_name=train_result_path + 'log.log')
 
     # Train Setup log 작성
     log.loggingTrainSetup(logger_stream, logger_file)
 
     # pandas.DataFrame -> torch.Tensor
-    list_df_datas = [x_train, y_train, x_validation, y_validation, x_test, y_test]
-    list_tensor_datas = [torch.Tensor(df.values) for df in list_df_datas]
-    x_train, y_train, x_validation, y_validation, x_test, y_test = list_tensor_datas
+    list_dfs = [x_train, y_train, x_validation, y_validation, x_test, y_test]
+    list_tensors = [torch.Tensor(df.values) for df in list_dfs]
+    x_train_tensor, y_train_tensor, x_validation_tensor, y_validation_tensor, x_test_tensor, y_test_tensor = list_tensors
 
     # loss function 설정
     if loss_fn == 'L1':
@@ -59,8 +57,8 @@ def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, 
 
     for epoch in range(1, epochs + 1):
         model.train()
-        out_train = model.forward(x_train)
-        loss_train = criterion(out_train, y_train)
+        out_train = model.forward(x_train_tensor)
+        loss_train = criterion(out_train, y_train_tensor)
 
         optimizer.zero_grad()
         loss_train.backward()
@@ -68,16 +66,16 @@ def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, 
 
         model.eval()
         with torch.no_grad():
-            out_validation = model.forward(x_validation)
-            out_test = model.forward(x_test)
+            out_validation = model.forward(x_validation_tensor)
+            out_test = model.forward(x_test_tensor)
 
-        loss_validation = criterion(out_validation, y_validation)
-        loss_test = criterion(out_test, y_test)
+        loss_validation = criterion(out_validation, y_validation_tensor)
+        loss_test = criterion(out_test, y_test_tensor)
 
         if epoch % 500 == 0:
             # 출력을 위한 MAPE 계산
-            ary_real_validation, ary_pred_validation = np.array(y_validation), np.array(out_validation)
-            ary_real_test, ary_pred_test = np.array(y_test), np.array(out_test)
+            ary_real_validation, ary_pred_validation = np.array(y_validation_tensor), np.array(out_validation)
+            ary_real_test, ary_pred_test = np.array(y_test_tensor), np.array(out_test)
 
             ary_real, ary_pred = ary_real_validation[ary_real_validation != 0], ary_pred_validation[ary_real_validation != 0]
             MAPE_validation = np.mean(abs((ary_real - ary_pred) / ary_real) * 100)
@@ -87,6 +85,12 @@ def train(model, x_train, y_train, x_validation, y_validation,  x_test, y_test, 
 
             # Train Metrics log 작성
             log.loggingTrainMetrics(logger_stream, logger_file, epoch, loss_train, loss_validation, loss_test, MAPE_validation, MAPE_test)
+
             # Epoch 별 .pt파일 저장
-            torch.save(model.state_dict(), path_pt_files + str(epoch) + '.pt')
+            dir_save = os.path.dirname(train_result_path + 'pt/')
+            if not os.path.exists(dir_save):
+                os.makedirs(dir_save)
+            torch.save(model.state_dict(), train_result_path + 'pt/' + str(epoch) + '.pt')
+
+            saveFigureDuringTraining(model, x_test, y_test, train_result_path, epoch)
 
