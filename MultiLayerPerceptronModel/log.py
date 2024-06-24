@@ -17,6 +17,7 @@ def setLogger(name, file_name, file_mode='a'):
     handler_stream.setLevel(logging.DEBUG)
     handler_file.setLevel(logging.DEBUG)
     formatter = logging.Formatter('%(asctime)s | %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+    # formatter = logging.Formatter('%(asctime)s | %(levelname)-8s| %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
     handler_stream.setFormatter(formatter)
     handler_file.setFormatter(formatter)
     logger_stream.addHandler(handler_stream)
@@ -38,7 +39,7 @@ def loggingDataConfiguration(stream_logger, file_logger, cache_path, input_label
     file_logger.info('\tEXported Data Range:\t%s ~ %s\n', ept_start, ept_end)
 
 
-def loggingTrainSetup(stream_logger, file_logger):
+def loggingTrainingSetup(stream_logger, file_logger):
     stream_logger.info('Training Setup.')
     stream_logger.info('   Cache File:             %s', CACHE_FILE)
     stream_logger.info('   Learning Rate:          %s', LEARNING_RATE)
@@ -70,7 +71,7 @@ def loggingTrainSetup(stream_logger, file_logger):
     file_logger.info('\tRandom Shuffle:\t\t%s', RANDOM_SHUFFLE)
 
 
-def loggingTrainMetrics(stream_logger, file_logger, epoch, train_loss, validation_loss, test_loss, MAPE_validation, MAPE_test):
+def loggingTrainingMetrics(stream_logger, file_logger, epoch, train_loss, validation_loss, test_loss, MAPE_validation, MAPE_test):
     stream_logger.info('Epoch: %s / %s', epoch, EPOCHS)
     stream_logger.info('   Train Loss:         %.4f', train_loss.item())
     stream_logger.info('   Validation Loss:    %.4f', validation_loss.item())

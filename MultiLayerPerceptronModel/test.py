@@ -56,7 +56,10 @@ def runTest(model, x, y, pt_path):
     print('MAPE: ', test_bed.MAPE)
     test_bed.showFigureComparisonRealPred()
 
-def saveFigureDuringTraining(model, x, y, train_result_path, epoch):
+    # Todo 1. runTraining 함수 안에서 eval, no_grad 설정하고 forward 통과시켜서 값 뽑고 figure 저장
+    # Todo 2. 그냥 학습 다 진행하고 여기에 figure 생성 함수 만들기 (parameter: pt file path) ******
+
+def saveFigures(model, x, y, train_result_path, epoch=None):
     path_figure = train_result_path + 'figure/' + str(epoch) + '.png'
     dir_save = os.path.dirname(path_figure)
     if not os.path.exists(dir_save):
@@ -67,3 +70,4 @@ def saveFigureDuringTraining(model, x, y, train_result_path, epoch):
     test_bed = TestBed(model, x, y)
     test_bed.predict()
     test_bed.saveFigureComparisonRealPred(path_figure)
+
